@@ -29,7 +29,7 @@ Source for porchesterpublishing.com, the site of Porchester Publishing, the Lond
 
 ## Design
 
-- Current look: a single centred page, serif type (Georgia stack), warm paper background with near-black ink, and a dark-mode version of both. Keep any new page consistent with it until Bruno decides otherwise.
+- Look: dark heritage, a Caslon title page at night. Green-black ground, warm bone text, brass used only for rules and small labels; Libre Caslon Display and Libre Caslon Text (Google Fonts); thick-and-thin double rules and a framed page. Dark only. Avoid Victorian pastiche: no faux-aged paper, flourishes, blackletter, "Est." dates or ornate dingbats. Deliberately different from the Francesco Durazzo author site.
 - Plain, matter-of-fact tone, like the name: a place and a press. No marketing superlatives.
 - Pages must work on a phone first (16px side margins, no horizontal scrolling).
 
