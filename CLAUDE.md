@@ -27,7 +27,7 @@ Source for porchesterpublishing.com, the site of Porchester Publishing, the Lond
 
 ## Tech and deploys
 
-- Plain static HTML and CSS, no build step. Move to Astro only when the site outgrows a few pages, and ask first.
+- Plain static HTML and CSS, no build step. Everything public lives in `site/`; Cloudflare publishes only that folder. Keep notes and instructions (like this file) outside `site/`, because anything inside it is public. Move to Astro only when the site outgrows a few pages, and ask first.
 - Hosted on Cloudflare Pages, project `porchester-publishing`, connected to this GitHub repo (`hey-bruno/porchester-publishing`).
 - Pushing to `main` deploys to production. Make changes on a branch: Cloudflare publishes each branch to a preview address for review before merging.
 - Pushes go out as the GitHub account `hey-bruno`, not Bruno's work account.
