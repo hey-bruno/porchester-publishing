@@ -17,6 +17,7 @@ Source for porchesterpublishing.com, the site of Porchester Publishing, the Lond
   - Imprint: Porchester Publishing, London.
   - Author: Francesco Durazzo (pen name).
   - First title: *Agência de Detetives Grandes Galerias Ltda.* (Brazilian Portuguese).
+  - English edition name: *The Grand Galleria Detective Agency, Ltd.* Not yet decided whether this is the English title (with a subtitle to come) or the subtitle under a case-name title; ask before putting it on a page.
   - Author site: https://francescodurazzo.com
 
 ## Languages
