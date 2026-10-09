@@ -16,8 +16,8 @@ Source for porchesterpublishing.com, the site of Porchester Publishing, the Lond
 - Settled facts so far:
   - Imprint: Porchester Publishing, London.
   - Author: Francesco Durazzo (pen name).
-  - First title: *Agência de Detetives Grandes Galerias Ltda.: O Caso da Fita Cassete* (Brazilian Portuguese).
-  - English edition: *The Grand Galleria Detective Agency, Ltd.: The Case of the Cassette Tape*.
+  - First title: *Agência de Detetives Grandes Galerias Ltda.*, subtitle *Livro 1: Frequência Maldita* (Brazilian Portuguese).
+  - English edition: *The Grand Galleria Detective Agency, Ltd.* (English subtitle not decided yet).
   - Author site: https://francescodurazzo.com
 
 ## Languages
