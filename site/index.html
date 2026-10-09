@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Porchester Publishing</title>
-<meta name="description" content="Porchester Publishing, London.">
+<meta name="description" content="Porchester Publishing, London. Publisher of The Grand Galleria Detective Agency, Ltd. by Francesco Durazzo.">
 <meta name="theme-color" content="#0e1311">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,7 +50,13 @@
   .list li { padding: 1.4rem 0; border-bottom: 1px solid var(--rule); }
   .no { display: block; color: var(--brass); font-size: .8rem; margin-bottom: .4rem; }
   .title { display: block; font-style: italic; font-size: 1.3rem; line-height: 1.3; }
-  .author { display: block; margin-top: .5rem; color: var(--muted); font-size: .95rem; }
+  .subtitle { display: block; margin-top: .2rem; font-size: 1.05rem; }
+  .original { display: block; margin-top: .9rem; color: var(--muted); font-size: .9rem; line-height: 1.45; }
+  .original .smallcaps { display: block; color: var(--brass); font-size: .75rem; margin-bottom: .15rem; }
+  .author { display: block; margin-top: .9rem; color: var(--muted); font-size: .95rem; }
+  /* Synopsis: left-aligned body text under the entry, set off by a short rule */
+  .synopsis { margin: 1.4rem auto 0; max-width: 26rem; text-align: left; font-size: 1rem; line-height: 1.65; }
+  .synopsis::before { content: ""; display: block; width: 2.5rem; margin: 0 auto 1.2rem; border-top: 1px solid var(--rule); }
 
   footer { margin-top: 3.5rem; color: var(--muted); font-size: .8rem; }
 </style>
@@ -69,8 +75,13 @@
     <ol class="list">
       <li>
         <span class="no smallcaps">No. 1</span>
-        <span class="title" lang="pt-BR">Agência de Detetives Grandes Galerias Ltda.</span>
+        <span class="title">The Grand Galleria Detective Agency, Ltd.</span>
+        <span class="subtitle">The Case of the Cassette Tape</span>
+        <span class="original"><span class="smallcaps">Original title</span> <i lang="pt-BR">Agência de Detetives Grandes Galerias Ltda.: O Caso da Fita Cassete</i></span>
         <a class="author smallcaps" href="https://francescodurazzo.com">Francesco Durazzo</a>
+        <!-- Synopsis goes here once Bruno approves it:
+        <p class="synopsis">…</p>
+        -->
       </li>
     </ol>
   </section>
