@@ -17,7 +17,7 @@ Source for porchesterpublishing.com, the site of Porchester Publishing, the Lond
   - Imprint: Porchester Publishing, London.
   - Author: Francesco Durazzo (pen name).
   - First title: *Agência de Detetives Grandes Galerias Ltda.*, subtitle *Livro 1: Frequência Maldita* (Brazilian Portuguese).
-  - English edition: *The Grand Galleria Detective Agency, Ltd.* (English subtitle not decided yet).
+  - English edition: *The Grand Galleria Detective Agency, Ltd.*, subtitle *Book 1: Cursed Frequency*.
   - Author site: https://francescodurazzo.com
 
 ## Languages
