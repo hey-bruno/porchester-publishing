@@ -11,13 +11,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap">
 <style>
-  /* Light heritage: a Caslon title page on cream, in the oak green of the logo. Restraint over ornament. */
+  /* Light heritage: a Caslon catalogue on cream, in the oak green of the logo. Restraint over ornament. */
   :root {
     --ground: #f5f0e4;      /* cream paper */
     --ink: #1e2619;         /* green-black */
     --muted: #6b6a5c;
-    --green: #46602f;       /* the logo's oak green: logo, rules and small labels */
+    --green: #46602f;       /* the logo's oak green: logo, wordmark, rules and small labels */
     --rule: color-mix(in srgb, var(--green) 45%, transparent);
+    --plate-ink: #efe7d4;   /* cream lettering on cloth plates */
     --display: "Libre Caslon Display", "Big Caslon", Georgia, serif;
     --text: "Libre Caslon Text", "Big Caslon", Georgia, serif;
   }
@@ -30,72 +31,104 @@
   }
   a { color: inherit; text-decoration-color: var(--rule); text-underline-offset: .2em; }
   a:hover { text-decoration-color: var(--green); }
+  img { display: block; max-width: 100%; height: auto; }
 
   /* Thick-and-thin frame, as on a nineteenth-century title page */
   .page { flex: 1; display: flex; flex-direction: column; border: 1px solid var(--rule); padding: 5px; }
-  .page > .inner { flex: 1; display: flex; flex-direction: column; align-items: center; border: 3px solid var(--rule); padding: clamp(2.5rem, 8vh, 5rem) 20px 2rem; text-align: center; }
+  .page > .inner { flex: 1; display: flex; flex-direction: column; border: 3px solid var(--rule); padding: 0 clamp(16px, 4vw, 3rem) 2rem; }
 
   .smallcaps { font-variant: small-caps; text-transform: lowercase; letter-spacing: .2em; }
 
-  header { margin: auto 0 0; }
-  .logo { display: block; width: clamp(7rem, 30vw, 10rem); height: auto; margin: 0 auto 2rem; }
-  h1 { margin: 0; font-family: var(--display); font-weight: normal; line-height: 1; }
-  h1 .house { display: block; color: var(--green); font-size: clamp(2.4rem, 10vw, 5.25rem); letter-spacing: .14em; margin-right: -.14em; text-transform: uppercase; }
-  h1 .trade { display: block; font-family: var(--text); font-style: italic; font-size: clamp(1.15rem, 3.6vw, 1.7rem); letter-spacing: .04em; margin-top: .6rem; color: var(--ink); }
-
-  .double { width: 7rem; height: 5px; border-top: 2px solid var(--green); border-bottom: 1px solid var(--green); margin: 2rem auto; }
-  .place { margin: 0; color: var(--muted); font-size: .95rem; }
-
-  .books { margin: clamp(3.5rem, 10vh, 6rem) 0 auto; width: 100%; max-width: 64rem; }
-  .books section { margin: 0 auto; }
-  .books section + section { margin-top: clamp(3rem, 8vh, 4.5rem); }
-  #coming-section { max-width: 34rem; }
-  /* Section heads sit between two fine rules */
-  h2 { display: flex; align-items: center; gap: 1.1rem; margin: 0 0 1.75rem; font-weight: normal; font-size: .85rem; color: var(--green); white-space: nowrap; }
-  h2::before, h2::after { content: ""; flex: 1; border-top: 1px solid var(--rule); }
-  .list { list-style: none; margin: 0; padding: 0; }
-  .list li { padding: 1.4rem 0; }
-  .list li + li { border-top: 1px solid var(--rule); }
-  /* Forthcoming title gets a little more presence */
-  #coming-section .title { font-size: clamp(1.45rem, 4.4vw, 1.85rem); }
-  #coming-section .subtitle { font-size: 1.15rem; }
-  /* In development: two columns on wide screens, ruled like a table */
-  @media (min-width: 46rem) {
-    #development-section { max-width: 52rem; }
-    #development-section .list { display: grid; grid-template-columns: repeat(2, 1fr); }
-    #development-section .list li { padding: 1.6rem 2rem; }
-    #development-section .list li + li { border-top: 0; }
-    #development-section .list li:nth-child(even) { border-left: 1px solid var(--rule); }
-    #development-section .list li:nth-child(n+3) { border-top: 1px solid var(--rule); }
+  /* Masthead: compact, the books carry the page */
+  header { display: flex; flex-direction: column; align-items: center; gap: .9rem; padding: 1.75rem 0 1.5rem; border-bottom: 1px solid var(--rule); text-align: center; }
+  .brand { display: flex; align-items: center; gap: .9rem; text-decoration: none; }
+  .logo { width: 3.1rem; height: auto; }
+  h1 { margin: 0; font-family: var(--display); font-weight: normal; line-height: 1; text-align: left; }
+  h1 .house { display: block; color: var(--green); font-size: 1.65rem; letter-spacing: .16em; text-transform: uppercase; }
+  h1 .trade { display: block; font-family: var(--text); font-style: italic; font-size: .95rem; letter-spacing: .03em; margin-top: .3rem; }
+  .place { margin: 0; color: var(--muted); font-size: .85rem; }
+  @media (min-width: 40rem) {
+    header { flex-direction: row; justify-content: space-between; padding: 1.5rem .25rem; }
   }
-  .series { display: block; color: var(--green); font-size: .8rem; margin-bottom: .4rem; }
-  .title { display: block; text-decoration: none; font-style: italic; font-size: 1.3rem; line-height: 1.3; }
-  .subtitle { display: block; margin-top: .25rem; font-size: 1.05rem; }
-  .title, .subtitle, .tagline { text-wrap: balance; }
-  .tagline { margin: .9rem auto 0; max-width: 24rem; color: var(--muted); font-size: .95rem; line-height: 1.5; }
-  .author { display: block; margin-top: .9rem; color: var(--muted); font-size: .95rem; }
-  /* Synopsis: left-aligned body text under the entry, set off by a short rule */
-  .synopsis { margin: 1.4rem auto 0; max-width: 26rem; text-align: left; font-size: 1rem; line-height: 1.65; }
-  .synopsis::before { content: ""; display: block; width: 2.5rem; margin: 0 auto 1.2rem; border-top: 1px solid var(--rule); }
 
-  footer { margin-top: 3.5rem; color: var(--muted); font-size: .8rem; }
+  main { width: 100%; max-width: 66rem; margin: 0 auto; padding-top: clamp(2.5rem, 7vh, 4rem); flex: 1; }
+  section + section { margin-top: clamp(3rem, 8vh, 4.5rem); }
+  /* Section heads sit between two fine rules */
+  h2 { display: flex; align-items: center; gap: 1.1rem; margin: 0 0 2rem; font-weight: normal; font-size: .85rem; color: var(--green); white-space: nowrap; }
+  h2::before, h2::after { content: ""; flex: 1; border-top: 1px solid var(--rule); }
+
+  .list { list-style: none; margin: 0; padding: 0; }
+  .series { display: block; color: var(--green); font-size: .75rem; margin-bottom: .45rem; }
+  .title { display: block; text-decoration: none; font-style: italic; font-size: 1.25rem; line-height: 1.25; }
+  .subtitle { display: block; margin-top: .3rem; font-size: 1rem; }
+  .tagline { margin: .8rem 0 0; color: var(--muted); font-size: .92rem; line-height: 1.5; }
+  .author { display: inline-block; margin-top: 1rem; color: var(--muted); font-size: .9rem; }
+  .title, .subtitle, .tagline { text-wrap: balance; }
+  .synopsis { margin: 1.4rem 0 0; font-size: 1rem; line-height: 1.65; }
+
+  /* Covers: 2:3. A real jacket is an <img>; until then a cloth plate stands in */
+  .cover { container-type: inline-size; aspect-ratio: 2 / 3; box-shadow: 0 1px 2px rgba(30, 38, 25, .18), 0 10px 24px -12px rgba(30, 38, 25, .45); }
+  .cover img { width: 100%; height: 100%; object-fit: cover; }
+  .plate { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding: 9% 10% 8%; text-align: center;
+           background-color: var(--cloth, var(--green)); color: var(--plate-ink); outline: 1px solid color-mix(in srgb, var(--plate-ink) 45%, transparent); outline-offset: -7px; }
+  .plate::before { content: ""; width: 34%; height: 4px; border-top: 1.5px solid currentColor; border-bottom: .5px solid currentColor; opacity: .7; }
+  .plate-title { font-family: var(--display); font-size: 6.4cqi; line-height: 1.3; letter-spacing: .1em; text-transform: uppercase; text-wrap: balance; }
+  .plate-mark { width: 22%; aspect-ratio: 755 / 790; background: currentColor; opacity: .85;
+                -webkit-mask: url(/assets/porchester-logo.svg) center / contain no-repeat; mask: url(/assets/porchester-logo.svg) center / contain no-repeat; }
+
+  /* Too small to letter legibly (phone thumbnails): cloth, rule and mark only */
+  @container (max-width: 8rem) { .plate-title { display: none; } .plate { justify-content: space-around; } }
+
+  /* Forthcoming: cover beside the text */
+  .feature { display: grid; gap: 1.75rem; justify-items: center; text-align: center; max-width: 46rem; margin: 0 auto; }
+  .feature .cover { width: min(62%, 15rem); }
+  .feature .title { font-size: clamp(1.45rem, 4.4vw, 1.9rem); }
+  .feature .subtitle { font-size: 1.15rem; }
+  .feature .tagline { font-size: 1rem; max-width: 26rem; margin-left: auto; margin-right: auto; }
+  @media (min-width: 44rem) {
+    .feature { grid-template-columns: 15rem 1fr; gap: 3rem; align-items: center; justify-items: start; text-align: left; }
+    .feature .cover { width: 100%; }
+    .feature .tagline { margin-left: 0; }
+  }
+
+  /* In development: cover left of text on phones, a shelf of covers on wider screens */
+  .shelf { display: grid; gap: 2rem; }
+  .shelf li { display: grid; grid-template-columns: 6.5rem 1fr; gap: 1.1rem; align-items: start; }
+  .shelf .title { font-size: 1.1rem; }
+  .shelf .subtitle { font-size: .95rem; }
+  .shelf .tagline { font-size: .88rem; }
+  @media (min-width: 40rem) {
+    .shelf { grid-template-columns: repeat(2, 1fr); gap: 2.75rem 2.25rem; }
+    .shelf li { grid-template-columns: 1fr; gap: 1.1rem; align-content: start; }
+    /* keep titles level across a row when a book has no series line */
+    .shelf .info:not(:has(.series))::before { content: ""; display: block; height: calc(.75rem * 1.6 + .45rem); }
+    .shelf .cover { width: 11rem; }
+  }
+  @media (min-width: 62rem) {
+    .shelf { grid-template-columns: repeat(4, 1fr); gap: 2.25rem; }
+    .shelf .cover { width: 100%; }
+  }
+
+  footer { margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .8rem; text-align: center; }
 </style>
 </head>
 <body>
 <div class="page"><div class="inner">
 
   <header>
-    <img class="logo" src="/assets/porchester-logo.svg" alt="" width="755" height="790">
-    <h1><span class="house">Porchester</span><span class="trade">Publishing</span></h1>
-    <div class="double" role="presentation"></div>
+    <a class="brand" href="/" aria-label="Porchester Publishing">
+      <img class="logo" src="/assets/porchester-logo.svg" alt="" width="755" height="790">
+      <h1><span class="house">Porchester</span><span class="trade">Publishing</span></h1>
+    </a>
     <p class="place smallcaps">London</p>
   </header>
 
-  <main class="books">
-    <section id="coming-section" aria-labelledby="coming">
+  <main>
+    <section aria-labelledby="coming">
       <h2 id="coming" class="smallcaps">Coming December 2026</h2>
-      <ul class="list">
-        <li>
+      <article class="feature">
+        <div class="cover"><img src="/assets/covers/grand-galleria.jpg" alt="Cover of The Grand Galleria Detective Agency, Ltd." width="720" height="1080"></div>
+        <div class="info">
           <span class="series smallcaps">The Underqualified presents</span>
           <a class="title" href="https://francescodurazzo.com/en/">The Grand Galleria Detective Agency, Ltd.</a>
           <span class="subtitle">Cursed Frequency</span>
@@ -104,34 +137,48 @@
           <!-- Synopsis goes here once Bruno approves it:
           <p class="synopsis">…</p>
           -->
-        </li>
-      </ul>
+        </div>
+      </article>
     </section>
 
-    <section id="development-section" aria-labelledby="development">
+    <section aria-labelledby="development">
       <h2 id="development" class="smallcaps">In development</h2>
-      <ul class="list">
+      <!-- Each title has a cloth plate standing in for its cover. When a jacket exists, save it as
+           site/assets/covers/<name>.jpg (720×1080) and replace the plate with an <img>, as for Grand Galleria. -->
+      <ul class="list shelf">
         <li>
-          <span class="series smallcaps">The Underqualified presents</span>
-          <span class="title">Stevens Creek Investigative Partners LLC</span>
-          <span class="subtitle">Wrong Future</span>
-          <p class="tagline">Bay Area, 1999. The millennium is coming. Dot&#8209;com fortunes. A housing war. Dead malls. Dead bodies.</p>
+          <div class="cover"><div class="plate" style="--cloth:#2f4656" aria-hidden="true"><span class="plate-title">Stevens Creek Investigative Partners</span><span class="plate-mark"></span></div></div>
+          <div class="info">
+            <span class="series smallcaps">The Underqualified presents</span>
+            <span class="title">Stevens Creek Investigative Partners LLC</span>
+            <span class="subtitle">Wrong Future</span>
+            <p class="tagline">Bay Area, 1999. The millennium is coming. Dot&#8209;com fortunes. A housing war. Dead malls. Dead bodies.</p>
+          </div>
         </li>
         <li>
-          <span class="series smallcaps">The Underqualified presents</span>
-          <span class="title">Little Venice Investigations &amp; Boat Painting</span>
-          <span class="subtitle">Private City</span>
-          <p class="tagline">London, 1997. Raves. Raids. Redevelopment. Rising surveillance. Bodies keep turning up in the canal.</p>
+          <div class="cover"><div class="plate" style="--cloth:#2c4435" aria-hidden="true"><span class="plate-title">Little Venice Investigations &amp; Boat Painting</span><span class="plate-mark"></span></div></div>
+          <div class="info">
+            <span class="series smallcaps">The Underqualified presents</span>
+            <span class="title">Little Venice Investigations &amp; Boat Painting</span>
+            <span class="subtitle">Private City</span>
+            <p class="tagline">London, 1997. Raves. Raids. Redevelopment. Rising surveillance. Bodies keep turning up in the canal.</p>
+          </div>
         </li>
         <li>
-          <span class="title">Demon’s Country</span>
-          <span class="subtitle" lang="cy">Gwlad y Gwyllwr</span>
-          <p class="tagline">Two hundred miles to run. One old debt to settle.</p>
+          <div class="cover"><div class="plate" style="--cloth:#57292a" aria-hidden="true"><span class="plate-title">Demon’s Country</span><span class="plate-mark"></span></div></div>
+          <div class="info">
+            <span class="title">Demon’s Country</span>
+            <span class="subtitle" lang="cy">Gwlad y Gwyllwr</span>
+            <p class="tagline">Two hundred miles to run. One old debt to settle.</p>
+          </div>
         </li>
         <li>
-          <span class="title">The Last Daughters of Dunbrae</span>
-          <span class="subtitle">An Unquiet Inheritance</span>
-          <p class="tagline">A remote Scottish island. Tea by the fire, a crumbling manor to restore. Two estranged sisters. One vanished sibling. Some family secrets are worth killing for.</p>
+          <div class="cover"><div class="plate" style="--cloth:#3d3a4c" aria-hidden="true"><span class="plate-title">The Last Daughters of Dunbrae</span><span class="plate-mark"></span></div></div>
+          <div class="info">
+            <span class="title">The Last Daughters of Dunbrae</span>
+            <span class="subtitle">An Unquiet Inheritance</span>
+            <p class="tagline">A remote Scottish island. Tea by the fire, a crumbling manor to restore. Two estranged sisters. One vanished sibling. Some family secrets are worth killing for.</p>
+          </div>
         </li>
       </ul>
     </section>
