@@ -5,30 +5,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Porchester Publishing</title>
 <meta name="description" content="Porchester Publishing, London. Publisher of The Grand Galleria Detective Agency, Ltd. by Francesco Durazzo.">
-<meta name="theme-color" content="#0e1311">
+<meta name="theme-color" content="#f5f0e4">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap">
 <style>
-  /* Dark heritage: a Caslon title page at night. Restraint over ornament. */
+  /* Light heritage: a Caslon title page on cream, in the oak green of the logo. Restraint over ornament. */
   :root {
-    --ground: #0e1311;      /* green-black, like bookcloth */
-    --ink: #e7e0cf;         /* warm bone */
-    --muted: #9c9686;
-    --brass: #b59a62;       /* used only for rules and small labels */
-    --rule: color-mix(in srgb, var(--brass) 55%, transparent);
+    --ground: #f5f0e4;      /* cream paper */
+    --ink: #1e2619;         /* green-black */
+    --muted: #6b6a5c;
+    --green: #46602f;       /* the logo's oak green: logo, rules and small labels */
+    --rule: color-mix(in srgb, var(--green) 45%, transparent);
     --display: "Libre Caslon Display", "Big Caslon", Georgia, serif;
     --text: "Libre Caslon Text", "Big Caslon", Georgia, serif;
   }
   * { box-sizing: border-box; }
-  html { background: var(--ground); color-scheme: dark; }
+  html { background: var(--ground); color-scheme: light; }
   body {
     margin: 0; min-height: 100vh; color: var(--ink); font-family: var(--text); font-size: 1.0625rem; line-height: 1.6;
-    background: radial-gradient(120% 80% at 50% 0%, #17201c 0%, var(--ground) 60%);
+    background: radial-gradient(120% 80% at 50% 0%, #fbf8f0 0%, var(--ground) 65%);
     display: flex; padding: 16px;
   }
   a { color: inherit; text-decoration-color: var(--rule); text-underline-offset: .2em; }
-  a:hover { text-decoration-color: var(--brass); }
+  a:hover { text-decoration-color: var(--green); }
 
   /* Thick-and-thin frame, as on a nineteenth-century title page */
   .page { flex: 1; display: flex; flex-direction: column; border: 1px solid var(--rule); padding: 5px; }
@@ -37,18 +38,19 @@
   .smallcaps { font-variant: small-caps; text-transform: lowercase; letter-spacing: .2em; }
 
   header { margin: auto 0 0; }
+  .logo { display: block; width: clamp(7rem, 30vw, 10rem); height: auto; margin: 0 auto 2rem; }
   h1 { margin: 0; font-family: var(--display); font-weight: normal; line-height: 1; }
-  h1 .house { display: block; font-size: clamp(2.4rem, 10vw, 5.25rem); letter-spacing: .14em; margin-right: -.14em; text-transform: uppercase; }
+  h1 .house { display: block; color: var(--green); font-size: clamp(2.4rem, 10vw, 5.25rem); letter-spacing: .14em; margin-right: -.14em; text-transform: uppercase; }
   h1 .trade { display: block; font-family: var(--text); font-style: italic; font-size: clamp(1.15rem, 3.6vw, 1.7rem); letter-spacing: .04em; margin-top: .6rem; color: var(--ink); }
 
-  .double { width: 7rem; height: 5px; border-top: 2px solid var(--brass); border-bottom: 1px solid var(--brass); margin: 2rem auto; }
+  .double { width: 7rem; height: 5px; border-top: 2px solid var(--green); border-bottom: 1px solid var(--green); margin: 2rem auto; }
   .place { margin: 0; color: var(--muted); font-size: .95rem; }
 
   section { margin: clamp(3.5rem, 10vh, 6rem) 0 auto; width: 100%; max-width: 30rem; }
-  h2 { margin: 0 0 1.5rem; font-weight: normal; font-size: .85rem; color: var(--brass); }
+  h2 { margin: 0 0 1.5rem; font-weight: normal; font-size: .85rem; color: var(--green); }
   .list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule); }
   .list li { padding: 1.4rem 0; border-bottom: 1px solid var(--rule); }
-  .no { display: block; color: var(--brass); font-size: .8rem; margin-bottom: .4rem; }
+  .no { display: block; color: var(--green); font-size: .8rem; margin-bottom: .4rem; }
   .title { display: block; text-decoration: none; font-style: italic; font-size: 1.3rem; line-height: 1.3; }
   .author { display: block; margin-top: .5rem; color: var(--muted); font-size: .95rem; }
   /* Synopsis: left-aligned body text under the entry, set off by a short rule */
@@ -62,6 +64,7 @@
 <div class="page"><div class="inner">
 
   <header>
+    <img class="logo" src="/assets/porchester-logo.svg" alt="" width="755" height="790">
     <h1><span class="house">Porchester</span><span class="trade">Publishing</span></h1>
     <div class="double" role="presentation"></div>
     <p class="place smallcaps">London</p>

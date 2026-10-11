@@ -30,7 +30,8 @@ Source for porchesterpublishing.com, the site of Porchester Publishing, the Lond
 
 ## Design
 
-- Look: dark heritage, a Caslon title page at night. Green-black ground, warm bone text, brass used only for rules and small labels; Libre Caslon Display and Libre Caslon Text (Google Fonts); thick-and-thin double rules and a framed page. Dark only. Avoid Victorian pastiche: no faux-aged paper, flourishes, blackletter, "Est." dates or ornate dingbats. Deliberately different from the Francesco Durazzo author site.
+- Look: light heritage, a Caslon title page on cream. Cream ground `#f5f0e4`, green-black text `#1e2619`, the logo's oak green `#46602f` for the logo, the wordmark, rules and small labels; Libre Caslon Display and Libre Caslon Text (Google Fonts); thick-and-thin double rules and a framed page. Avoid Victorian pastiche: no faux-aged paper, flourishes, blackletter, "Est." dates or ornate dingbats. Deliberately different from the Francesco Durazzo author site.
+- Logo: an oak tree merged with a capital P, drawn by Bruno. Master files live in `brand/` (outside `site/`): SVG and 2400px PNG in green on cream, cream on black (for book covers and spines), black on brass, and green, cream and black on transparent. The site uses `site/assets/porchester-logo.svg` (green) and `site/favicon.svg`.
 - Plain, matter-of-fact tone, like the name: a place and a press. No marketing superlatives.
 - Pages must work on a phone first (16px side margins, no horizontal scrolling).
 
