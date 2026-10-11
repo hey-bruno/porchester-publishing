@@ -22,6 +22,7 @@ Source for porchesterpublishing.com, the site of Porchester Publishing, the Lond
   - Separate project, not part of a series: *Demon’s Country*, Welsh title *Gwlad y Gwyllwr*, tagline "Two hundred miles to run. One old debt to settle."
   - Separate project, in development: *The Last Daughters of Dunbrae*, subtitle *An Unquiet Inheritance*, tagline "A remote Scottish island. Tea by the fire, a crumbling manor to restore. Two estranged sisters. One vanished sibling. Some family secrets are worth killing for."
   - Author site: https://francescodurazzo.com
+- Genres shown on the list: The Underqualified books "Mystery & thriller"; *Demon’s Country* "Horror"; *The Last Daughters of Dunbrae* "Gothic mystery".
 - All titles are by Francesco Durazzo, but the site must not make that obvious: Bruno wants Porchester to read as a publishing house, not one author self-publishing. Name the author only where needed (the released or forthcoming title), never on in-development titles, and never write anything like "our author" or a list of titles by author.
 
 ## Languages
