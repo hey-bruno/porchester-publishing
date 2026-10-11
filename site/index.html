@@ -46,14 +46,31 @@
   .double { width: 7rem; height: 5px; border-top: 2px solid var(--green); border-bottom: 1px solid var(--green); margin: 2rem auto; }
   .place { margin: 0; color: var(--muted); font-size: .95rem; }
 
-  .books { margin: clamp(3.5rem, 10vh, 6rem) 0 auto; width: 100%; max-width: 30rem; }
-  .books section + section { margin-top: 3.5rem; }
-  h2 { margin: 0 0 1.5rem; font-weight: normal; font-size: .85rem; color: var(--green); }
-  .list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule); }
-  .list li { padding: 1.4rem 0; border-bottom: 1px solid var(--rule); }
+  .books { margin: clamp(3.5rem, 10vh, 6rem) 0 auto; width: 100%; max-width: 64rem; }
+  .books section { margin: 0 auto; }
+  .books section + section { margin-top: clamp(3rem, 8vh, 4.5rem); }
+  #coming-section { max-width: 34rem; }
+  /* Section heads sit between two fine rules */
+  h2 { display: flex; align-items: center; gap: 1.1rem; margin: 0 0 1.75rem; font-weight: normal; font-size: .85rem; color: var(--green); white-space: nowrap; }
+  h2::before, h2::after { content: ""; flex: 1; border-top: 1px solid var(--rule); }
+  .list { list-style: none; margin: 0; padding: 0; }
+  .list li { padding: 1.4rem 0; }
+  .list li + li { border-top: 1px solid var(--rule); }
+  /* Forthcoming title gets a little more presence */
+  #coming-section .title { font-size: clamp(1.45rem, 4.4vw, 1.85rem); }
+  #coming-section .subtitle { font-size: 1.15rem; }
+  /* In development: one row of three on wide screens, separated by vertical rules */
+  @media (min-width: 58rem) {
+    #development-section .list { display: grid; grid-template-columns: repeat(3, 1fr); }
+    #development-section .list li { padding: .6rem 1.75rem 1rem; }
+    #development-section .list li + li { border-top: 0; border-left: 1px solid var(--rule); }
+    /* keep titles level when an entry has no series line */
+    #development-section .list li:not(:has(.series))::before { content: ""; display: block; height: calc(.8rem * 1.6 + .4rem); }
+  }
   .series { display: block; color: var(--green); font-size: .8rem; margin-bottom: .4rem; }
   .title { display: block; text-decoration: none; font-style: italic; font-size: 1.3rem; line-height: 1.3; }
   .subtitle { display: block; margin-top: .25rem; font-size: 1.05rem; }
+  .title, .subtitle, .tagline { text-wrap: balance; }
   .tagline { margin: .9rem auto 0; max-width: 24rem; color: var(--muted); font-size: .95rem; line-height: 1.5; }
   .author { display: block; margin-top: .9rem; color: var(--muted); font-size: .95rem; }
   /* Synopsis: left-aligned body text under the entry, set off by a short rule */
@@ -74,12 +91,13 @@
   </header>
 
   <main class="books">
-    <section aria-labelledby="coming">
+    <section id="coming-section" aria-labelledby="coming">
       <h2 id="coming" class="smallcaps">Coming December 2026</h2>
       <ul class="list">
         <li>
+          <span class="series smallcaps">The Underqualified presents</span>
           <a class="title" href="https://francescodurazzo.com/en/">The Grand Galleria Detective Agency, Ltd.</a>
-          <span class="subtitle">Book 1: Cursed Frequency</span>
+          <span class="subtitle">Cursed Frequency</span>
           <p class="tagline">São Paulo, 1994. On her list: college admissions, conspiracies, heavy metal, Satan. An investigation out of control.</p>
           <a class="author smallcaps" href="https://francescodurazzo.com">Francesco Durazzo</a>
           <!-- Synopsis goes here once Bruno approves it:
@@ -89,7 +107,7 @@
       </ul>
     </section>
 
-    <section aria-labelledby="development">
+    <section id="development-section" aria-labelledby="development">
       <h2 id="development" class="smallcaps">In development</h2>
       <ul class="list">
         <li>
