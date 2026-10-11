@@ -59,13 +59,14 @@
   /* Forthcoming title gets a little more presence */
   #coming-section .title { font-size: clamp(1.45rem, 4.4vw, 1.85rem); }
   #coming-section .subtitle { font-size: 1.15rem; }
-  /* In development: one row of three on wide screens, separated by vertical rules */
-  @media (min-width: 58rem) {
-    #development-section .list { display: grid; grid-template-columns: repeat(3, 1fr); }
-    #development-section .list li { padding: .6rem 1.75rem 1rem; }
-    #development-section .list li + li { border-top: 0; border-left: 1px solid var(--rule); }
-    /* keep titles level when an entry has no series line */
-    #development-section .list li:not(:has(.series))::before { content: ""; display: block; height: calc(.8rem * 1.6 + .4rem); }
+  /* In development: two columns on wide screens, ruled like a table */
+  @media (min-width: 46rem) {
+    #development-section { max-width: 52rem; }
+    #development-section .list { display: grid; grid-template-columns: repeat(2, 1fr); }
+    #development-section .list li { padding: 1.6rem 2rem; }
+    #development-section .list li + li { border-top: 0; }
+    #development-section .list li:nth-child(even) { border-left: 1px solid var(--rule); }
+    #development-section .list li:nth-child(n+3) { border-top: 1px solid var(--rule); }
   }
   .series { display: block; color: var(--green); font-size: .8rem; margin-bottom: .4rem; }
   .title { display: block; text-decoration: none; font-style: italic; font-size: 1.3rem; line-height: 1.3; }
@@ -126,6 +127,11 @@
           <span class="title">Demon’s Country</span>
           <span class="subtitle" lang="cy">Gwlad y Gwyllwr</span>
           <p class="tagline">Two hundred miles to run. One old debt to settle.</p>
+        </li>
+        <li>
+          <span class="title">The Last Daughters of Dunbrae</span>
+          <span class="subtitle">An Unquiet Inheritance</span>
+          <p class="tagline">A remote Scottish island. Tea by the fire, a crumbling manor to restore. Two estranged sisters. One vanished sibling. A family inheritance to die for.</p>
         </li>
       </ul>
     </section>

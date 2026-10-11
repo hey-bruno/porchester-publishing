@@ -20,6 +20,7 @@ Source for porchesterpublishing.com, the site of Porchester Publishing, the Lond
   - English edition: *The Grand Galleria Detective Agency, Ltd.*, subtitle *Book 1: Cursed Frequency*. It belongs to The Underqualified series; on the Porchester site it is listed as "The Underqualified presents" with the subtitle *Cursed Frequency* (no "Book 1").
   - The Underqualified series, in development: *Stevens Creek Investigative Partners LLC*, subtitle *Wrong Future* (Bay Area, 1999), and *Little Venice Investigations & Boat Painting*, subtitle *Private City*, tagline "London, 1997. Raves. Raids. Redevelopment. Rising surveillance. Bodies keep turning up in the canal."
   - Separate project, not part of a series: *Demon’s Country*, Welsh title *Gwlad y Gwyllwr*, tagline "Two hundred miles to run. One old debt to settle."
+  - Separate project, in development: *The Last Daughters of Dunbrae*, subtitle *An Unquiet Inheritance*, tagline "A remote Scottish island. Tea by the fire, a crumbling manor to restore. Two estranged sisters. One vanished sibling. A family inheritance to die for."
   - Author site: https://francescodurazzo.com
 - All titles are by Francesco Durazzo, but the site must not make that obvious: Bruno wants Porchester to read as a publishing house, not one author self-publishing. Name the author only where needed (the released or forthcoming title), never on in-development titles, and never write anything like "our author" or a list of titles by author.
 
