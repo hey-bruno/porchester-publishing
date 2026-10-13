@@ -65,7 +65,9 @@
   .tagline { margin: .8rem 0 0; color: var(--muted); font-size: .92rem; line-height: 1.5; }
   .author { display: inline-block; margin-top: 1rem; color: var(--muted); font-size: .9rem; }
   .title, .subtitle, .tagline { text-wrap: balance; }
-  .synopsis { margin: 1.4rem 0 0; font-size: 1rem; line-height: 1.65; }
+  .synopsis { margin: 1.6rem 0 0; padding-top: 1.4rem; border-top: 1px solid var(--rule); font-size: 1rem; line-height: 1.65; text-align: left; }
+  .synopsis p { margin: 0 0 1em; text-wrap: pretty; }
+  .synopsis p:last-child { margin-bottom: 0; }
 
   /* Covers: 2:3. A real jacket is an <img>; until then a cloth plate stands in */
   .cover { container-type: inline-size; aspect-ratio: 2 / 3; box-shadow: 0 1px 2px rgba(30, 38, 25, .18), 0 10px 24px -12px rgba(30, 38, 25, .45); }
@@ -87,8 +89,8 @@
   .feature .subtitle { font-size: 1.15rem; }
   .feature .tagline { font-size: 1rem; max-width: 26rem; margin-left: auto; margin-right: auto; }
   @media (min-width: 44rem) {
-    .feature { grid-template-columns: 15rem 1fr; gap: 3rem; align-items: center; justify-items: start; text-align: left; }
-    .feature .cover { width: 100%; }
+    .feature { grid-template-columns: 15rem 1fr; gap: 3rem; align-items: start; justify-items: start; text-align: left; }
+    .feature .cover { width: 100%; position: sticky; top: 2rem; }
     .feature .tagline { margin-left: 0; }
   }
 
