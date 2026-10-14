@@ -123,6 +123,13 @@
 
   footer { margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .8rem; text-align: center; }
   footer a { display: inline-block; margin-top: .45rem; color: var(--muted); }
+
+  /* Cover lightbox */
+  a.zoom { display: block; width: 100%; height: 100%; cursor: zoom-in; }
+  .lightbox { padding: 0; border: 0; background: transparent; max-width: 100vw; max-height: 100vh; width: 100vw; height: 100vh; cursor: zoom-out; } .lightbox[open] { display: flex; align-items: center; justify-content: center; }
+  .lightbox::backdrop { background: rgba(10, 10, 9, .92); }
+  .lightbox img { display: block; width: auto; height: auto; max-width: 94vw; max-height: 94vh; margin: 0; box-shadow: 0 12px 40px rgba(0, 0, 0, .6); }
+  .lightbox button { position: fixed; top: .9rem; right: 1rem; padding: .3rem .7rem; border: 0; background: rgba(255, 255, 255, .12); color: #fff; font: inherit; font-size: 1.4rem; line-height: 1; cursor: pointer; }
 </style>
 </head>
 <body>
@@ -140,7 +147,7 @@
     <section aria-labelledby="coming">
       <h2 id="coming" class="smallcaps">Coming December 2026</h2>
       <article class="feature">
-        <div class="cover"><img src="/assets/covers/grand-galleria-v4.jpg" alt="Cover of The Grand Galleria Detective Agency, Ltd." width="720" height="1080"></div>
+        <div class="cover"><a class="zoom" href="/assets/covers/grand-galleria-v4-large.jpg" aria-label="View the cover full size"><img src="/assets/covers/grand-galleria-v4.jpg" alt="Cover of The Grand Galleria Detective Agency, Ltd." width="720" height="1080"></a></div>
         <div class="info">
           <span class="series smallcaps">The Underqualified presents</span>
           <a class="title" href="https://francescodurazzo.com/en/">The Grand Galleria Detective Agency, Ltd.</a>
@@ -220,5 +227,19 @@
   <footer><span class="smallcaps">Porchester Publishing · London</span><br><a href="mailto:contact@porchesterpublishing.com">contact@porchesterpublishing.com</a></footer>
 
 </div></div>
+<dialog id="lightbox" class="lightbox"><button type="button" aria-label="Close">×</button><img alt=""></dialog>
+<script>
+  // Cover lightbox: the link opens the large cover in a full-page dialog (without JS it just opens the image).
+  (function () {
+    var d = document.getElementById('lightbox'); if (!d || !d.showModal) return;
+    var img = d.querySelector('img');
+    document.querySelectorAll('a.zoom').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault(); img.src = a.href; img.alt = a.querySelector('img').alt; d.showModal();
+      });
+    });
+    d.addEventListener('click', function () { d.close(); });
+  })();
+</script>
 </body>
 </html>
