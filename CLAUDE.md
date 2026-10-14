@@ -39,6 +39,7 @@ Source for porchesterpublishing.com, the site of Porchester Publishing, the Lond
 - Logo: an oak tree merged with a capital P, drawn by Bruno. Master files live in `brand/` (outside `site/`): SVG and 2400px PNG in green on cream, cream on black (for book covers and spines), black on brass, and green, cream and black on transparent. The site uses `site/assets/porchester-logo.svg` (green) and `site/favicon.svg`.
 - Layout: compact masthead (small logo and wordmark, London); the books carry the page. The forthcoming title is featured with its cover beside the text; in-development titles sit on a shelf of covers (one column with thumbnails on phones, two on tablets, four on desktop).
 - Covers: 2:3, saved as `site/assets/covers/<name>.jpg` at 720×1080. A title without a jacket gets a cloth plate (its own cloth colour, title lettered in cream, the oak-P mark) in place of the image; swap the plate for an `<img>` when the jacket exists. The Grand Galleria cover is the English jacket from the author site.
+- Store buttons: under "Where to buy" each store is an outlined small-caps button (store name only, no logos, because of the stores' brand rules). Before launch they are faded, non-clickable `<span class="store">`; at launch turn each into `<a class="store" href="…">`.
 - Plain, matter-of-fact tone, like the name: a place and a press. No marketing superlatives.
 - Pages must work on a phone first (16px side margins, no horizontal scrolling).
 

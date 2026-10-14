@@ -67,7 +67,13 @@
   .title, .subtitle, .tagline { text-wrap: balance; }
   .buy { margin: 1.4rem 0 0; font-size: .92rem; line-height: 1.5; }
   .buy p { margin: .35rem 0 0; }
-  .buy .stores { color: var(--muted); }
+  /* One button per store, in small caps between fine green rules. Faded <span> until launch; then <a class="store" href="…">. */
+  .stores { list-style: none; display: flex; flex-wrap: wrap; gap: .55rem; margin: .9rem 0 0; padding: 0; }
+  .feature .stores { justify-content: center; }
+  .store { display: inline-block; padding: .4rem .8rem .45rem; border: 1px solid var(--green); color: var(--green); font-variant: small-caps; text-transform: lowercase; letter-spacing: .14em; font-size: .9rem; line-height: 1.2; text-decoration: none; }
+  a.store:hover { background: var(--green); color: var(--ground); }
+  span.store { opacity: .45; cursor: default; }
+  @media (min-width: 44rem) { .feature .stores { justify-content: flex-start; } }
   .synopsis { margin: 1.6rem 0 0; padding-top: 1.4rem; border-top: 1px solid var(--rule); font-size: 1rem; line-height: 1.65; text-align: left; }
   .synopsis p { margin: 0 0 1em; text-wrap: pretty; }
   .synopsis p:last-child { margin-bottom: 0; }
@@ -145,7 +151,13 @@
           <div class="buy">
             <span class="genre smallcaps">Where to buy</span>
             <p>Out in December 2026 in English and Portuguese, as an ebook, paperback, and hardcover.</p>
-            <p class="stores">Amazon · Apple&nbsp;Books · Kobo · Google&nbsp;Play&nbsp;Books · Clube&nbsp;de&nbsp;Autores</p>
+            <ul class="stores" aria-label="Stores">
+              <li><span class="store" aria-disabled="true">Amazon</span></li>
+              <li><span class="store" aria-disabled="true">Apple Books</span></li>
+              <li><span class="store" aria-disabled="true">Kobo</span></li>
+              <li><span class="store" aria-disabled="true">Google Play Books</span></li>
+              <li><span class="store" aria-disabled="true">Clube de Autores</span></li>
+            </ul>
           </div>
           <div class="synopsis">
             <p>São Paulo, October 1994. Two years after impeaching a president, Brazil buried Senna, won the World Cup, and changed its currency. Prices stopped going up, for now.</p>
