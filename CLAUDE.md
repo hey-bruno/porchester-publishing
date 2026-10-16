@@ -77,3 +77,5 @@ Source for porchesterpublishing.com, the site of Porchester Publishing, the Lond
 - Styling: use only the original site CSS from commit `e34df0f`, unchanged, on both pages. Reuse its existing classes and layouts for all new content. Do not introduce new styles, overrides or a separate design system for the series.
 
 - Homepage shelf correction: below the featured Grand Galleria, keep Stevens Creek, Little Venice, Demon’s Country and The Last Daughters of Dunbrae together in one original four-column “In development” shelf. Use existing series labels to distinguish The Underqualified titles from standalone novels; do not split them into two half-empty rows. Classics follow this shelf.
+
+- Shared navigation on homepage and series pages: The Underqualified (`/underqualified/`), Standalone books (`/#standalone`), The Condensed Classics (`/condensed-classics/`), About (`/#about`), Contact (`/#press`). Use existing About/link styling only. The Underqualified page reuses approved Grand Galleria copy and the two other series titles; the homepage retains the complete catalogue and its four-book development shelf.
