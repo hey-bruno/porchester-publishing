@@ -1,0 +1,189 @@
+{
+  "as_of": "2026-10-17",
+  "method": "Original edition word counts / 200 words per minute / 60; rounded to nearest half hour. Percent reductions use displayed rounded original hours and measure reading time, not word count. Editorial budgets include visual guides: Semi-Skimmed four hours and Fat Free two hours for Ovid, Milton, Dante and Nietzsche; eight and four hours respectively for the other titles. Author decision, 17 October 2026. These are planning estimates, not measured completed-edition reading times.",
+  "sources": "Nine Standard Ebooks schema:wordCount metadata records, locked Maude source count for War and Peace, and a computed sum of all seven Project Gutenberg Australia Proust volumes. Repository headers excluded from Proust; brief front matter remains.",
+  "books": [
+    {
+      "words": 563544,
+      "url": "https://www.gutenberg.org/ebooks/2600",
+      "evidence": "The Milk Project source-index.json and source-integrity report; complete Maude translation",
+      "title": "Fat Free War and Peace",
+      "original_title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "original_hours": 47.0,
+      "semi_skimmed_hours": 8,
+      "fat_free_hours": 4,
+      "semi_reduction_percent": 83,
+      "fat_free_reduction_percent": 91
+    },
+    {
+      "repo": "giovanni-boccaccio_the-decameron_john-payne",
+      "words": 292277,
+      "url": "https://standardebooks.org/ebooks/giovanni-boccaccio/the-decameron/john-payne",
+      "metadata": "https://raw.githubusercontent.com/standardebooks/giovanni-boccaccio_the-decameron_john-payne/master/src/epub/content.opf",
+      "title": "Fat Free Decameron",
+      "original_title": "The Decameron",
+      "author": "Giovanni Boccaccio",
+      "original_hours": 24.5,
+      "semi_skimmed_hours": 8,
+      "fat_free_hours": 4,
+      "semi_reduction_percent": 67,
+      "fat_free_reduction_percent": 84
+    },
+    {
+      "repo": "ovid_metamorphoses_various-translators",
+      "words": 130548,
+      "url": "https://standardebooks.org/ebooks/ovid/metamorphoses/various-translators",
+      "metadata": "https://raw.githubusercontent.com/standardebooks/ovid_metamorphoses_various-translators/master/src/epub/content.opf",
+      "title": "Fat Free Metamorphoses",
+      "original_title": "Metamorphoses",
+      "author": "Ovid",
+      "original_hours": 11.0,
+      "semi_skimmed_hours": 4,
+      "fat_free_hours": 2,
+      "semi_reduction_percent": 64,
+      "fat_free_reduction_percent": 82
+    },
+    {
+      "repo": "john-milton_paradise-lost",
+      "words": 82188,
+      "url": "https://standardebooks.org/ebooks/john-milton/paradise-lost",
+      "metadata": "https://raw.githubusercontent.com/standardebooks/john-milton_paradise-lost/master/src/epub/content.opf",
+      "title": "Fat Free Paradise Lost",
+      "original_title": "Paradise Lost",
+      "author": "John Milton",
+      "original_hours": 7.0,
+      "semi_skimmed_hours": 4,
+      "fat_free_hours": 2,
+      "semi_reduction_percent": 43,
+      "fat_free_reduction_percent": 71
+    },
+    {
+      "repo": "dante-alighieri_the-divine-comedy_henry-wadsworth-longfellow",
+      "words": 115027,
+      "url": "https://standardebooks.org/ebooks/dante-alighieri/the-divine-comedy/henry-wadsworth-longfellow",
+      "metadata": "https://raw.githubusercontent.com/standardebooks/dante-alighieri_the-divine-comedy_henry-wadsworth-longfellow/master/src/epub/content.opf",
+      "title": "Fat Free Divine Comedy",
+      "original_title": "The Divine Comedy",
+      "author": "Dante Alighieri",
+      "original_hours": 9.5,
+      "semi_skimmed_hours": 4,
+      "fat_free_hours": 2,
+      "semi_reduction_percent": 58,
+      "fat_free_reduction_percent": 79
+    },
+    {
+      "repo": "friedrich-nietzsche_thus-spake-zarathustra_thomas-common",
+      "words": 90981,
+      "url": "https://standardebooks.org/ebooks/friedrich-nietzsche/thus-spake-zarathustra/thomas-common",
+      "metadata": "https://raw.githubusercontent.com/standardebooks/friedrich-nietzsche_thus-spake-zarathustra_thomas-common/master/src/epub/content.opf",
+      "title": "Fat Free Thus Spoke Zarathustra",
+      "original_title": "Thus Spoke Zarathustra",
+      "author": "Friedrich Nietzsche",
+      "original_hours": 7.5,
+      "semi_skimmed_hours": 4,
+      "fat_free_hours": 2,
+      "semi_reduction_percent": 47,
+      "fat_free_reduction_percent": 73
+    },
+    {
+      "repo": "james-joyce_ulysses",
+      "words": 264258,
+      "url": "https://standardebooks.org/ebooks/james-joyce/ulysses",
+      "metadata": "https://raw.githubusercontent.com/standardebooks/james-joyce_ulysses/master/src/epub/content.opf",
+      "title": "Fat Free Ulysses",
+      "original_title": "Ulysses",
+      "author": "James Joyce",
+      "original_hours": 22.0,
+      "semi_skimmed_hours": 8,
+      "fat_free_hours": 4,
+      "semi_reduction_percent": 64,
+      "fat_free_reduction_percent": 82
+    },
+    {
+      "words": 1354010,
+      "url": "https://gutenberg.net.au/plusfifty-n-z.html#proust",
+      "volumes": [
+        {
+          "url": "https://gutenberg.net.au/ebooks03/0300511.txt",
+          "words": 195968
+        },
+        {
+          "url": "https://gutenberg.net.au/ebooks03/0300401.txt",
+          "words": 236794
+        },
+        {
+          "url": "https://gutenberg.net.au/ebooks03/0300411.txt",
+          "words": 257677
+        },
+        {
+          "url": "https://gutenberg.net.au/ebooks03/0300491.txt",
+          "words": 229733
+        },
+        {
+          "url": "https://gutenberg.net.au/ebooks03/0300501.txt",
+          "words": 176822
+        },
+        {
+          "url": "https://gutenberg.net.au/ebooks03/0300541.txt",
+          "words": 119551
+        },
+        {
+          "url": "https://gutenberg.net.au/ebooks03/0300691.txt",
+          "words": 137465
+        }
+      ],
+      "evidence": "Seven complete English volumes, Scott Moncrieff and Stephen Hudson; count includes brief book front matter, excludes repository header. All seven volumes counted, not only Swann’s Way.",
+      "title": "Fat Free In Search of Lost Time",
+      "original_title": "In Search of Lost Time",
+      "author": "Marcel Proust",
+      "original_hours": 113.0,
+      "semi_skimmed_hours": 8,
+      "fat_free_hours": 4,
+      "semi_reduction_percent": 93,
+      "fat_free_reduction_percent": 96
+    },
+    {
+      "repo": "victor-hugo_les-miserables_isabel-f-hapgood",
+      "words": 559207,
+      "url": "https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood",
+      "metadata": "https://raw.githubusercontent.com/standardebooks/victor-hugo_les-miserables_isabel-f-hapgood/master/src/epub/content.opf",
+      "title": "Fat Free Les Misérables",
+      "original_title": "Les Misérables",
+      "author": "Victor Hugo",
+      "original_hours": 46.5,
+      "semi_skimmed_hours": 8,
+      "fat_free_hours": 4,
+      "semi_reduction_percent": 83,
+      "fat_free_reduction_percent": 91
+    },
+    {
+      "repo": "miguel-de-cervantes-saavedra_don-quixote_john-ormsby",
+      "words": 424431,
+      "url": "https://standardebooks.org/ebooks/miguel-de-cervantes-saavedra/don-quixote/john-ormsby",
+      "metadata": "https://raw.githubusercontent.com/standardebooks/miguel-de-cervantes-saavedra_don-quixote_john-ormsby/master/src/epub/content.opf",
+      "title": "Fat Free Don Quixote",
+      "original_title": "Don Quixote",
+      "author": "Miguel de Cervantes",
+      "original_hours": 35.5,
+      "semi_skimmed_hours": 8,
+      "fat_free_hours": 4,
+      "semi_reduction_percent": 77,
+      "fat_free_reduction_percent": 89
+    },
+    {
+      "repo": "fyodor-dostoevsky_the-brothers-karamazov_constance-garnett",
+      "words": 349853,
+      "url": "https://standardebooks.org/ebooks/fyodor-dostoevsky/the-brothers-karamazov/constance-garnett",
+      "metadata": "https://raw.githubusercontent.com/standardebooks/fyodor-dostoevsky_the-brothers-karamazov_constance-garnett/master/src/epub/content.opf",
+      "title": "Fat Free Brothers Karamazov",
+      "original_title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "original_hours": 29.0,
+      "semi_skimmed_hours": 8,
+      "fat_free_hours": 4,
+      "semi_reduction_percent": 72,
+      "fat_free_reduction_percent": 86
+    }
+  ]
+}

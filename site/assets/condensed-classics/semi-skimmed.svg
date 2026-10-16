@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 360">
+  <!-- Original flat bottle artwork. The even-odd path leaves the handle open. -->
+  <path fill="#fffaf0" stroke="#8b897b" stroke-width="2" fill-rule="evenodd" d="M73 39H137V67C137 77 183 88 193 109L211 151V322Q211 339 194 339H47Q30 339 30 322V126Q30 108 46 91L64 72Q73 63 73 53ZM153 100Q148 98 148 108V151Q148 161 159 161H183Q191 161 187 151L172 117Q166 106 153 100Z"/>
+  <rect x="69" y="21" width="72" height="20" rx="3" fill="#356440"/>
+  <rect x="29" y="190" width="183" height="101" fill="#f5f0e4" stroke="#8b897b"/>
+  <rect x="29" y="190" width="183" height="16" fill="#356440"/>
+  <path d="M65 230H176M65 247H162M65 264H143" fill="none" stroke="#356440" stroke-width="4"/>
+</svg>
