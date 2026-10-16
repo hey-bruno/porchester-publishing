@@ -1,0 +1,183 @@
+
+  /* Light heritage: a Caslon catalogue on cream, in the oak green of the logo. Restraint over ornament. */
+  :root {
+    --ground: #f5f0e4;      /* cream paper */
+    --ink: #1e2619;         /* green-black */
+    --muted: #6b6a5c;
+    --green: #46602f;       /* the logo's oak green: logo, wordmark, rules and small labels */
+    --rule: color-mix(in srgb, var(--green) 45%, transparent);
+    --plate-ink: #efe7d4;   /* cream lettering on cloth plates */
+    --display: "Libre Caslon Display", "Big Caslon", Georgia, serif;
+    --text: "Libre Caslon Text", "Big Caslon", Georgia, serif;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--ground); color-scheme: light; }
+  body {
+    margin: 0; min-height: 100vh; color: var(--ink); font-family: var(--text); font-size: 1.0625rem; line-height: 1.6;
+    background: radial-gradient(120% 80% at 50% 0%, #fbf8f0 0%, var(--ground) 65%);
+    display: flex; padding: 16px;
+  }
+  a { color: inherit; text-decoration-color: var(--rule); text-underline-offset: .2em; }
+  a:hover { text-decoration-color: var(--green); }
+  img { display: block; max-width: 100%; height: auto; }
+
+  /* Thick-and-thin frame, as on a nineteenth-century title page */
+  .page { flex: 1; display: flex; flex-direction: column; border: 1px solid var(--rule); padding: 5px; }
+  .page > .inner { flex: 1; display: flex; flex-direction: column; border: 3px solid var(--rule); padding: 0 clamp(16px, 4vw, 3rem) 2rem; }
+
+  .smallcaps { font-variant: small-caps; text-transform: lowercase; letter-spacing: .2em; }
+
+  /* Masthead: compact, the books carry the page */
+  header { display: flex; flex-direction: column; align-items: center; gap: .9rem; padding: 1.75rem 0 1.5rem; border-bottom: 1px solid var(--rule); text-align: center; }
+  .brand { display: flex; align-items: center; gap: .9rem; text-decoration: none; }
+  .logo { width: 3.1rem; height: auto; }
+  .wordmark { margin: 0; font-family: var(--display); font-weight: normal; line-height: 1; text-align: left; }
+  .wordmark .house { display: block; color: var(--green); font-size: 1.65rem; letter-spacing: .16em; text-transform: uppercase; }
+  .wordmark .trade { display: block; font-family: var(--text); font-style: italic; font-size: .95rem; letter-spacing: .03em; margin-top: .3rem; }
+  .place { margin: 0; color: var(--muted); font-size: .85rem; }
+  @media (min-width: 40rem) {
+    header { flex-direction: row; justify-content: space-between; padding: 1.5rem .25rem; }
+  }
+
+  main { width: 100%; max-width: 66rem; margin: 0 auto; padding-top: clamp(2.5rem, 7vh, 4rem); flex: 1; }
+  section + section { margin-top: clamp(3rem, 8vh, 4.5rem); }
+  /* Section heads sit between two fine rules */
+  h2 { display: flex; align-items: center; gap: 1.1rem; margin: 0 0 2rem; font-weight: normal; font-size: .85rem; color: var(--green); text-align: center; }
+  h2::before, h2::after { content: ""; flex: 1; border-top: 1px solid var(--rule); }
+
+  .list { list-style: none; margin: 0; padding: 0; }
+  .series { display: block; color: var(--green); font-size: .75rem; margin-bottom: .45rem; }
+  .title { display: block; text-decoration: none; font-style: italic; font-size: 1.25rem; line-height: 1.25; }
+  .subtitle { display: block; margin-top: .3rem; font-size: 1rem; }
+  .genre { display: block; margin-top: .55rem; color: var(--muted); font-size: .72rem; }
+  .tagline { margin: .8rem 0 0; color: var(--muted); font-size: .92rem; line-height: 1.5; }
+  .author { display: inline-block; margin-top: 1rem; color: var(--muted); font-size: .9rem; }
+  .title, .subtitle, .tagline { text-wrap: balance; }
+  .buy { margin: 1.4rem 0 0; font-size: .92rem; line-height: 1.5; }
+  .buy p { margin: .35rem 0 0; }
+  /* One button per store, in small caps between fine green rules. Faded <span> until launch; then <a class="store" href="…">. */
+  .stores { list-style: none; display: flex; flex-wrap: wrap; gap: .55rem; margin: .9rem 0 0; padding: 0; }
+  .feature .stores { justify-content: center; }
+  .store { display: inline-block; padding: .4rem .8rem .45rem; border: 1px solid var(--green); color: var(--green); font-variant: small-caps; text-transform: lowercase; letter-spacing: .14em; font-size: .9rem; line-height: 1.2; text-decoration: none; }
+  a.store:hover { background: var(--green); color: var(--ground); }
+  span.store { opacity: .45; cursor: default; }
+  @media (min-width: 44rem) { .feature .stores { justify-content: flex-start; } }
+  .synopsis { margin: 1.6rem 0 0; padding-top: 1.4rem; border-top: 1px solid var(--rule); font-size: 1rem; line-height: 1.65; text-align: left; }
+  .synopsis p { margin: 0 0 1em; text-wrap: pretty; }
+  .synopsis p:last-child { margin-bottom: 0; }
+
+  /* Covers: 2:3. A real jacket is an <img>; until then a cloth plate stands in */
+  .cover { container-type: inline-size; aspect-ratio: 2 / 3; box-shadow: 0 1px 2px rgba(30, 38, 25, .18), 0 10px 24px -12px rgba(30, 38, 25, .45); }
+  .cover img { width: 100%; height: 100%; object-fit: cover; }
+  .plate { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding: 9% 10% 8%; text-align: center;
+           background-color: var(--cloth, var(--green)); color: var(--plate-ink); outline: 1px solid color-mix(in srgb, var(--plate-ink) 45%, transparent); outline-offset: -7px; }
+  .plate::before { content: ""; width: 34%; height: 4px; border-top: 1.5px solid currentColor; border-bottom: .5px solid currentColor; opacity: .7; }
+  .plate-title { font-family: var(--display); font-size: 6.4cqi; line-height: 1.3; letter-spacing: .1em; text-transform: uppercase; text-wrap: balance; }
+  .plate-mark { width: 22%; aspect-ratio: 755 / 790; background: currentColor; opacity: .85;
+                -webkit-mask: url(/assets/porchester-logo.svg) center / contain no-repeat; mask: url(/assets/porchester-logo.svg) center / contain no-repeat; }
+
+  /* Too small to letter legibly (phone thumbnails): cloth, rule and mark only */
+  @container (max-width: 8rem) { .plate-title { display: none; } .plate { justify-content: space-around; } }
+
+  /* Forthcoming: cover beside the text */
+  .feature { display: grid; gap: 1.75rem; justify-items: center; text-align: center; max-width: 46rem; margin: 0 auto; }
+  .feature .cover { width: min(62%, 15rem); }
+  .feature .title { font-size: clamp(1.45rem, 4.4vw, 1.9rem); }
+  .feature .subtitle { font-size: 1.15rem; }
+  .feature .tagline { font-size: 1rem; max-width: 26rem; margin-left: auto; margin-right: auto; }
+  @media (min-width: 44rem) {
+    .feature { grid-template-columns: 15rem 1fr; gap: 3rem; align-items: start; justify-items: start; text-align: left; }
+    .feature .cover { width: 100%; position: sticky; top: 2rem; }
+    .feature .tagline { margin-left: 0; }
+  }
+
+  /* In development: cover left of text on phones, a shelf of covers on wider screens */
+  .shelf { display: grid; gap: 2rem; }
+  .shelf li { display: grid; grid-template-columns: 6.5rem 1fr; gap: 1.1rem; align-items: start; }
+  .shelf .title { font-size: 1.1rem; }
+  .shelf .subtitle { font-size: .95rem; }
+  .shelf .tagline { font-size: .88rem; }
+  @media (min-width: 40rem) {
+    .shelf { grid-template-columns: repeat(2, 1fr); gap: 2.75rem 2.25rem; }
+    .shelf li { grid-template-columns: 1fr; gap: 1.1rem; align-content: start; }
+    /* keep titles level across a row when a book has no series line */
+    .shelf .info:not(:has(.series))::before { content: ""; display: block; height: calc(.75rem * 1.6 + .45rem); }
+    .shelf .cover { width: 11rem; }
+  }
+  @media (min-width: 62rem) {
+    .shelf { grid-template-columns: repeat(4, 1fr); gap: 2.25rem; }
+    .shelf .cover { width: 100%; }
+  }
+
+  footer { margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .8rem; text-align: center; }
+  footer a { display: inline-block; margin-top: .45rem; color: var(--muted); }
+
+  /* Cover lightbox */
+  a.zoom { display: block; width: 100%; height: 100%; cursor: zoom-in; }
+  .lightbox { padding: 0; border: 0; background: transparent; max-width: 100vw; max-height: 100vh; width: 100vw; height: 100vh; cursor: zoom-out; } .lightbox[open] { display: flex; align-items: center; justify-content: center; }
+  .lightbox::backdrop { background: rgba(10, 10, 9, .92); }
+  .lightbox img { display: block; width: auto; height: auto; max-width: 94vw; max-height: 94vh; margin: 0; box-shadow: 0 12px 40px rgba(0, 0, 0, .6); }
+  .lightbox button { position: fixed; top: .9rem; right: 1rem; padding: .3rem .7rem; border: 0; background: rgba(255, 255, 255, .12); color: #fff; font: inherit; font-size: 1.4rem; line-height: 1; cursor: pointer; }
+  .about p { max-width: 34rem; margin-left: auto; margin-right: auto; text-align: center; }
+
+/* Publisher navigation, editorial hierarchy and shared page layouts. */
+.page { min-width: 0; }
+header { gap: 1rem; }
+.wordmark { font-size: 1rem; }
+.site-nav { border-bottom: 1px solid var(--rule); }
+.site-nav ul { display: flex; flex-wrap: wrap; justify-content: center; gap: .25rem 1.8rem; list-style: none; margin: 0; padding: .8rem 0; }
+.site-nav a { display: inline-block; padding: .55rem 0; font-size: .85rem; text-decoration: none; }
+.site-nav a:hover, .site-nav a[aria-current] { color: var(--green); text-decoration: underline; text-underline-offset: .45em; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--green); outline-offset: 5px; }
+.skip { position: absolute; left: 1.5rem; top: -8rem; padding: .75rem; background: var(--ground); z-index: 10; }
+.skip:focus { top: 1rem; }
+main { padding-top: 2.5rem; }
+h1 { font: normal clamp(2rem, 5vw, 3.2rem)/1.12 var(--display); margin: 0 0 1rem; text-wrap: balance; }
+h3.title { font-weight: normal; }
+.breadcrumb { font-size: .8rem; margin: 0 0 2rem; color: var(--muted); }
+.page-intro { max-width: 42rem; margin: 0 auto 3rem; text-align: center; }
+.page-intro p { max-width: 36rem; margin: 1rem auto; }
+.page-intro .series { margin-bottom: 1rem; }
+.section-intro { max-width: 42rem; margin: 0 auto 2.5rem; }
+.section-intro p, .prose p { text-wrap: pretty; }
+.prose { max-width: 42rem; margin-left: auto; margin-right: auto; }
+.prose h2 { margin-top: 0; }
+.feature .info { min-width: 0; }
+.feature .book-heading { font-size: clamp(2rem, 4vw, 2.6rem); }
+.feature .cover { position: static; }
+.feature .synopsis { margin-bottom: 0; }
+.feature .tagline { max-width: none; }
+.actions { margin: 1.5rem 0 0; }
+.actions a { display: inline-block; padding: .5rem 0; color: var(--green); }
+.shelf a.title:hover { text-decoration: underline; text-underline-offset: .2em; }
+.shelf .cover-link { display: block; }
+.shelf .title { font-weight: normal; margin: 0; }
+.shelf li { min-width: 0; }
+.shelf + .actions { text-align: center; }
+.edition-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; }
+.edition { border-top: 1px solid var(--rule); padding-top: 1.5rem; }
+.edition img { width: 7rem; margin: 0 auto 1.5rem; }
+.edition h3 { font: normal 1.8rem var(--display); margin: 0; }
+.edition p { margin: .8rem 0; }
+.visual-list { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1.75rem; }
+.visual-list h3 { font: normal 1.5rem var(--display); }
+.visual-list p { font-size: .92rem; }
+.reading-times { margin-top: 1rem; font-size: .82rem; line-height: 1.55; }
+.reading-times p { margin: .35rem 0; }
+.reading-times .genre { margin-bottom: .65rem; }
+.publisher-note { max-width: 42rem; margin: 0 auto; }
+footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1.5rem; text-align: left; }
+footer p { margin: 0; }
+footer ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .4rem 1.25rem; }
+footer a { margin: 0; }
+.email { overflow-wrap: anywhere; }
+@media (min-width: 44rem) { .feature { max-width: 54rem; grid-template-columns: 16rem minmax(0,1fr); gap: 3.5rem; } .shelf.two { grid-template-columns: repeat(2,minmax(0,1fr)); max-width: 36rem; margin: auto; } .shelf.two .cover { width: 11rem; } }
+@media (max-width: 39.99rem) { .site-nav ul { gap: .1rem 1.1rem; padding: .6rem 0; } .site-nav a { font-size: .78rem; } .edition-grid, .visual-list { grid-template-columns: 1fr; } .feature .info { width: 100%; } .book-heading { text-align: center; } .prose { width: 100%; } }
+@media (max-width: 23rem) { .brand { gap: .6rem; } .wordmark .house { font-size: 1.3rem; } .logo { width: 2.6rem; } .shelf li { grid-template-columns: 5rem minmax(0,1fr); gap: .8rem; } }
+
+.series-intro p { text-align: left; }
+.series-intro .tagline, .series-intro .actions { text-align: center; }
+main > article + section { margin-top: clamp(3rem, 8vh, 4.5rem); }
+#lead { text-align: center; margin-bottom: 2rem; }
+.publisher-note { margin: clamp(3rem, 8vh, 4.5rem) auto 0; }
+.cover-link { text-decoration: none; }

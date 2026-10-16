@@ -1,180 +1,43 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Condensed Classics — Porchester Publishing</title>
-<meta name="description" content="The entire story, without the fat. All killer, no filler. Original prose or a classic English translation, with new diagrams, graphs and illustrations.">
+<meta name="description" content="The entire story, without the fat. Fat Free and Semi-Skimmed classics in the author’s words, with new diagrams, graphs and illustrations.">
 <link rel="canonical" href="https://porchesterpublishing.com/condensed-classics/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Porchester Publishing">
 <meta property="og:title" content="The Condensed Classics — Porchester Publishing">
-<meta property="og:description" content="The entire story, without the fat. All killer, no filler. Original prose or a classic English translation, with new diagrams, graphs and illustrations.">
+<meta property="og:description" content="The entire story, without the fat. Fat Free and Semi-Skimmed classics in the author’s words, with new diagrams, graphs and illustrations.">
 <meta property="og:url" content="https://porchesterpublishing.com/condensed-classics/">
 <meta property="og:locale" content="en_GB">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="The Condensed Classics — Porchester Publishing">
-<meta name="twitter:description" content="The entire story, without the fat. All killer, no filler. Original prose or a classic English translation, with new diagrams, graphs and illustrations.">
-<meta name="theme-color" content="#f5f0e4">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="theme-color" content="#f5f0e4"><link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap">
-<style>
-  /* Light heritage: a Caslon catalogue on cream, in the oak green of the logo. Restraint over ornament. */
-  :root {
-    --ground: #f5f0e4;      /* cream paper */
-    --ink: #1e2619;         /* green-black */
-    --muted: #6b6a5c;
-    --green: #46602f;       /* the logo's oak green: logo, wordmark, rules and small labels */
-    --rule: color-mix(in srgb, var(--green) 45%, transparent);
-    --plate-ink: #efe7d4;   /* cream lettering on cloth plates */
-    --display: "Libre Caslon Display", "Big Caslon", Georgia, serif;
-    --text: "Libre Caslon Text", "Big Caslon", Georgia, serif;
-  }
-  * { box-sizing: border-box; }
-  html { background: var(--ground); color-scheme: light; }
-  body {
-    margin: 0; min-height: 100vh; color: var(--ink); font-family: var(--text); font-size: 1.0625rem; line-height: 1.6;
-    background: radial-gradient(120% 80% at 50% 0%, #fbf8f0 0%, var(--ground) 65%);
-    display: flex; padding: 16px;
-  }
-  a { color: inherit; text-decoration-color: var(--rule); text-underline-offset: .2em; }
-  a:hover { text-decoration-color: var(--green); }
-  img { display: block; max-width: 100%; height: auto; }
+<link rel="stylesheet" href="/assets/site.css">
+</head><body><a class="skip" href="#main">Skip to content</a><div class="page"><div class="inner">
+<header><a class="brand" href="/" aria-label="Porchester Publishing homepage"><img class="logo" src="/assets/porchester-logo.svg" alt="" width="755" height="790"><p class="wordmark"><span class="house">Porchester</span><span class="trade">Publishing</span></p></a><p class="place smallcaps">London</p></header>
+<nav class="site-nav" aria-label="Main navigation"><ul><li><a href="/underqualified/">The Underqualified</a></li><li><a href="/standalone/">Standalone books</a></li><li><a href="/condensed-classics/" aria-current="page">The Condensed Classics</a></li><li><a href="/about/">About</a></li><li><a href="/contact/">Contact</a></li></ul></nav><main id="main" tabindex="-1">
 
-  /* Thick-and-thin frame, as on a nineteenth-century title page */
-  .page { flex: 1; display: flex; flex-direction: column; border: 1px solid var(--rule); padding: 5px; }
-  .page > .inner { flex: 1; display: flex; flex-direction: column; border: 3px solid var(--rule); padding: 0 clamp(16px, 4vw, 3rem) 2rem; }
 
-  .smallcaps { font-variant: small-caps; text-transform: lowercase; letter-spacing: .2em; }
-
-  /* Masthead: compact, the books carry the page */
-  header { display: flex; flex-direction: column; align-items: center; gap: .9rem; padding: 1.75rem 0 1.5rem; border-bottom: 1px solid var(--rule); text-align: center; }
-  .brand { display: flex; align-items: center; gap: .9rem; text-decoration: none; }
-  .logo { width: 3.1rem; height: auto; }
-  h1 { margin: 0; font-family: var(--display); font-weight: normal; line-height: 1; text-align: left; }
-  h1 .house { display: block; color: var(--green); font-size: 1.65rem; letter-spacing: .16em; text-transform: uppercase; }
-  h1 .trade { display: block; font-family: var(--text); font-style: italic; font-size: .95rem; letter-spacing: .03em; margin-top: .3rem; }
-  .place { margin: 0; color: var(--muted); font-size: .85rem; }
-  @media (min-width: 40rem) {
-    header { flex-direction: row; justify-content: space-between; padding: 1.5rem .25rem; }
-  }
-
-  main { width: 100%; max-width: 66rem; margin: 0 auto; padding-top: clamp(2.5rem, 7vh, 4rem); flex: 1; }
-  section + section { margin-top: clamp(3rem, 8vh, 4.5rem); }
-  /* Section heads sit between two fine rules */
-  h2 { display: flex; align-items: center; gap: 1.1rem; margin: 0 0 2rem; font-weight: normal; font-size: .85rem; color: var(--green); white-space: nowrap; }
-  h2::before, h2::after { content: ""; flex: 1; border-top: 1px solid var(--rule); }
-
-  .list { list-style: none; margin: 0; padding: 0; }
-  .series { display: block; color: var(--green); font-size: .75rem; margin-bottom: .45rem; }
-  .title { display: block; text-decoration: none; font-style: italic; font-size: 1.25rem; line-height: 1.25; }
-  .subtitle { display: block; margin-top: .3rem; font-size: 1rem; }
-  .genre { display: block; margin-top: .55rem; color: var(--muted); font-size: .72rem; }
-  .tagline { margin: .8rem 0 0; color: var(--muted); font-size: .92rem; line-height: 1.5; }
-  .author { display: inline-block; margin-top: 1rem; color: var(--muted); font-size: .9rem; }
-  .title, .subtitle, .tagline { text-wrap: balance; }
-  .buy { margin: 1.4rem 0 0; font-size: .92rem; line-height: 1.5; }
-  .buy p { margin: .35rem 0 0; }
-  /* One button per store, in small caps between fine green rules. Faded <span> until launch; then <a class="store" href="…">. */
-  .stores { list-style: none; display: flex; flex-wrap: wrap; gap: .55rem; margin: .9rem 0 0; padding: 0; }
-  .feature .stores { justify-content: center; }
-  .store { display: inline-block; padding: .4rem .8rem .45rem; border: 1px solid var(--green); color: var(--green); font-variant: small-caps; text-transform: lowercase; letter-spacing: .14em; font-size: .9rem; line-height: 1.2; text-decoration: none; }
-  a.store:hover { background: var(--green); color: var(--ground); }
-  span.store { opacity: .45; cursor: default; }
-  @media (min-width: 44rem) { .feature .stores { justify-content: flex-start; } }
-  .synopsis { margin: 1.6rem 0 0; padding-top: 1.4rem; border-top: 1px solid var(--rule); font-size: 1rem; line-height: 1.65; text-align: left; }
-  .synopsis p { margin: 0 0 1em; text-wrap: pretty; }
-  .synopsis p:last-child { margin-bottom: 0; }
-
-  /* Covers: 2:3. A real jacket is an <img>; until then a cloth plate stands in */
-  .cover { container-type: inline-size; aspect-ratio: 2 / 3; box-shadow: 0 1px 2px rgba(30, 38, 25, .18), 0 10px 24px -12px rgba(30, 38, 25, .45); }
-  .cover img { width: 100%; height: 100%; object-fit: cover; }
-  .plate { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding: 9% 10% 8%; text-align: center;
-           background-color: var(--cloth, var(--green)); color: var(--plate-ink); outline: 1px solid color-mix(in srgb, var(--plate-ink) 45%, transparent); outline-offset: -7px; }
-  .plate::before { content: ""; width: 34%; height: 4px; border-top: 1.5px solid currentColor; border-bottom: .5px solid currentColor; opacity: .7; }
-  .plate-title { font-family: var(--display); font-size: 6.4cqi; line-height: 1.3; letter-spacing: .1em; text-transform: uppercase; text-wrap: balance; }
-  .plate-mark { width: 22%; aspect-ratio: 755 / 790; background: currentColor; opacity: .85;
-                -webkit-mask: url(/assets/porchester-logo.svg) center / contain no-repeat; mask: url(/assets/porchester-logo.svg) center / contain no-repeat; }
-
-  /* Too small to letter legibly (phone thumbnails): cloth, rule and mark only */
-  @container (max-width: 8rem) { .plate-title { display: none; } .plate { justify-content: space-around; } }
-
-  /* Forthcoming: cover beside the text */
-  .feature { display: grid; gap: 1.75rem; justify-items: center; text-align: center; max-width: 46rem; margin: 0 auto; }
-  .feature .cover { width: min(62%, 15rem); }
-  .feature .title { font-size: clamp(1.45rem, 4.4vw, 1.9rem); }
-  .feature .subtitle { font-size: 1.15rem; }
-  .feature .tagline { font-size: 1rem; max-width: 26rem; margin-left: auto; margin-right: auto; }
-  @media (min-width: 44rem) {
-    .feature { grid-template-columns: 15rem 1fr; gap: 3rem; align-items: start; justify-items: start; text-align: left; }
-    .feature .cover { width: 100%; position: sticky; top: 2rem; }
-    .feature .tagline { margin-left: 0; }
-  }
-
-  /* In development: cover left of text on phones, a shelf of covers on wider screens */
-  .shelf { display: grid; gap: 2rem; }
-  .shelf li { display: grid; grid-template-columns: 6.5rem 1fr; gap: 1.1rem; align-items: start; }
-  .shelf .title { font-size: 1.1rem; }
-  .shelf .subtitle { font-size: .95rem; }
-  .shelf .tagline { font-size: .88rem; }
-  @media (min-width: 40rem) {
-    .shelf { grid-template-columns: repeat(2, 1fr); gap: 2.75rem 2.25rem; }
-    .shelf li { grid-template-columns: 1fr; gap: 1.1rem; align-content: start; }
-    /* keep titles level across a row when a book has no series line */
-    .shelf .info:not(:has(.series))::before { content: ""; display: block; height: calc(.75rem * 1.6 + .45rem); }
-    .shelf .cover { width: 11rem; }
-  }
-  @media (min-width: 62rem) {
-    .shelf { grid-template-columns: repeat(4, 1fr); gap: 2.25rem; }
-    .shelf .cover { width: 100%; }
-  }
-
-  footer { margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .8rem; text-align: center; }
-  footer a { display: inline-block; margin-top: .45rem; color: var(--muted); }
-
-  /* Cover lightbox */
-  a.zoom { display: block; width: 100%; height: 100%; cursor: zoom-in; }
-  .lightbox { padding: 0; border: 0; background: transparent; max-width: 100vw; max-height: 100vh; width: 100vw; height: 100vh; cursor: zoom-out; } .lightbox[open] { display: flex; align-items: center; justify-content: center; }
-  .lightbox::backdrop { background: rgba(10, 10, 9, .92); }
-  .lightbox img { display: block; width: auto; height: auto; max-width: 94vw; max-height: 94vh; margin: 0; box-shadow: 0 12px 40px rgba(0, 0, 0, .6); }
-  .lightbox button { position: fixed; top: .9rem; right: 1rem; padding: .3rem .7rem; border: 0; background: rgba(255, 255, 255, .12); color: #fff; font: inherit; font-size: 1.4rem; line-height: 1; cursor: pointer; }
-  .about p { max-width: 34rem; margin-left: auto; margin-right: auto; text-align: center; }
-</style>
-</head>
-<body>
-<div class="page"><div class="inner">
-  <header>
-    <a class="brand" href="/" aria-label="Porchester Publishing">
-      <img class="logo" src="/assets/porchester-logo.svg" alt="" width="755" height="790">
-      <h1><span class="house">Porchester</span><span class="trade">Publishing</span></h1>
-    </a>
-    <p class="place smallcaps">London</p>
-  </header>
-  <main>
-    <nav aria-label="Main navigation" class="about">
-      <p><a href="/underqualified/">The Underqualified</a> · <a href="/#standalone">Standalone books</a> · <a href="/condensed-classics/">The Condensed Classics</a> · <a href="/#about">About</a> · <a href="/#press">Contact</a></p>
-    </nav>
-    <nav aria-label="Back to publisher"><a  href="/">← Porchester Publishing</a></nav>
-    <section class="about" aria-labelledby="series-title">
+    <section class="page-intro series-intro" aria-labelledby="series-title">
       <p class="series smallcaps">Coming soon</p>
-      <h2 id="series-title" class="smallcaps">The Condensed Classics</h2>
+      <h1 id="series-title">The Condensed Classics</h1>
       <p class="tagline">For readers with literary ambitions and the attention span of a fruit fly.</p>
       <p>You know who you are. You sort of think you should read the classics, but you have a job, other things to do and no intention of spending the next month on a Russian novel. Fat Free gets you through the whole story in two or four hours, in the author’s own words.</p>
       <p>Start with Fat Free and see whether you like the writing. If you want more, switch mid-stream to Semi-Skimmed. If you love it, read the freaking original.</p>
+      <p class="actions"><a href="#collection">Explore the collection ↓</a></p>
     </section>
-    <section class="about" aria-labelledby="story-heading">
+    <section class="prose" aria-labelledby="story-heading">
       <h2 id="story-heading" class="smallcaps">All killer, no filler.</h2>
       <p>You get the whole story in the author’s own language, or a classic English translation, with more plot and less faff. The dialogue, humour and turns of phrase are there to enjoy for yourself. A Wikipedia page or an AI summary gives you the gist and leaves out the reason to read the book.</p>
       <p>Fat Free has the pace of a movie trailer and takes you through the entire story, ending included. As with a trailer, the scenes and dialogue come from the original. You get a faster read in the language you came for.</p>
       <p>Call it literary sacrilege. You can finish a classic this weekend and still have time to do something else, which is more than that untouched copy on your shelf has managed.</p>
     </section>
-    <section class="about" aria-labelledby="guides-heading">
+    <section class="prose" aria-labelledby="guides-heading">
       <p class="series smallcaps">Newly created for these editions</p>
       <h2 id="guides-heading" class="smallcaps">Illustrated guides</h2>
       <p >Every edition includes new diagrams, graphs and illustrations. Character maps show who is related to whom, timelines put events in order, and visual explanations help with the ideas that take more than a family tree to untangle.</p>
-      <div class="synopsis">
+      <div class="visual-list">
         <article><h3 class="title">Diagrams</h3><p>Character maps, family trees and relationship diagrams to keep names, loyalties and connections straight.</p></article>
         <article><h3 class="title">Graphs &amp; maps</h3><p>Timelines, maps of places and events, and visual explanations of how the book’s ideas connect.</p></article>
         <article><h3 class="title">Illustrations</h3><p>New illustrations created for the editions, helping you picture the world you’re reading about.</p></article>
@@ -183,44 +46,123 @@
     </section>
     <section aria-labelledby="cuts-heading">
       <h2 class="smallcaps" id="cuts-heading">Choose your edition</h2>
-      <div>
-        <section class="feature" aria-labelledby="fat-free-heading"><div class="cover"><img src="/assets/condensed-classics/fat-free.svg" alt="" width="240" height="360"></div><div class="info">
+      <div class="edition-grid">
+        <article class="edition" aria-labelledby="fat-free-heading"><div><img src="/assets/condensed-classics/fat-free.svg" alt="" width="240" height="360"></div><div class="info">
           <h3 class="title" id="fat-free-heading">Fat Free</h3>
           <p class="tagline">Two or four hours, guides included</p>
           <p>The shortest route through the whole story, using the author’s prose. Start here if you keep abandoning the original or have never got round to opening it.</p>
-        </div></section>
-        <section class="feature" aria-labelledby="skimmed-heading"><div class="cover"><img src="/assets/condensed-classics/semi-skimmed.svg" alt="" width="240" height="360"></div><div class="info">
+        </div></article>
+        <article class="edition" aria-labelledby="skimmed-heading"><div><img src="/assets/condensed-classics/semi-skimmed.svg" alt="" width="240" height="360"></div><div class="info">
           <h3 class="title" id="skimmed-heading">Semi-Skimmed</h3>
           <p class="tagline">Four or eight hours, guides included</p>
           <p>A longer cut with more of the scenes, conversations and description. Choose this if you already enjoy the author, or switch across from Fat Free when you find yourself wanting more.</p>
-        </div></section>
+        </div></article>
       </div>
-      <div class="about synopsis">
+      <div class="prose synopsis">
         <h3 class="title">Full Fat</h3>
         <p>The unabridged book, with every scene and digression. Each title in the collection links to the unabridged text, for when you decide the author deserves more of your time.</p>
       </div>
     </section>
-    <section class="about" aria-labelledby="switch-heading">
+    <section class="prose" aria-labelledby="switch-heading">
       <h2 id="switch-heading" class="smallcaps">Switch as you read</h2>
       <p>The combined ebook links the two cuts at corresponding passages. You can move from Fat Free to Semi-Skimmed halfway through, read a scene at greater length, or switch back when you want to pick up the pace.</p>
       <p>Fat Free and Semi-Skimmed also come as standalone editions. The milk names describe the cuts, not percentages of retained text.</p>
     </section>
-    <section class="about" aria-labelledby="words-heading">
+    <section class="prose" aria-labelledby="words-heading">
       <h2 id="words-heading" class="smallcaps">The author’s words</h2>
       <p>You read the author’s prose, in the original English or a credited classic translation. We try to add nothing: any essential linking words are visibly marked. The source texts and translations are in the public domain.</p>
       <p>The new illustrated guides sit alongside the text, clearly separate from the author’s prose.</p>
     </section>
-    <section class="about" aria-labelledby="first-heading">
+    <section class="prose" aria-labelledby="first-heading">
       <p class="series smallcaps">First in development</p>
       <h2 id="first-heading" class="smallcaps">Fat Free War and Peace</h2>
       <p class="author smallcaps">Leo Tolstoy</p>
-      <div class="buy"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://www.gutenberg.org/ebooks/2600">Original</a>: ≈ 47 h</p><p>Semi-Skimmed: ≈ 8 h (83% less time)</p><p>Fat Free: ≈ 4 h (91% less time)</p></div>
+      <div class="reading-times"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://www.gutenberg.org/ebooks/2600">Original</a>: ≈ 47 h</p><p>Semi-Skimmed: ≈ 8 h (83% less time)</p><p>Fat Free: ≈ 4 h (91% less time)</p></div>
       <p >Love, family ambition and Napoleon’s invasion of Russia, in Tolstoy’s prose through a classic English translation. The original takes about 47 hours; Semi-Skimmed takes eight (83% less), and Fat Free takes four (91% less), including the new illustrated guides. Relationship diagrams keep the families straight, while maps and timelines help you follow the war.</p>
       <p class="author smallcaps">Condensed and edited by Porchester Publishing.</p>
     </section>
-    <p class="buy"><a href="/#classics-catalogue">Explore the collection and compare reading times →</a></p>
-  </main>
-  <footer><span class="smallcaps">Porchester Publishing · London</span><br><a href="mailto:contact@porchesterpublishing.com">contact@porchesterpublishing.com</a></footer>
-</div></div>
-</body>
-</html>
+
+  <section aria-labelledby="collection-heading" id="collection"><h2 id="collection-heading" class="smallcaps">The collection</h2><ul class="list shelf">
+        <li>
+          <div class="cover"><div class="plate" style="--cloth:#5c4637" aria-hidden="true"><span class="plate-title">Fat Free Decameron</span><span class="plate-mark"></span></div></div>
+          <div class="info">
+            <span class="title">Fat Free Decameron</span>
+            <span class="author smallcaps">Giovanni Boccaccio</span>
+            <div class="reading-times"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://standardebooks.org/ebooks/giovanni-boccaccio/the-decameron/john-payne">Original</a>: ≈ 24.5 h</p><p>Semi-Skimmed: ≈ 8 h (67% less time)</p><p>Fat Free: ≈ 4 h (84% less time)</p></div>
+          </div>
+        </li>
+        <li>
+          <div class="cover"><div class="plate" style="--cloth:#3e5555" aria-hidden="true"><span class="plate-title">Fat Free Metamorphoses</span><span class="plate-mark"></span></div></div>
+          <div class="info">
+            <span class="title">Fat Free Metamorphoses</span>
+            <span class="author smallcaps">Ovid</span>
+            <div class="reading-times"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://standardebooks.org/ebooks/ovid/metamorphoses/various-translators">Original</a>: ≈ 11 h</p><p>Semi-Skimmed: ≈ 4 h (64% less time)</p><p>Fat Free: ≈ 2 h (82% less time)</p></div>
+          </div>
+        </li>
+        <li>
+          <div class="cover"><div class="plate" style="--cloth:#4f3945" aria-hidden="true"><span class="plate-title">Fat Free Paradise Lost</span><span class="plate-mark"></span></div></div>
+          <div class="info">
+            <span class="title">Fat Free Paradise Lost</span>
+            <span class="author smallcaps">John Milton</span>
+            <div class="reading-times"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://standardebooks.org/ebooks/john-milton/paradise-lost">Original</a>: ≈ 7 h</p><p>Semi-Skimmed: ≈ 4 h (43% less time)</p><p>Fat Free: ≈ 2 h (71% less time)</p></div>
+          </div>
+        </li>
+        <li>
+          <div class="cover"><div class="plate" style="--cloth:#59442e" aria-hidden="true"><span class="plate-title">Fat Free Divine Comedy</span><span class="plate-mark"></span></div></div>
+          <div class="info">
+            <span class="title">Fat Free Divine Comedy</span>
+            <span class="author smallcaps">Dante Alighieri</span>
+            <div class="reading-times"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://standardebooks.org/ebooks/dante-alighieri/the-divine-comedy/henry-wadsworth-longfellow">Original</a>: ≈ 9.5 h</p><p>Semi-Skimmed: ≈ 4 h (58% less time)</p><p>Fat Free: ≈ 2 h (79% less time)</p></div>
+          </div>
+        </li>
+        <li>
+          <div class="cover"><div class="plate" style="--cloth:#464a35" aria-hidden="true"><span class="plate-title">Fat Free Thus Spoke Zarathustra</span><span class="plate-mark"></span></div></div>
+          <div class="info">
+            <span class="title">Fat Free Thus Spoke Zarathustra</span>
+            <span class="author smallcaps">Friedrich Nietzsche</span>
+            <div class="reading-times"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://standardebooks.org/ebooks/friedrich-nietzsche/thus-spake-zarathustra/thomas-common">Original</a>: ≈ 7.5 h</p><p>Semi-Skimmed: ≈ 4 h (47% less time)</p><p>Fat Free: ≈ 2 h (73% less time)</p></div>
+          </div>
+        </li>
+        <li>
+          <div class="cover"><div class="plate" style="--cloth:#32485b" aria-hidden="true"><span class="plate-title">Fat Free Ulysses</span><span class="plate-mark"></span></div></div>
+          <div class="info">
+            <span class="title">Fat Free Ulysses</span>
+            <span class="author smallcaps">James Joyce</span>
+            <div class="reading-times"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://standardebooks.org/ebooks/james-joyce/ulysses">Original</a>: ≈ 22 h</p><p>Semi-Skimmed: ≈ 8 h (64% less time)</p><p>Fat Free: ≈ 4 h (82% less time)</p></div>
+          </div>
+        </li>
+        <li>
+          <div class="cover"><div class="plate" style="--cloth:#514355" aria-hidden="true"><span class="plate-title">Fat Free In Search of Lost Time</span><span class="plate-mark"></span></div></div>
+          <div class="info">
+            <span class="title">Fat Free In Search of Lost Time</span>
+            <span class="author smallcaps">Marcel Proust</span>
+            <div class="reading-times"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://gutenberg.net.au/plusfifty-n-z.html#proust">Original</a>: ≈ 113 h</p><p>Semi-Skimmed: ≈ 8 h (93% less time)</p><p>Fat Free: ≈ 4 h (96% less time)</p></div>
+          </div>
+        </li>
+        <li>
+          <div class="cover"><div class="plate" style="--cloth:#553637" aria-hidden="true"><span class="plate-title">Fat Free Les Misérables</span><span class="plate-mark"></span></div></div>
+          <div class="info">
+            <span class="title">Fat Free Les Misérables</span>
+            <span class="author smallcaps">Victor Hugo</span>
+            <div class="reading-times"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood">Original</a>: ≈ 46.5 h</p><p>Semi-Skimmed: ≈ 8 h (83% less time)</p><p>Fat Free: ≈ 4 h (91% less time)</p></div>
+          </div>
+        </li>
+        <li>
+          <div class="cover"><div class="plate" style="--cloth:#356440" aria-hidden="true"><span class="plate-title">Fat Free Don Quixote</span><span class="plate-mark"></span></div></div>
+          <div class="info">
+            <span class="title">Fat Free Don Quixote</span>
+            <span class="author smallcaps">Miguel de Cervantes</span>
+            <div class="reading-times"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://standardebooks.org/ebooks/miguel-de-cervantes-saavedra/don-quixote/john-ormsby">Original</a>: ≈ 35.5 h</p><p>Semi-Skimmed: ≈ 8 h (77% less time)</p><p>Fat Free: ≈ 4 h (89% less time)</p></div>
+          </div>
+        </li>
+        <li>
+          <div class="cover"><div class="plate" style="--cloth:#3d4851" aria-hidden="true"><span class="plate-title">Fat Free Brothers Karamazov</span><span class="plate-mark"></span></div></div>
+          <div class="info">
+            <span class="title">Fat Free Brothers Karamazov</span>
+            <span class="author smallcaps">Fyodor Dostoevsky</span>
+            <div class="reading-times"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://standardebooks.org/ebooks/fyodor-dostoevsky/the-brothers-karamazov/constance-garnett">Original</a>: ≈ 29 h</p><p>Semi-Skimmed: ≈ 8 h (72% less time)</p><p>Fat Free: ≈ 4 h (86% less time)</p></div>
+          </div>
+        </li>
+      </ul></section></main>
+<footer><p><span class="smallcaps">Porchester Publishing · London</span><br>Independent publishing</p><ul><li><a href="/about/">About</a></li><li><a href="/contact/">Contact &amp; press</a></li><li><a class="email" href="mailto:contact@porchesterpublishing.com">contact@porchesterpublishing.com</a></li></ul></footer>
+</div></div></body></html>
