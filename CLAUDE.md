@@ -73,3 +73,5 @@ Source for porchesterpublishing.com, the site of Porchester Publishing, the Lond
 - Product-first marketing (author correction): describe what the editions are and what readers get, not the publisher’s challenge, ambition, effort or production journey. No “our first challenge”, “our aim”, “we’re comfortable with that” or diary-like accounts of making the books. Keep the requested original-words promise concise; lead title blurbs with the story, reading experience and new visual guides.
 
 - Introduce the series at the start of the homepage Condensed Classics section, before its first book: whole story in original wording, Fat Free and Semi-Skimmed reading times, new visual guides, and a prominent link to `/condensed-classics/`. Keep this section after the existing fiction catalogue.
+
+- Styling: use only the original site CSS from commit `e34df0f`, unchanged, on both pages. Reuse its existing classes and layouts for all new content. Do not introduce new styles, overrides or a separate design system for the series.

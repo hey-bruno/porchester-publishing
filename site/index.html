@@ -69,7 +69,7 @@
   main { width: 100%; max-width: 66rem; margin: 0 auto; padding-top: clamp(2.5rem, 7vh, 4rem); flex: 1; }
   section + section { margin-top: clamp(3rem, 8vh, 4.5rem); }
   /* Section heads sit between two fine rules */
-  h2 { display: flex; align-items: center; gap: 1.1rem; margin: 0 0 2rem; font-weight: normal; font-size: .85rem; color: var(--green); text-align: center; }
+  h2 { display: flex; align-items: center; gap: 1.1rem; margin: 0 0 2rem; font-weight: normal; font-size: .85rem; color: var(--green); white-space: nowrap; }
   h2::before, h2::after { content: ""; flex: 1; border-top: 1px solid var(--rule); }
 
   .list { list-style: none; margin: 0; padding: 0; }
@@ -146,40 +146,6 @@
   .lightbox img { display: block; width: auto; height: auto; max-width: 94vw; max-height: 94vh; margin: 0; box-shadow: 0 12px 40px rgba(0, 0, 0, .6); }
   .lightbox button { position: fixed; top: .9rem; right: 1rem; padding: .3rem .7rem; border: 0; background: rgba(255, 255, 255, .12); color: #fff; font: inherit; font-size: 1.4rem; line-height: 1; cursor: pointer; }
   .about p { max-width: 34rem; margin-left: auto; margin-right: auto; text-align: center; }
-  .classics-intro { max-width: 44rem; margin: 0 0 2.5rem; font-size: 1rem; line-height: 1.65; }
-  .classics-intro p { margin: 0 0 1em; text-wrap: pretty; }
-
-  /* Catalogue groups share the original book-cover and synopsis treatment. */
-  .collection-label { margin: 3rem 0 1.75rem; color: var(--green); font-size: .8rem; font-weight: normal; text-align: center; }
-  .collection-status { margin: -1rem 0 2rem; color: var(--muted); font-size: .75rem; text-align: center; }
-  .catalogue-note { margin: -1rem auto 2rem; color: var(--muted); font-size: .9rem; text-align: center; max-width: 32rem; }
-  .book-author { display: block; margin-top: .55rem; color: var(--muted); font-size: .85rem; }
-  .shelf .info:not(:has(.series))::before { content: none; }
-  @media (min-width: 62rem) {
-    .shelf-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: calc(50% - 1.125rem); margin-left: auto; margin-right: auto; }
-  }
-  a:focus-visible, button:focus-visible { outline: 2px solid var(--green); outline-offset: 5px; }
-  @media (max-width: 22.5rem) {
-    .page { min-width: 0; }
-    .brand { gap: .55rem; }
-    .logo { width: 2.6rem; }
-    h1 .house { font-size: 1.35rem; letter-spacing: .12em; }
-    .shelf li { grid-template-columns: 4.75rem minmax(0, 1fr); gap: .8rem; }
-    .about a, footer a { overflow-wrap: anywhere; }
-  }
-  .reading-comparison { margin-top: 1rem; font-size: .82rem; text-align: left; }
-  .time-caption { margin: 0 0 .55rem; color: var(--muted); font-size: .72rem; }
-  .reading-comparison dl { margin: 0; }
-  .reading-comparison dl > div { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .5rem; padding: .45rem 0; border-top: 1px solid var(--rule); }
-  .reading-comparison dt, .reading-comparison dd { margin: 0; }
-  .reading-comparison dd { text-align: right; }
-  .reading-comparison small { display: block; color: var(--muted); font-size: .68rem; }
-  .guide-heading { margin: 1.4rem 0 .7rem; font: normal 1.45rem/1.25 var(--display); color: var(--green); }
-  .time-method { margin: 2rem auto 0; max-width: 46rem; color: var(--muted); font-size: .8rem; }
-  .time-method summary { cursor: pointer; text-decoration: underline; text-underline-offset: .2em; }
-  .time-method p { margin: 1rem 0 0; }
-  summary:focus-visible { outline: 2px solid var(--green); outline-offset: 5px; }
-  @media (max-width: 39.99rem) { .classics-shelf .reading-comparison dl > div { grid-template-columns: 1fr; gap: .15rem; } .classics-shelf .reading-comparison dd { text-align: left; } }
 </style>
 </head>
 <body>
@@ -225,8 +191,8 @@
           </div>
         </div>
       </article>
-      <h3 class="collection-label smallcaps">Also in development</h3>
-      <ul class="list shelf shelf-pair">
+      <h3 class="series smallcaps">Also in development</h3>
+      <ul class="list shelf">
         <li>
           <div class="cover"><div class="plate" style="--cloth:#2f4656" aria-hidden="true"><span class="plate-title">Stevens Creek Investigative Partners</span><span class="plate-mark"></span></div></div>
           <div class="info">
@@ -250,8 +216,8 @@
 
     <section aria-labelledby="standalone">
       <h2 id="standalone" class="smallcaps">Standalone books</h2>
-      <p class="collection-status smallcaps">In development</p>
-      <ul class="list shelf shelf-pair">
+      <p class="series smallcaps">In development</p>
+      <ul class="list shelf">
         <li>
           <div class="cover"><div class="plate" style="--cloth:#57292a" aria-hidden="true"><span class="plate-title">Demon’s Country</span><span class="plate-mark"></span></div></div>
           <div class="info">
@@ -275,7 +241,7 @@
 
     <section aria-labelledby="classics" id="classics-catalogue">
       <h2 id="classics" class="smallcaps">The Condensed Classics</h2>
-      <div class="classics-intro">
+      <div class="about">
         <p class="smallcaps">Coming soon</p>
         <p>For readers with literary ambitions and the attention span of a fruit fly. The Condensed Classics give you the whole story in the author’s own words or a classic English translation, with more plot and less faff. All killer, no filler.</p>
         <p>Start with Fat Free for a two- or four-hour read, or choose Semi-Skimmed for four or eight hours. Both include brand-new diagrams, graphs and illustrations, with time for the guides included. The combined ebook lets you switch between cuts as you read.</p>
@@ -289,174 +255,97 @@
           <span class="genre smallcaps">Condensed classics</span>
           <p class="tagline">For the Tolstoy you keep meaning to read.</p>
           <span class="author smallcaps">Leo Tolstoy</span>
-          <div class="reading-comparison">
-              <p class="time-caption">Estimated reading time</p>
-              <dl>
-                <div><dt><a href="https://www.gutenberg.org/ebooks/2600">Original</a></dt><dd>≈ 47 h</dd></div>
-                <div><dt>Semi-Skimmed</dt><dd>≈ 8 h <small>83% less time</small></dd></div>
-                <div><dt>Fat Free</dt><dd>≈ 4 h <small>91% less time</small></dd></div>
-              </dl>
-            </div>
+          <div class="buy"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://www.gutenberg.org/ebooks/2600">Original</a>: ≈ 47 h</p><p>Semi-Skimmed: ≈ 8 h (83% less time)</p><p>Fat Free: ≈ 4 h (91% less time)</p></div>
           <div class="synopsis">
             <p>You know who you are. You sort of think you should read 47 hours of a Russian novel, but you have the attention span of a fruit fly and it’s been on the shelf for years. Start with four hours of Tolstoy, in a classic English translation, and get through the whole story.</p>
             <p>All killer, no filler. Fat Free has the pace of a movie trailer, using the original scenes and dialogue, and takes you through the entire story, ending included. You get Tolstoy’s language and humour as well as the plot, instead of the gist from Wikipedia or an AI summary. We try to add nothing to the prose.</p>
             <p>Cutting Tolstoy down to four hours is literary sacrilege, but leaving him unread hasn’t done much for you either. If you like the writing and want more of it, switch mid-stream to Semi-Skimmed: the combined ebook links the corresponding passages. If you love it, read the freaking original.</p>
-            <h3 class="guide-heading">Brand-new diagrams, graphs and illustrations</h3>
+            <h3 class="title">Brand-new diagrams, graphs and illustrations</h3>
             <p>Family trees and relationship diagrams keep track of the cast. Maps and timelines help you follow the battles, with graphs to explain connections and ideas, and new illustrations throughout. The guides include accessible text equivalents, and their reading and viewing time counts towards the four hours.</p>
             <p><a href="/condensed-classics/">Explore The Condensed Classics <span aria-hidden="true">→</span></a></p>
           </div>
         </div>
       </article>
-      <h3 class="collection-label smallcaps">The collection</h3>
-      <ul class="list shelf classics-shelf">
+      <h3 class="series smallcaps">The collection</h3>
+      <ul class="list shelf">
         <li>
           <div class="cover"><div class="plate" style="--cloth:#5c4637" aria-hidden="true"><span class="plate-title">Fat Free Decameron</span><span class="plate-mark"></span></div></div>
           <div class="info">
             <span class="title">Fat Free Decameron</span>
-            <span class="book-author">Giovanni Boccaccio</span>
-            <div class="reading-comparison">
-              <p class="time-caption">Estimated reading time</p>
-              <dl>
-                <div><dt><a href="https://standardebooks.org/ebooks/giovanni-boccaccio/the-decameron/john-payne">Original</a></dt><dd>≈ 24.5 h</dd></div>
-                <div><dt>Semi-Skimmed</dt><dd>≈ 8 h <small>67% less time</small></dd></div>
-                <div><dt>Fat Free</dt><dd>≈ 4 h <small>84% less time</small></dd></div>
-              </dl>
-            </div>
+            <span class="author smallcaps">Giovanni Boccaccio</span>
+            <div class="buy"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://standardebooks.org/ebooks/giovanni-boccaccio/the-decameron/john-payne">Original</a>: ≈ 24.5 h</p><p>Semi-Skimmed: ≈ 8 h (67% less time)</p><p>Fat Free: ≈ 4 h (84% less time)</p></div>
           </div>
         </li>
         <li>
           <div class="cover"><div class="plate" style="--cloth:#3e5555" aria-hidden="true"><span class="plate-title">Fat Free Metamorphoses</span><span class="plate-mark"></span></div></div>
           <div class="info">
             <span class="title">Fat Free Metamorphoses</span>
-            <span class="book-author">Ovid</span>
-            <div class="reading-comparison">
-              <p class="time-caption">Estimated reading time</p>
-              <dl>
-                <div><dt><a href="https://standardebooks.org/ebooks/ovid/metamorphoses/various-translators">Original</a></dt><dd>≈ 11 h</dd></div>
-                <div><dt>Semi-Skimmed</dt><dd>≈ 4 h <small>64% less time</small></dd></div>
-                <div><dt>Fat Free</dt><dd>≈ 2 h <small>82% less time</small></dd></div>
-              </dl>
-            </div>
+            <span class="author smallcaps">Ovid</span>
+            <div class="buy"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://standardebooks.org/ebooks/ovid/metamorphoses/various-translators">Original</a>: ≈ 11 h</p><p>Semi-Skimmed: ≈ 4 h (64% less time)</p><p>Fat Free: ≈ 2 h (82% less time)</p></div>
           </div>
         </li>
         <li>
           <div class="cover"><div class="plate" style="--cloth:#4f3945" aria-hidden="true"><span class="plate-title">Fat Free Paradise Lost</span><span class="plate-mark"></span></div></div>
           <div class="info">
             <span class="title">Fat Free Paradise Lost</span>
-            <span class="book-author">John Milton</span>
-            <div class="reading-comparison">
-              <p class="time-caption">Estimated reading time</p>
-              <dl>
-                <div><dt><a href="https://standardebooks.org/ebooks/john-milton/paradise-lost">Original</a></dt><dd>≈ 7 h</dd></div>
-                <div><dt>Semi-Skimmed</dt><dd>≈ 4 h <small>43% less time</small></dd></div>
-                <div><dt>Fat Free</dt><dd>≈ 2 h <small>71% less time</small></dd></div>
-              </dl>
-            </div>
+            <span class="author smallcaps">John Milton</span>
+            <div class="buy"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://standardebooks.org/ebooks/john-milton/paradise-lost">Original</a>: ≈ 7 h</p><p>Semi-Skimmed: ≈ 4 h (43% less time)</p><p>Fat Free: ≈ 2 h (71% less time)</p></div>
           </div>
         </li>
         <li>
           <div class="cover"><div class="plate" style="--cloth:#59442e" aria-hidden="true"><span class="plate-title">Fat Free Divine Comedy</span><span class="plate-mark"></span></div></div>
           <div class="info">
             <span class="title">Fat Free Divine Comedy</span>
-            <span class="book-author">Dante Alighieri</span>
-            <div class="reading-comparison">
-              <p class="time-caption">Estimated reading time</p>
-              <dl>
-                <div><dt><a href="https://standardebooks.org/ebooks/dante-alighieri/the-divine-comedy/henry-wadsworth-longfellow">Original</a></dt><dd>≈ 9.5 h</dd></div>
-                <div><dt>Semi-Skimmed</dt><dd>≈ 4 h <small>58% less time</small></dd></div>
-                <div><dt>Fat Free</dt><dd>≈ 2 h <small>79% less time</small></dd></div>
-              </dl>
-            </div>
+            <span class="author smallcaps">Dante Alighieri</span>
+            <div class="buy"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://standardebooks.org/ebooks/dante-alighieri/the-divine-comedy/henry-wadsworth-longfellow">Original</a>: ≈ 9.5 h</p><p>Semi-Skimmed: ≈ 4 h (58% less time)</p><p>Fat Free: ≈ 2 h (79% less time)</p></div>
           </div>
         </li>
         <li>
           <div class="cover"><div class="plate" style="--cloth:#464a35" aria-hidden="true"><span class="plate-title">Fat Free Thus Spoke Zarathustra</span><span class="plate-mark"></span></div></div>
           <div class="info">
             <span class="title">Fat Free Thus Spoke Zarathustra</span>
-            <span class="book-author">Friedrich Nietzsche</span>
-            <div class="reading-comparison">
-              <p class="time-caption">Estimated reading time</p>
-              <dl>
-                <div><dt><a href="https://standardebooks.org/ebooks/friedrich-nietzsche/thus-spake-zarathustra/thomas-common">Original</a></dt><dd>≈ 7.5 h</dd></div>
-                <div><dt>Semi-Skimmed</dt><dd>≈ 4 h <small>47% less time</small></dd></div>
-                <div><dt>Fat Free</dt><dd>≈ 2 h <small>73% less time</small></dd></div>
-              </dl>
-            </div>
+            <span class="author smallcaps">Friedrich Nietzsche</span>
+            <div class="buy"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://standardebooks.org/ebooks/friedrich-nietzsche/thus-spake-zarathustra/thomas-common">Original</a>: ≈ 7.5 h</p><p>Semi-Skimmed: ≈ 4 h (47% less time)</p><p>Fat Free: ≈ 2 h (73% less time)</p></div>
           </div>
         </li>
         <li>
           <div class="cover"><div class="plate" style="--cloth:#32485b" aria-hidden="true"><span class="plate-title">Fat Free Ulysses</span><span class="plate-mark"></span></div></div>
           <div class="info">
             <span class="title">Fat Free Ulysses</span>
-            <span class="book-author">James Joyce</span>
-            <div class="reading-comparison">
-              <p class="time-caption">Estimated reading time</p>
-              <dl>
-                <div><dt><a href="https://standardebooks.org/ebooks/james-joyce/ulysses">Original</a></dt><dd>≈ 22 h</dd></div>
-                <div><dt>Semi-Skimmed</dt><dd>≈ 8 h <small>64% less time</small></dd></div>
-                <div><dt>Fat Free</dt><dd>≈ 4 h <small>82% less time</small></dd></div>
-              </dl>
-            </div>
+            <span class="author smallcaps">James Joyce</span>
+            <div class="buy"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://standardebooks.org/ebooks/james-joyce/ulysses">Original</a>: ≈ 22 h</p><p>Semi-Skimmed: ≈ 8 h (64% less time)</p><p>Fat Free: ≈ 4 h (82% less time)</p></div>
           </div>
         </li>
         <li>
           <div class="cover"><div class="plate" style="--cloth:#514355" aria-hidden="true"><span class="plate-title">Fat Free In Search of Lost Time</span><span class="plate-mark"></span></div></div>
           <div class="info">
             <span class="title">Fat Free In Search of Lost Time</span>
-            <span class="book-author">Marcel Proust</span>
-            <div class="reading-comparison">
-              <p class="time-caption">Estimated reading time</p>
-              <dl>
-                <div><dt><a href="https://gutenberg.net.au/plusfifty-n-z.html#proust">Original</a></dt><dd>≈ 113 h</dd></div>
-                <div><dt>Semi-Skimmed</dt><dd>≈ 8 h <small>93% less time</small></dd></div>
-                <div><dt>Fat Free</dt><dd>≈ 4 h <small>96% less time</small></dd></div>
-              </dl>
-            </div>
+            <span class="author smallcaps">Marcel Proust</span>
+            <div class="buy"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://gutenberg.net.au/plusfifty-n-z.html#proust">Original</a>: ≈ 113 h</p><p>Semi-Skimmed: ≈ 8 h (93% less time)</p><p>Fat Free: ≈ 4 h (96% less time)</p></div>
           </div>
         </li>
         <li>
           <div class="cover"><div class="plate" style="--cloth:#553637" aria-hidden="true"><span class="plate-title">Fat Free Les Misérables</span><span class="plate-mark"></span></div></div>
           <div class="info">
             <span class="title">Fat Free Les Misérables</span>
-            <span class="book-author">Victor Hugo</span>
-            <div class="reading-comparison">
-              <p class="time-caption">Estimated reading time</p>
-              <dl>
-                <div><dt><a href="https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood">Original</a></dt><dd>≈ 46.5 h</dd></div>
-                <div><dt>Semi-Skimmed</dt><dd>≈ 8 h <small>83% less time</small></dd></div>
-                <div><dt>Fat Free</dt><dd>≈ 4 h <small>91% less time</small></dd></div>
-              </dl>
-            </div>
+            <span class="author smallcaps">Victor Hugo</span>
+            <div class="buy"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://standardebooks.org/ebooks/victor-hugo/les-miserables/isabel-f-hapgood">Original</a>: ≈ 46.5 h</p><p>Semi-Skimmed: ≈ 8 h (83% less time)</p><p>Fat Free: ≈ 4 h (91% less time)</p></div>
           </div>
         </li>
         <li>
           <div class="cover"><div class="plate" style="--cloth:#356440" aria-hidden="true"><span class="plate-title">Fat Free Don Quixote</span><span class="plate-mark"></span></div></div>
           <div class="info">
             <span class="title">Fat Free Don Quixote</span>
-            <span class="book-author">Miguel de Cervantes</span>
-            <div class="reading-comparison">
-              <p class="time-caption">Estimated reading time</p>
-              <dl>
-                <div><dt><a href="https://standardebooks.org/ebooks/miguel-de-cervantes-saavedra/don-quixote/john-ormsby">Original</a></dt><dd>≈ 35.5 h</dd></div>
-                <div><dt>Semi-Skimmed</dt><dd>≈ 8 h <small>77% less time</small></dd></div>
-                <div><dt>Fat Free</dt><dd>≈ 4 h <small>89% less time</small></dd></div>
-              </dl>
-            </div>
+            <span class="author smallcaps">Miguel de Cervantes</span>
+            <div class="buy"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://standardebooks.org/ebooks/miguel-de-cervantes-saavedra/don-quixote/john-ormsby">Original</a>: ≈ 35.5 h</p><p>Semi-Skimmed: ≈ 8 h (77% less time)</p><p>Fat Free: ≈ 4 h (89% less time)</p></div>
           </div>
         </li>
         <li>
           <div class="cover"><div class="plate" style="--cloth:#3d4851" aria-hidden="true"><span class="plate-title">Fat Free Brothers Karamazov</span><span class="plate-mark"></span></div></div>
           <div class="info">
             <span class="title">Fat Free Brothers Karamazov</span>
-            <span class="book-author">Fyodor Dostoevsky</span>
-            <div class="reading-comparison">
-              <p class="time-caption">Estimated reading time</p>
-              <dl>
-                <div><dt><a href="https://standardebooks.org/ebooks/fyodor-dostoevsky/the-brothers-karamazov/constance-garnett">Original</a></dt><dd>≈ 29 h</dd></div>
-                <div><dt>Semi-Skimmed</dt><dd>≈ 8 h <small>72% less time</small></dd></div>
-                <div><dt>Fat Free</dt><dd>≈ 4 h <small>86% less time</small></dd></div>
-              </dl>
-            </div>
+            <span class="author smallcaps">Fyodor Dostoevsky</span>
+            <div class="buy"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://standardebooks.org/ebooks/fyodor-dostoevsky/the-brothers-karamazov/constance-garnett">Original</a>: ≈ 29 h</p><p>Semi-Skimmed: ≈ 8 h (72% less time)</p><p>Fat Free: ≈ 4 h (86% less time)</p></div>
           </div>
         </li>
       </ul>

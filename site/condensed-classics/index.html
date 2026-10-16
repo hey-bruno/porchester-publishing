@@ -21,76 +21,126 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap">
 <style>
-  :root { --ground:#f5f0e4; --ink:#1e2619; --muted:#6b6a5c; --green:#46602f; --rule:color-mix(in srgb, var(--green) 45%, transparent); --blue:#245e91; --skimmed:#356440; --display:"Libre Caslon Display", "Big Caslon", Georgia, serif; --text:"Libre Caslon Text", "Big Caslon", Georgia, serif; }
-  * { box-sizing:border-box; }
-  html { background:var(--ground); color-scheme:light; }
-  body { margin:0; min-height:100vh; padding:16px; color:var(--ink); font:1.0625rem/1.65 var(--text); background:radial-gradient(120% 80% at 50% 0%, #fbf8f0 0%, var(--ground) 65%); }
-  a { color:inherit; text-decoration-color:var(--rule); text-underline-offset:.2em; }
-  a:hover { text-decoration-color:var(--green); }
-  a:focus-visible { outline:2px solid var(--green); outline-offset:5px; }
-  img { display:block; max-width:100%; height:auto; }
-  .page { border:1px solid var(--rule); padding:5px; }
-  .inner { border:3px solid var(--rule); padding:0 clamp(16px, 4vw, 3rem) 2rem; }
-  .smallcaps { font-variant:small-caps; text-transform:lowercase; letter-spacing:.2em; }
-  header { display:flex; flex-direction:column; align-items:center; gap:.9rem; padding:1.75rem 0 1.5rem; border-bottom:1px solid var(--rule); text-align:center; }
-  .brand { display:flex; align-items:center; gap:.9rem; text-decoration:none; }
-  .logo { width:3.1rem; }
-  .wordmark { margin:0; font:normal 1rem/1 var(--display); text-align:left; }
-  .house { display:block; color:var(--green); font-size:1.65rem; letter-spacing:.16em; text-transform:uppercase; }
-  .trade { display:block; margin-top:.3rem; font:italic .95rem var(--text); letter-spacing:.03em; }
-  .place { margin:0; color:var(--muted); font-size:.85rem; }
-  main { max-width:62rem; margin:auto; }
-  .back { display:inline-block; margin:1.5rem 0 0; padding:.35rem 0; color:var(--green); font-size:.85rem; }
-  .intro { max-width:43rem; margin:3rem auto; text-align:center; }
-  .eyebrow { margin:0 0 1rem; color:var(--green); font-size:.8rem; }
-  h1, h2, h3 { font-family:var(--display); font-weight:normal; }
-  h1 { margin:0; font-size:clamp(2.5rem, 7vw, 4.25rem); line-height:1.08; text-wrap:balance; }
-  .lead { margin:1.4rem 0 1rem; font-size:clamp(1.25rem, 3vw, 1.6rem); }
-  p { margin:0 0 1rem; }
-  section + section { margin-top:3.5rem; }
-  h2 { font-size:2rem; line-height:1.2; margin:0 0 1.25rem; }
-  .section-head { text-align:center; }
-  .cuts { display:grid; gap:1.5rem; margin-top:2rem; }
-  .cut { min-width:0; padding:1.5rem; border:1px solid var(--rule); border-top:4px solid var(--blue); }
-  .cut.skimmed { border-top-color:var(--skimmed); }
-  .bottle { width:7.5rem; margin:0 auto 1.4rem; }
-  .cut h3 { margin:0 0 .4rem; font-size:1.9rem; line-height:1.2; }
-  .target { color:var(--blue); font-size:1.1rem; }
-  .skimmed .target { color:var(--skimmed); }
-  .note { color:var(--muted); font-size:.88rem; line-height:1.6; }
-  .cut p:last-child { margin-bottom:0; }
-  .full-fat { padding:1.5rem 0; margin-top:1.5rem; border-bottom:1px solid var(--rule); }
-  .full-fat h3 { font-size:1.6rem; margin:0 0 .5rem; }
-  .prose { max-width:42rem; margin-left:auto; margin-right:auto; }
-  .timing { max-width:42rem; margin:1.25rem auto 0; text-align:center; }
-  .first-title { border-top:1px solid var(--rule); border-bottom:1px solid var(--rule); padding:2rem 0; }
-  .book { font:italic 2rem/1.2 var(--display); margin-bottom:.4rem; }
-  .credit { color:var(--muted); font-size:.9rem; }
-  footer { margin-top:4rem; padding-top:1.25rem; border-top:1px solid var(--rule); color:var(--muted); font-size:.8rem; text-align:center; }
-  footer a { display:inline-block; margin-top:.45rem; }
-  @media (min-width:40rem) { header { flex-direction:row; justify-content:space-between; padding:1.5rem .25rem; } .cuts { grid-template-columns:repeat(2, minmax(0, 1fr)); } }
-  .reading-comparison { margin-top: 1rem; font-size: .82rem; text-align: left; }
-  .time-caption { margin: 0 0 .55rem; color: var(--muted); font-size: .72rem; }
-  .reading-comparison dl { margin: 0; }
-  .reading-comparison dl > div { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .5rem; padding: .45rem 0; border-top: 1px solid var(--rule); }
-  .reading-comparison dt, .reading-comparison dd { margin: 0; }
-  .reading-comparison dd { text-align: right; }
-  .reading-comparison small { display: block; color: var(--muted); font-size: .68rem; }
-  .guide-heading { margin: 1.4rem 0 .7rem; font: normal 1.45rem/1.25 var(--display); color: var(--green); }
-  .time-method { margin: 2rem auto 0; max-width: 46rem; color: var(--muted); font-size: .8rem; }
-  .time-method summary { cursor: pointer; text-decoration: underline; text-underline-offset: .2em; }
-  .time-method p { margin: 1rem 0 0; }
-  summary:focus-visible { outline: 2px solid var(--green); outline-offset: 5px; }
-  @media (max-width: 39.99rem) { .classics-shelf .reading-comparison dl > div { grid-template-columns: 1fr; gap: .15rem; } .classics-shelf .reading-comparison dd { text-align: left; } }
-  .visual-guides { padding: 2rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); text-align: center; }
-  .guide-intro { max-width: 42rem; margin: 1rem auto; }
-  .guide-grid { display: grid; gap: 1.5rem; margin: 2rem 0; text-align: left; }
-  .guide-grid article { padding: 1.25rem; border: 1px solid var(--rule); }
-  .guide-grid h3 { margin: 0 0 .75rem; font-size: 1.55rem; }
-  .guide-grid p { margin: 0; font-size: .95rem; }
-  .first-copy { margin-top: 1.5rem; }
-  .catalogue-link { margin-top: 2rem; }
-  @media (min-width: 48rem) { .guide-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  /* Light heritage: a Caslon catalogue on cream, in the oak green of the logo. Restraint over ornament. */
+  :root {
+    --ground: #f5f0e4;      /* cream paper */
+    --ink: #1e2619;         /* green-black */
+    --muted: #6b6a5c;
+    --green: #46602f;       /* the logo's oak green: logo, wordmark, rules and small labels */
+    --rule: color-mix(in srgb, var(--green) 45%, transparent);
+    --plate-ink: #efe7d4;   /* cream lettering on cloth plates */
+    --display: "Libre Caslon Display", "Big Caslon", Georgia, serif;
+    --text: "Libre Caslon Text", "Big Caslon", Georgia, serif;
+  }
+  * { box-sizing: border-box; }
+  html { background: var(--ground); color-scheme: light; }
+  body {
+    margin: 0; min-height: 100vh; color: var(--ink); font-family: var(--text); font-size: 1.0625rem; line-height: 1.6;
+    background: radial-gradient(120% 80% at 50% 0%, #fbf8f0 0%, var(--ground) 65%);
+    display: flex; padding: 16px;
+  }
+  a { color: inherit; text-decoration-color: var(--rule); text-underline-offset: .2em; }
+  a:hover { text-decoration-color: var(--green); }
+  img { display: block; max-width: 100%; height: auto; }
+
+  /* Thick-and-thin frame, as on a nineteenth-century title page */
+  .page { flex: 1; display: flex; flex-direction: column; border: 1px solid var(--rule); padding: 5px; }
+  .page > .inner { flex: 1; display: flex; flex-direction: column; border: 3px solid var(--rule); padding: 0 clamp(16px, 4vw, 3rem) 2rem; }
+
+  .smallcaps { font-variant: small-caps; text-transform: lowercase; letter-spacing: .2em; }
+
+  /* Masthead: compact, the books carry the page */
+  header { display: flex; flex-direction: column; align-items: center; gap: .9rem; padding: 1.75rem 0 1.5rem; border-bottom: 1px solid var(--rule); text-align: center; }
+  .brand { display: flex; align-items: center; gap: .9rem; text-decoration: none; }
+  .logo { width: 3.1rem; height: auto; }
+  h1 { margin: 0; font-family: var(--display); font-weight: normal; line-height: 1; text-align: left; }
+  h1 .house { display: block; color: var(--green); font-size: 1.65rem; letter-spacing: .16em; text-transform: uppercase; }
+  h1 .trade { display: block; font-family: var(--text); font-style: italic; font-size: .95rem; letter-spacing: .03em; margin-top: .3rem; }
+  .place { margin: 0; color: var(--muted); font-size: .85rem; }
+  @media (min-width: 40rem) {
+    header { flex-direction: row; justify-content: space-between; padding: 1.5rem .25rem; }
+  }
+
+  main { width: 100%; max-width: 66rem; margin: 0 auto; padding-top: clamp(2.5rem, 7vh, 4rem); flex: 1; }
+  section + section { margin-top: clamp(3rem, 8vh, 4.5rem); }
+  /* Section heads sit between two fine rules */
+  h2 { display: flex; align-items: center; gap: 1.1rem; margin: 0 0 2rem; font-weight: normal; font-size: .85rem; color: var(--green); white-space: nowrap; }
+  h2::before, h2::after { content: ""; flex: 1; border-top: 1px solid var(--rule); }
+
+  .list { list-style: none; margin: 0; padding: 0; }
+  .series { display: block; color: var(--green); font-size: .75rem; margin-bottom: .45rem; }
+  .title { display: block; text-decoration: none; font-style: italic; font-size: 1.25rem; line-height: 1.25; }
+  .subtitle { display: block; margin-top: .3rem; font-size: 1rem; }
+  .genre { display: block; margin-top: .55rem; color: var(--muted); font-size: .72rem; }
+  .tagline { margin: .8rem 0 0; color: var(--muted); font-size: .92rem; line-height: 1.5; }
+  .author { display: inline-block; margin-top: 1rem; color: var(--muted); font-size: .9rem; }
+  .title, .subtitle, .tagline { text-wrap: balance; }
+  .buy { margin: 1.4rem 0 0; font-size: .92rem; line-height: 1.5; }
+  .buy p { margin: .35rem 0 0; }
+  /* One button per store, in small caps between fine green rules. Faded <span> until launch; then <a class="store" href="…">. */
+  .stores { list-style: none; display: flex; flex-wrap: wrap; gap: .55rem; margin: .9rem 0 0; padding: 0; }
+  .feature .stores { justify-content: center; }
+  .store { display: inline-block; padding: .4rem .8rem .45rem; border: 1px solid var(--green); color: var(--green); font-variant: small-caps; text-transform: lowercase; letter-spacing: .14em; font-size: .9rem; line-height: 1.2; text-decoration: none; }
+  a.store:hover { background: var(--green); color: var(--ground); }
+  span.store { opacity: .45; cursor: default; }
+  @media (min-width: 44rem) { .feature .stores { justify-content: flex-start; } }
+  .synopsis { margin: 1.6rem 0 0; padding-top: 1.4rem; border-top: 1px solid var(--rule); font-size: 1rem; line-height: 1.65; text-align: left; }
+  .synopsis p { margin: 0 0 1em; text-wrap: pretty; }
+  .synopsis p:last-child { margin-bottom: 0; }
+
+  /* Covers: 2:3. A real jacket is an <img>; until then a cloth plate stands in */
+  .cover { container-type: inline-size; aspect-ratio: 2 / 3; box-shadow: 0 1px 2px rgba(30, 38, 25, .18), 0 10px 24px -12px rgba(30, 38, 25, .45); }
+  .cover img { width: 100%; height: 100%; object-fit: cover; }
+  .plate { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: space-between; padding: 9% 10% 8%; text-align: center;
+           background-color: var(--cloth, var(--green)); color: var(--plate-ink); outline: 1px solid color-mix(in srgb, var(--plate-ink) 45%, transparent); outline-offset: -7px; }
+  .plate::before { content: ""; width: 34%; height: 4px; border-top: 1.5px solid currentColor; border-bottom: .5px solid currentColor; opacity: .7; }
+  .plate-title { font-family: var(--display); font-size: 6.4cqi; line-height: 1.3; letter-spacing: .1em; text-transform: uppercase; text-wrap: balance; }
+  .plate-mark { width: 22%; aspect-ratio: 755 / 790; background: currentColor; opacity: .85;
+                -webkit-mask: url(/assets/porchester-logo.svg) center / contain no-repeat; mask: url(/assets/porchester-logo.svg) center / contain no-repeat; }
+
+  /* Too small to letter legibly (phone thumbnails): cloth, rule and mark only */
+  @container (max-width: 8rem) { .plate-title { display: none; } .plate { justify-content: space-around; } }
+
+  /* Forthcoming: cover beside the text */
+  .feature { display: grid; gap: 1.75rem; justify-items: center; text-align: center; max-width: 46rem; margin: 0 auto; }
+  .feature .cover { width: min(62%, 15rem); }
+  .feature .title { font-size: clamp(1.45rem, 4.4vw, 1.9rem); }
+  .feature .subtitle { font-size: 1.15rem; }
+  .feature .tagline { font-size: 1rem; max-width: 26rem; margin-left: auto; margin-right: auto; }
+  @media (min-width: 44rem) {
+    .feature { grid-template-columns: 15rem 1fr; gap: 3rem; align-items: start; justify-items: start; text-align: left; }
+    .feature .cover { width: 100%; position: sticky; top: 2rem; }
+    .feature .tagline { margin-left: 0; }
+  }
+
+  /* In development: cover left of text on phones, a shelf of covers on wider screens */
+  .shelf { display: grid; gap: 2rem; }
+  .shelf li { display: grid; grid-template-columns: 6.5rem 1fr; gap: 1.1rem; align-items: start; }
+  .shelf .title { font-size: 1.1rem; }
+  .shelf .subtitle { font-size: .95rem; }
+  .shelf .tagline { font-size: .88rem; }
+  @media (min-width: 40rem) {
+    .shelf { grid-template-columns: repeat(2, 1fr); gap: 2.75rem 2.25rem; }
+    .shelf li { grid-template-columns: 1fr; gap: 1.1rem; align-content: start; }
+    /* keep titles level across a row when a book has no series line */
+    .shelf .info:not(:has(.series))::before { content: ""; display: block; height: calc(.75rem * 1.6 + .45rem); }
+    .shelf .cover { width: 11rem; }
+  }
+  @media (min-width: 62rem) {
+    .shelf { grid-template-columns: repeat(4, 1fr); gap: 2.25rem; }
+    .shelf .cover { width: 100%; }
+  }
+
+  footer { margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .8rem; text-align: center; }
+  footer a { display: inline-block; margin-top: .45rem; color: var(--muted); }
+
+  /* Cover lightbox */
+  a.zoom { display: block; width: 100%; height: 100%; cursor: zoom-in; }
+  .lightbox { padding: 0; border: 0; background: transparent; max-width: 100vw; max-height: 100vh; width: 100vw; height: 100vh; cursor: zoom-out; } .lightbox[open] { display: flex; align-items: center; justify-content: center; }
+  .lightbox::backdrop { background: rgba(10, 10, 9, .92); }
+  .lightbox img { display: block; width: auto; height: auto; max-width: 94vw; max-height: 94vh; margin: 0; box-shadow: 0 12px 40px rgba(0, 0, 0, .6); }
+  .lightbox button { position: fixed; top: .9rem; right: 1rem; padding: .3rem .7rem; border: 0; background: rgba(255, 255, 255, .12); color: #fff; font: inherit; font-size: 1.4rem; line-height: 1; cursor: pointer; }
+  .about p { max-width: 34rem; margin-left: auto; margin-right: auto; text-align: center; }
 </style>
 </head>
 <body>
@@ -98,83 +148,74 @@
   <header>
     <a class="brand" href="/" aria-label="Porchester Publishing">
       <img class="logo" src="/assets/porchester-logo.svg" alt="" width="755" height="790">
-      <p class="wordmark"><span class="house">Porchester</span><span class="trade">Publishing</span></p>
+      <h1><span class="house">Porchester</span><span class="trade">Publishing</span></h1>
     </a>
     <p class="place smallcaps">London</p>
   </header>
   <main>
-    <nav aria-label="Back to publisher"><a class="back" href="/">← Porchester Publishing</a></nav>
-    <section class="intro" aria-labelledby="series-title">
-      <p class="eyebrow smallcaps">Coming soon</p>
-      <h1 id="series-title">The Condensed Classics</h1>
-      <p class="lead">For readers with literary ambitions and the attention span of a fruit fly.</p>
+    <nav aria-label="Back to publisher"><a  href="/">← Porchester Publishing</a></nav>
+    <section class="about" aria-labelledby="series-title">
+      <p class="series smallcaps">Coming soon</p>
+      <h2 id="series-title" class="smallcaps">The Condensed Classics</h2>
+      <p class="tagline">For readers with literary ambitions and the attention span of a fruit fly.</p>
       <p>You know who you are. You sort of think you should read the classics, but you have a job, other things to do and no intention of spending the next month on a Russian novel. Fat Free gets you through the whole story in two or four hours, in the author’s own words.</p>
       <p>Start with Fat Free and see whether you like the writing. If you want more, switch mid-stream to Semi-Skimmed. If you love it, read the freaking original.</p>
     </section>
-    <section class="prose" aria-labelledby="story-heading">
-      <h2 id="story-heading">All killer, no filler.</h2>
+    <section class="about" aria-labelledby="story-heading">
+      <h2 id="story-heading" class="smallcaps">All killer, no filler.</h2>
       <p>You get the whole story in the author’s own language, or a classic English translation, with more plot and less faff. The dialogue, humour and turns of phrase are there to enjoy for yourself. A Wikipedia page or an AI summary gives you the gist and leaves out the reason to read the book.</p>
       <p>Fat Free has the pace of a movie trailer and takes you through the entire story, ending included. As with a trailer, the scenes and dialogue come from the original. You get a faster read in the language you came for.</p>
       <p>Call it literary sacrilege. You can finish a classic this weekend and still have time to do something else, which is more than that untouched copy on your shelf has managed.</p>
     </section>
-    <section class="visual-guides" aria-labelledby="guides-heading">
-      <p class="eyebrow smallcaps">Newly created for these editions</p>
-      <h2 id="guides-heading">Diagrams, graphs and illustrations</h2>
-      <p class="guide-intro">Every edition includes new diagrams, graphs and illustrations. Character maps show who is related to whom, timelines put events in order, and visual explanations help with the ideas that take more than a family tree to untangle.</p>
-      <div class="guide-grid">
-        <article><h3>Diagrams</h3><p>Character maps, family trees and relationship diagrams to keep names, loyalties and connections straight.</p></article>
-        <article><h3>Graphs &amp; maps</h3><p>Timelines, maps of places and events, and visual explanations of how the book’s ideas connect.</p></article>
-        <article><h3>Illustrations</h3><p>New illustrations created for the editions, helping you picture the world you’re reading about.</p></article>
+    <section class="about" aria-labelledby="guides-heading">
+      <p class="series smallcaps">Newly created for these editions</p>
+      <h2 id="guides-heading" class="smallcaps">Illustrated guides</h2>
+      <p >Every edition includes new diagrams, graphs and illustrations. Character maps show who is related to whom, timelines put events in order, and visual explanations help with the ideas that take more than a family tree to untangle.</p>
+      <div class="synopsis">
+        <article><h3 class="title">Diagrams</h3><p>Character maps, family trees and relationship diagrams to keep names, loyalties and connections straight.</p></article>
+        <article><h3 class="title">Graphs &amp; maps</h3><p>Timelines, maps of places and events, and visual explanations of how the book’s ideas connect.</p></article>
+        <article><h3 class="title">Illustrations</h3><p>New illustrations created for the editions, helping you picture the world you’re reading about.</p></article>
       </div>
-      <p class="guide-intro">These guides accompany the reading, with accessible text versions. Their reading and viewing time is included in the estimates.</p>
+      <p >These guides accompany the reading, with accessible text versions. Their reading and viewing time is included in the estimates.</p>
     </section>
     <section aria-labelledby="cuts-heading">
-      <h2 class="section-head" id="cuts-heading">Choose how much time to give it</h2>
-      <div class="cuts">
-        <article class="cut" aria-labelledby="fat-free-heading">
-          <img class="bottle" src="/assets/condensed-classics/fat-free.svg" alt="" width="240" height="360">
-          <h3 id="fat-free-heading">Fat Free</h3>
-          <p class="target">Two or four hours, guides included</p>
+      <h2 class="smallcaps" id="cuts-heading">Choose your edition</h2>
+      <div>
+        <section class="feature" aria-labelledby="fat-free-heading"><div class="cover"><img src="/assets/condensed-classics/fat-free.svg" alt="" width="240" height="360"></div><div class="info">
+          <h3 class="title" id="fat-free-heading">Fat Free</h3>
+          <p class="tagline">Two or four hours, guides included</p>
           <p>The shortest route through the whole story, using the author’s prose. Start here if you keep abandoning the original or have never got round to opening it.</p>
-        </article>
-        <article class="cut skimmed" aria-labelledby="skimmed-heading">
-          <img class="bottle" src="/assets/condensed-classics/semi-skimmed.svg" alt="" width="240" height="360">
-          <h3 id="skimmed-heading">Semi-Skimmed</h3>
-          <p class="target">Four or eight hours, guides included</p>
+        </div></section>
+        <section class="feature" aria-labelledby="skimmed-heading"><div class="cover"><img src="/assets/condensed-classics/semi-skimmed.svg" alt="" width="240" height="360"></div><div class="info">
+          <h3 class="title" id="skimmed-heading">Semi-Skimmed</h3>
+          <p class="tagline">Four or eight hours, guides included</p>
           <p>A longer cut with more of the scenes, conversations and description. Choose this if you already enjoy the author, or switch across from Fat Free when you find yourself wanting more.</p>
-        </article>
+        </div></section>
       </div>
-      <div class="full-fat prose">
-        <h3>Full Fat</h3>
+      <div class="about synopsis">
+        <h3 class="title">Full Fat</h3>
         <p>The unabridged book, with every scene and digression. Each title in the collection links to the unabridged text, for when you decide the author deserves more of your time.</p>
       </div>
     </section>
-    <section class="prose" aria-labelledby="switch-heading">
-      <h2 id="switch-heading">You can change your mind halfway through</h2>
+    <section class="about" aria-labelledby="switch-heading">
+      <h2 id="switch-heading" class="smallcaps">Switch as you read</h2>
       <p>The combined ebook links the two cuts at corresponding passages. You can move from Fat Free to Semi-Skimmed halfway through, read a scene at greater length, or switch back when you want to pick up the pace.</p>
       <p>Fat Free and Semi-Skimmed also come as standalone editions. The milk names describe the cuts, not percentages of retained text.</p>
     </section>
-    <section class="prose" aria-labelledby="words-heading">
-      <h2 id="words-heading">Whose words you’re reading</h2>
+    <section class="about" aria-labelledby="words-heading">
+      <h2 id="words-heading" class="smallcaps">The author’s words</h2>
       <p>You read the author’s prose, in the original English or a credited classic translation. We try to add nothing: any essential linking words are visibly marked. The source texts and translations are in the public domain.</p>
       <p>The new illustrated guides sit alongside the text, clearly separate from the author’s prose.</p>
     </section>
-    <section class="prose first-title" aria-labelledby="first-heading">
-      <p class="eyebrow smallcaps">First in development</p>
-      <h2 id="first-heading" class="book">Fat Free War and Peace</h2>
-      <p class="credit">Leo Tolstoy</p>
-      <div class="reading-comparison">
-              <p class="time-caption">Estimated reading time</p>
-              <dl>
-                <div><dt><a href="https://www.gutenberg.org/ebooks/2600">Original</a></dt><dd>≈ 47 h</dd></div>
-                <div><dt>Semi-Skimmed</dt><dd>≈ 8 h <small>83% less time</small></dd></div>
-                <div><dt>Fat Free</dt><dd>≈ 4 h <small>91% less time</small></dd></div>
-              </dl>
-            </div>
-      <p class="first-copy">Love, family ambition and Napoleon’s invasion of Russia, in Tolstoy’s prose through a classic English translation. The original takes about 47 hours; Semi-Skimmed takes eight (83% less), and Fat Free takes four (91% less), including the new illustrated guides. Relationship diagrams keep the families straight, while maps and timelines help you follow the war.</p>
-      <p class="credit">Condensed and edited by Porchester Publishing.</p>
+    <section class="about" aria-labelledby="first-heading">
+      <p class="series smallcaps">First in development</p>
+      <h2 id="first-heading" class="smallcaps">Fat Free War and Peace</h2>
+      <p class="author smallcaps">Leo Tolstoy</p>
+      <div class="buy"><p class="genre smallcaps">Estimated reading time</p><p><a href="https://www.gutenberg.org/ebooks/2600">Original</a>: ≈ 47 h</p><p>Semi-Skimmed: ≈ 8 h (83% less time)</p><p>Fat Free: ≈ 4 h (91% less time)</p></div>
+      <p >Love, family ambition and Napoleon’s invasion of Russia, in Tolstoy’s prose through a classic English translation. The original takes about 47 hours; Semi-Skimmed takes eight (83% less), and Fat Free takes four (91% less), including the new illustrated guides. Relationship diagrams keep the families straight, while maps and timelines help you follow the war.</p>
+      <p class="author smallcaps">Condensed and edited by Porchester Publishing.</p>
     </section>
-    <p class="prose catalogue-link"><a href="/#classics-catalogue">Explore the collection and compare reading times →</a></p>
+    <p class="buy"><a href="/#classics-catalogue">Explore the collection and compare reading times →</a></p>
   </main>
   <footer><span class="smallcaps">Porchester Publishing · London</span><br><a href="mailto:contact@porchesterpublishing.com">contact@porchesterpublishing.com</a></footer>
 </div></div>
