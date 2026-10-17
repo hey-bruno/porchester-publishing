@@ -870,5 +870,9 @@
   "Place key": {
     "pt-br": "Legenda dos lugares",
     "it": "Legenda dei luoghi"
+  },
+  "View full-size diagram": {
+    "pt-br": "Ver o diagrama em tamanho completo",
+    "it": "Vedi il diagramma a grandezza naturale"
   }
 }
