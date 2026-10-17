@@ -193,3 +193,6 @@ main > article + section { margin-top: clamp(3rem, 8vh, 4.5rem); }
 .language-nav a[aria-current] { color: var(--green); font-weight: bold; text-decoration-thickness: 2px; }
 .edition-language { font-size: .82rem; color: var(--muted); }
 @media (min-width: 40rem) { header { flex-wrap: wrap; } }
+
+.language-nav a { font-size: 1.25rem; line-height: 1.2; min-width: 2.75rem; min-height: 2.75rem; text-align: center; }
+.language-nav a[aria-current] { border-bottom: 2px solid var(--green); }
