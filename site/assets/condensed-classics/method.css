@@ -1,0 +1,12 @@
+/* Collection philosophy; all editorial diagrams retain the book's brown cue. */
+.cc-hook{font-family:var(--display,Georgia,serif);font-size:clamp(1.65rem,4vw,2.3rem);line-height:1.25;margin:.8rem 0 1.3rem;color:var(--ink,#1e2619)}
+.cc-progression{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:.65rem 1rem;margin-top:1.8rem;color:#754000;font-size:.95rem}
+.cc-progression a{padding:.45rem .65rem;border:1px solid #b7a68a;text-decoration:none}
+.cc-progression a:hover{background:#e9dfcf}.cc-progression a:focus-visible,.cc-evidence summary:focus-visible{outline:2px solid #754000;outline-offset:4px}
+.cc-personal p{font-style:italic;border-left:2px solid #b7a68a;padding-left:1.2rem}
+.cc-metric{padding:1.2rem;border-block:1px solid var(--rule,#b7a68a)}.cc-metric strong{color:#754000;font-size:1.25em}
+.cc-evidence{margin-top:1.5rem}.cc-evidence summary{cursor:pointer;color:#754000;padding:.6rem 0;font-weight:bold}
+.cc-evidence figure{margin:1.5rem 0;color:#754000}.cc-evidence figcaption{font-weight:bold}.cc-evidence .cc-chart-note{font-size:.85rem}
+.cc-bars{list-style:none;padding:0;margin:1rem 0}.cc-bars li{display:grid;grid-template-columns:7rem minmax(0,1fr) 4rem;gap:.7rem;align-items:center;margin:.65rem 0;font:.85rem/1.4 system-ui,sans-serif}.cc-bars strong{text-align:right;font-variant-numeric:tabular-nums}
+.cc-bar-track{display:block;height:.65rem;background:#e2d6c3}.cc-bar-track>span{display:block;height:100%;background:#754000}
+@media(max-width:480px){.cc-bars li{grid-template-columns:5rem minmax(0,1fr) 3.8rem;gap:.4rem;font-size:.78rem}.cc-progression{gap:.35rem;font-size:.8rem}.cc-progression a{padding:.4rem}.cc-personal p{padding-left:.8rem}}
