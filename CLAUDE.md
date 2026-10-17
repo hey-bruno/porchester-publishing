@@ -41,11 +41,14 @@ Source for porchesterpublishing.com, the site of Porchester Publishing, the Lond
 
 ## Languages
 
-- When the site goes bilingual, it is English and Brazilian Portuguese.
-- Default language: Brazilian Portuguese for visitors whose browser prefers Brazilian Portuguese or who are located in Brazil; English for everyone else.
-- Implement the default with a small Cloudflare Pages Function at the site root (a `functions/` folder next to `site/`, not inside it), reading the browser's Accept-Language header and Cloudflare's visitor country. Static files alone can't see the visitor's country.
-- A visible language switch must always override the automatic choice, and the visitor's choice should be remembered.
-- Undecided, ask Bruno before building: what visitors whose browser prefers European Portuguese should see.
+- The whole publisher site is available in English, Brazilian Portuguese and Italian. English is the fallback and retains the original unprefixed URLs; translations live under `/pt-br/` and `/it/` with identical slugs.
+- The homepage follows the browser's Accept-Language preference (quality weights respected): any Portuguese maps to PT-BR, Italian to IT, English to EN; unsupported preferences fall back to English. Do not use country-based routing.
+- The visible EN / PT-BR / IT switch opens the equivalent page and remembers an explicit choice in the `porchester_lang` cookie. This overrides browser preference at the root. Direct links to a locale page always retain their language. English homepage selection uses `/?lang=en` to override negotiation.
+- Routing is implemented by `functions/_middleware.js`, outside the public folder. Static local previews show page content but need Cloudflare Pages Functions to exercise routing and preference persistence.
+- Grand Galleria's approved PT-BR and IT synopsis and hook come verbatim from https://francescodurazzo.com/pt-br/ and /it/. PT-BR uses its Portuguese title and jacket. Italian uses the existing English title and jacket: an Italian website is not an announcement of an Italian book edition.
+- Keep established series/product names and unapproved translated book titles unchanged. Translate surrounding catalogue copy and accessibility labels. Localised classics pages describe the English collection; do not reuse those times as claims for a Portuguese or Italian edition. The separate Portuguese pilot awaits the author's selection in another chat.
+- `research/page-locales.json` is the equivalent-page map. `research/localization-copy.json` records the translation pairs used for this release; HTML is served directly, with no build step. When changing copy, update its translations and this editorial record together.
+- Every catalogue page has a self canonical, reciprocal en/pt-BR/it/x-default links and localised metadata. Shared 404 offers recovery in all three languages. Extend the locale map and sitemap when adding pages.
 
 ## Design
 

@@ -1,2 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://porchesterpublishing.com/</loc></url><url><loc>https://porchesterpublishing.com/underqualified/</loc></url><url><loc>https://porchesterpublishing.com/standalone/</loc></url><url><loc>https://porchesterpublishing.com/condensed-classics/</loc></url><url><loc>https://porchesterpublishing.com/about/</loc></url><url><loc>https://porchesterpublishing.com/contact/</loc></url><url><loc>https://porchesterpublishing.com/books/grand-galleria/</loc></url><url><loc>https://porchesterpublishing.com/books/stevens-creek/</loc></url><url><loc>https://porchesterpublishing.com/books/little-venice/</loc></url><url><loc>https://porchesterpublishing.com/books/demons-country/</loc></url><url><loc>https://porchesterpublishing.com/books/last-daughters-of-dunbrae/</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://porchesterpublishing.com/</loc></url>
+  <url><loc>https://porchesterpublishing.com/pt-br/</loc></url>
+  <url><loc>https://porchesterpublishing.com/it/</loc></url>
+  <url><loc>https://porchesterpublishing.com/contact/</loc></url>
+  <url><loc>https://porchesterpublishing.com/pt-br/contact/</loc></url>
+  <url><loc>https://porchesterpublishing.com/it/contact/</loc></url>
+  <url><loc>https://porchesterpublishing.com/standalone/</loc></url>
+  <url><loc>https://porchesterpublishing.com/pt-br/standalone/</loc></url>
+  <url><loc>https://porchesterpublishing.com/it/standalone/</loc></url>
+  <url><loc>https://porchesterpublishing.com/about/</loc></url>
+  <url><loc>https://porchesterpublishing.com/pt-br/about/</loc></url>
+  <url><loc>https://porchesterpublishing.com/it/about/</loc></url>
+  <url><loc>https://porchesterpublishing.com/books/grand-galleria/</loc></url>
+  <url><loc>https://porchesterpublishing.com/pt-br/books/grand-galleria/</loc></url>
+  <url><loc>https://porchesterpublishing.com/it/books/grand-galleria/</loc></url>
+  <url><loc>https://porchesterpublishing.com/books/last-daughters-of-dunbrae/</loc></url>
+  <url><loc>https://porchesterpublishing.com/pt-br/books/last-daughters-of-dunbrae/</loc></url>
+  <url><loc>https://porchesterpublishing.com/it/books/last-daughters-of-dunbrae/</loc></url>
+  <url><loc>https://porchesterpublishing.com/books/demons-country/</loc></url>
+  <url><loc>https://porchesterpublishing.com/pt-br/books/demons-country/</loc></url>
+  <url><loc>https://porchesterpublishing.com/it/books/demons-country/</loc></url>
+  <url><loc>https://porchesterpublishing.com/books/little-venice/</loc></url>
+  <url><loc>https://porchesterpublishing.com/pt-br/books/little-venice/</loc></url>
+  <url><loc>https://porchesterpublishing.com/it/books/little-venice/</loc></url>
+  <url><loc>https://porchesterpublishing.com/books/stevens-creek/</loc></url>
+  <url><loc>https://porchesterpublishing.com/pt-br/books/stevens-creek/</loc></url>
+  <url><loc>https://porchesterpublishing.com/it/books/stevens-creek/</loc></url>
+  <url><loc>https://porchesterpublishing.com/condensed-classics/</loc></url>
+  <url><loc>https://porchesterpublishing.com/pt-br/condensed-classics/</loc></url>
+  <url><loc>https://porchesterpublishing.com/it/condensed-classics/</loc></url>
+  <url><loc>https://porchesterpublishing.com/underqualified/</loc></url>
+  <url><loc>https://porchesterpublishing.com/pt-br/underqualified/</loc></url>
+  <url><loc>https://porchesterpublishing.com/it/underqualified/</loc></url>
+</urlset>

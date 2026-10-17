@@ -1,0 +1,57 @@
+{
+  "/": {
+    "en": "/",
+    "pt-br": "/pt-br/",
+    "it": "/it/"
+  },
+  "/contact/": {
+    "en": "/contact/",
+    "pt-br": "/pt-br/contact/",
+    "it": "/it/contact/"
+  },
+  "/standalone/": {
+    "en": "/standalone/",
+    "pt-br": "/pt-br/standalone/",
+    "it": "/it/standalone/"
+  },
+  "/about/": {
+    "en": "/about/",
+    "pt-br": "/pt-br/about/",
+    "it": "/it/about/"
+  },
+  "/books/grand-galleria/": {
+    "en": "/books/grand-galleria/",
+    "pt-br": "/pt-br/books/grand-galleria/",
+    "it": "/it/books/grand-galleria/"
+  },
+  "/books/last-daughters-of-dunbrae/": {
+    "en": "/books/last-daughters-of-dunbrae/",
+    "pt-br": "/pt-br/books/last-daughters-of-dunbrae/",
+    "it": "/it/books/last-daughters-of-dunbrae/"
+  },
+  "/books/demons-country/": {
+    "en": "/books/demons-country/",
+    "pt-br": "/pt-br/books/demons-country/",
+    "it": "/it/books/demons-country/"
+  },
+  "/books/little-venice/": {
+    "en": "/books/little-venice/",
+    "pt-br": "/pt-br/books/little-venice/",
+    "it": "/it/books/little-venice/"
+  },
+  "/books/stevens-creek/": {
+    "en": "/books/stevens-creek/",
+    "pt-br": "/pt-br/books/stevens-creek/",
+    "it": "/it/books/stevens-creek/"
+  },
+  "/condensed-classics/": {
+    "en": "/condensed-classics/",
+    "pt-br": "/pt-br/condensed-classics/",
+    "it": "/it/condensed-classics/"
+  },
+  "/underqualified/": {
+    "en": "/underqualified/",
+    "pt-br": "/pt-br/underqualified/",
+    "it": "/it/underqualified/"
+  }
+}

@@ -16,7 +16,7 @@ class Page(HTMLParser):
    self.ids.add(a['id'])
   if tag=='h1':self.h1+=1
   if tag=='title':self.title=True
-  if tag=='nav' and a.get('aria-label')=='Main navigation':self.nav=True
+  if tag=='nav' and a.get('class')=='site-nav':self.nav=True
   if tag=='meta' and a.get('name')=='description':self.description=bool(a.get('content'))
   if tag=='link' and a.get('rel')=='canonical':self.canonical=a.get('href')
   if tag=='img':assert 'alt' in a,(self.path,'missing alt')
@@ -44,3 +44,34 @@ for path,p in pages.items():
 canon=[p.canonical for p in pages.values()]
 assert len(canon)==len(set(canon)),'duplicate canonical'
 print(f'PASS: {len(pages)} pages; balanced HTML, one H1, metadata, unique IDs, image alternatives, shared navigation and all local links/assets/anchors.')
+
+# Locale metadata, reciprocal navigation and language coverage.
+import json
+from xml.etree import ElementTree
+mapping=json.loads((ROOT.parent/'research/page-locales.json').read_text())
+class LocalePage(HTMLParser):
+ def __init__(self,text):
+  super().__init__(); self.tags=[]; self.feed(text)
+ def handle_starttag(self,tag,attrs): self.tags.append((tag,dict(attrs)))
+expected=set()
+for source,variants in mapping.items():
+ for locale,route in variants.items():
+  path=ROOT/route.lstrip('/')/'index.html'
+  text=path.read_text(); tags=LocalePage(text).tags
+  language='pt-BR' if locale=='pt-br' else locale
+  assert ('html',{'lang':language}) in tags,(path,'html language')
+  links=[a for t,a in tags if t=='link']
+  assert any(a.get('rel')=='canonical' and a.get('href')=='https://porchesterpublishing.com'+route for a in links),(path,'canonical')
+  for code,url in {**variants,'x-default':variants['en']}.items():
+   code='pt-BR' if code=='pt-br' else code
+   assert any(a.get('rel')=='alternate' and a.get('hreflang')==code and a.get('href')=='https://porchesterpublishing.com'+url for a in links),(path,'hreflang',code)
+  for code,url in variants.items():
+   assert any(t=='a' and a.get('href')==url+'?lang='+code for t,a in tags),(path,'language selector',code)
+  for t,a in tags:
+   href=a.get('href','').split('#')[0].split('?')[0]
+   if t=='a' and href.startswith('/') and not href.startswith('/assets/') and 'hreflang' not in a:
+    assert href in [v[locale] for v in mapping.values()],(path,'cross-language internal link',href)
+  expected.add('https://porchesterpublishing.com'+route)
+actual={x.text for x in ElementTree.parse(ROOT/'sitemap.xml').iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
+assert expected==actual,'sitemap locale coverage'
+print('PASS: 11 equivalent-page groups, 33 self canonicals, reciprocal hreflang, selectors, locale-consistent links and sitemap.')
