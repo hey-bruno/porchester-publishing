@@ -181,3 +181,8 @@ main > article + section { margin-top: clamp(3rem, 8vh, 4.5rem); }
 #lead { text-align: center; margin-bottom: 2rem; }
 .publisher-note { margin: clamp(3rem, 8vh, 4.5rem) auto 0; }
 .cover-link { text-decoration: none; }
+
+/* Approved series emblem; the publisher masthead remains the house identity. */
+.series-logo { width: 7rem; height: auto; margin: 0 auto 1.5rem; mix-blend-mode: multiply; }
+.series-intro .series-logo { width: 8rem; }
+.series-intro .series { text-align: center; }
