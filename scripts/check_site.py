@@ -75,3 +75,8 @@ for source,variants in mapping.items():
 actual={x.text for x in ElementTree.parse(ROOT/'sitemap.xml').iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
 assert expected==actual,'sitemap locale coverage'
 print('PASS: 11 equivalent-page groups, 33 self canonicals, reciprocal hreflang, selectors, locale-consistent links and sitemap.')
+
+# Reject HTML fallback pages accidentally saved as jacket JPEGs.
+for image in (ROOT/'assets').rglob('*.jpg'):
+ assert image.read_bytes().startswith(b'\xff\xd8\xff'),(image,'invalid JPEG asset')
+print('PASS: JPEG assets contain image data.')
