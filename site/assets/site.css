@@ -183,6 +183,6 @@ main > article + section { margin-top: clamp(3rem, 8vh, 4.5rem); }
 .cover-link { text-decoration: none; }
 
 /* Approved series emblem; the publisher masthead remains the house identity. */
-.series-logo { width: 7rem; height: auto; margin: 0 auto 1.5rem; mix-blend-mode: multiply; }
+.series-logo { width: 7rem; height: auto; margin: 0 auto 1.5rem; }
 .series-intro .series-logo { width: 8rem; }
 .series-intro .series { text-align: center; }
