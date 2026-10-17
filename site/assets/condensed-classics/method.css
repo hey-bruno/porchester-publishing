@@ -10,3 +10,20 @@
 .cc-bars{list-style:none;padding:0;margin:1rem 0}.cc-bars li{display:grid;grid-template-columns:7rem minmax(0,1fr) 4rem;gap:.7rem;align-items:center;margin:.65rem 0;font:.85rem/1.4 system-ui,sans-serif}.cc-bars strong{text-align:right;font-variant-numeric:tabular-nums}
 .cc-bar-track{display:block;height:.65rem;background:#e2d6c3}.cc-bar-track>span{display:block;height:100%;background:#754000}
 @media(max-width:480px){.cc-bars li{grid-template-columns:5rem minmax(0,1fr) 3.8rem;gap:.4rem;font-size:.78rem}.cc-progression{gap:.35rem;font-size:.8rem}.cc-progression a{padding:.4rem}.cc-personal p{padding-left:.8rem}}
+
+/* Existing War and Peace pilot guides, shown within the redesigned method band. */
+.cc-band > .cc-guide-examples{grid-column:1/-1;margin-top:2.75rem!important;padding-top:2rem;border-top:1px solid var(--rule)}
+.cc-examples-intro{max-width:48rem;margin:0 auto 1.75rem;text-align:center}
+.cc-guide-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem;align-items:start}
+.cc-guide-card{min-width:0;padding:1.35rem;background:#fffdf7;border:1px solid #b7a68a;color:#754000}
+.cc-guide-card h3{font-family:var(--display,Georgia,serif);font-size:1.55rem;line-height:1.25;font-weight:normal;margin:0 0 .75rem}
+.cc-guide-card figure{margin:1.25rem 0}.cc-guide-card img{display:block;width:100%;height:auto}
+.cc-guide-card picture{display:block}.cc-guide-card picture img{max-width:32rem;margin:auto}
+.cc-guide-card figcaption{font-size:.78rem;line-height:1.5;margin-top:.7rem}
+.cc-guide-card ol{padding-left:1.5rem;font-size:.95rem}.cc-guide-card li{margin:.4rem 0}
+.cc-guide-text{border-top:1px solid #b7a68a;padding-top:.65rem;margin-top:1.25rem}
+.cc-guide-text summary{cursor:pointer;font-size:.9rem;font-weight:bold;padding:.4rem 0}
+.cc-guide-text summary:focus-visible{outline:2px solid #754000;outline-offset:4px}
+.cc-band .cc-guide-credit{font-size:.78rem;margin-top:1.25rem}
+@media(max-width:55.99rem){.cc-guide-grid{grid-template-columns:1fr}.cc-guide-card{padding:1rem}.cc-guide-card>figure>img{max-width:28rem;margin:auto}}
+@media(max-width:30rem){.cc-guide-card picture img{max-width:380px}.cc-guide-card picture img{aspect-ratio:380/1250}}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="285" viewBox="0 0 380 285" role="img" aria-labelledby="title desc"><title id="title">Editorial guide: Places in the 1805 campaign</title><desc id="desc">A complete linear reading equivalent accompanies this diagram.</desc><rect width="380" height="285" fill="#fffdf7"/><g fill="#754000" font-family="Georgia,serif">
+<circle cx="39.80" cy="166.52" r="13" fill="#fffdf7" stroke="#754000" stroke-width="2"/>
+<text x="39.8" y="173.52" font-size="21" text-anchor="middle">1</text>
+<circle cx="229.60" cy="148.90" r="13" fill="#fffdf7" stroke="#754000" stroke-width="2"/>
+<text x="229.6" y="155.9" font-size="21" text-anchor="middle">2</text>
+<circle cx="262.50" cy="128.30" r="13" fill="#fffdf7" stroke="#754000" stroke-width="2"/>
+<text x="262.5" y="135.3" font-size="21" text-anchor="middle">3</text>
+<circle cx="322.16" cy="66.90" r="13" fill="#fffdf7" stroke="#754000" stroke-width="2"/>
+<text x="322.16" y="73.9" font-size="21" text-anchor="middle">4</text>
+<circle cx="285.13" cy="172.09" r="13" fill="#fffdf7" stroke="#754000" stroke-width="2"/>
+<text x="285.13" y="179.09" font-size="21" text-anchor="middle">5</text>
+<text x="350" y="25" font-size="21" text-anchor="middle">N</text>
+<path d="M350 38L350 75" fill="none" stroke="#754000" stroke-width="2"/>
+<path d="M344 45L350 36L356 45" fill="none" stroke="#754000" stroke-width="2"/>
+<path d="M30 235L130 235" fill="none" stroke="#754000" stroke-width="2"/>
+<path d="M30 230L30 240" fill="none" stroke="#754000" stroke-width="2"/>
+<path d="M130 230L130 240" fill="none" stroke="#754000" stroke-width="2"/>
+<text x="30" y="267" font-size="20" text-anchor="start">Approx. 100 km</text>
+</g></svg>

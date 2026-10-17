@@ -1,0 +1,15 @@
+{
+  "source_project": "/Users/brunofurnari/Documents/ChatGPT/The Milk Project",
+  "guides": [
+    "G01",
+    "G03"
+  ],
+  "source_notes": "Existing pilot SVG originals copied unchanged; G01 includes the supplied responsive layout. Localised surrounding copy and complete text equivalents; artwork remains in English.",
+  "files": {
+    "guides/G01-family-map.svg": "cc85e8b32367c6eb796a5f4b93b306cd030b0beedd32bcd37ad244686449a045",
+    "guides/G01-family-map-mobile.svg": "8cb8316083ceab484d1818c84da105ffed17ff780bdb258f0155dd7549ad340b",
+    "guides/G03-1805-places.svg": "430ea020b3bf4faeba2604d85cdf2a657939abe6cadb7b17bd7121f12810e928"
+  },
+  "placement": "Within the current redesigned cheat-sheet band, immediately before the wording-evidence section.",
+  "scope": "Only collection pages, guide assets, component CSS, localization record and this provenance note. Excludes unrelated local homepage commit 94dcfe9."
+}

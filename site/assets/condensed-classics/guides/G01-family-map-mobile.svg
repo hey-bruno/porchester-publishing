@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="1250" viewBox="0 0 380 1250" role="img" aria-labelledby="title desc"><title id="title">Editorial family map: stacked layout</title><desc id="desc">Selected relationships at the close of the opening section. A complete linear equivalent accompanies this map.</desc><rect width="380" height="1250" fill="#fffdf7"/><g fill="#754000" font-family="Georgia,serif">
+<text x="20" y="30" font-size="17" text-anchor="start">EDITORIAL GUIDE 01</text>
+<text x="20" y="65" font-size="27" text-anchor="start">Three family circles</text>
+<text x="20" y="110" font-size="23" text-anchor="start">Rostóv</text>
+<rect x="20" y="130" width="340" height="75" rx="6" fill="none" stroke="#754000" stroke-width="2"/>
+<text x="190.0" y="158" font-size="21" text-anchor="middle">Count and Countess Rostóv</text>
+<text x="190.0" y="184" font-size="19" text-anchor="middle">parents of the children below</text>
+<path d="M40 205L40 395" stroke="#754000" stroke-width="2" fill="none"/>
+<path d="M40 255L80 255" stroke="#754000" stroke-width="2" fill="none"/>
+<rect x="80" y="230" width="280" height="50" rx="6" fill="none" stroke="#754000" stroke-width="2"/>
+<text x="220.0" y="262.0" font-size="21" text-anchor="middle">Nicholas</text>
+<path d="M40 325L80 325" stroke="#754000" stroke-width="2" fill="none"/>
+<rect x="80" y="300" width="280" height="50" rx="6" fill="none" stroke="#754000" stroke-width="2"/>
+<text x="220.0" y="332.0" font-size="21" text-anchor="middle">Natásha</text>
+<path d="M40 395L80 395" stroke="#754000" stroke-width="2" fill="none"/>
+<rect x="80" y="370" width="280" height="50" rx="6" fill="none" stroke="#754000" stroke-width="2"/>
+<text x="220.0" y="402.0" font-size="21" text-anchor="middle">Pétya</text>
+<text x="20" y="460" font-size="21" text-anchor="start">Sónya is the count’s niece.</text>
+<text x="20" y="520" font-size="23" text-anchor="start">Bolkónski</text>
+<rect x="20" y="540" width="340" height="75" rx="6" fill="none" stroke="#754000" stroke-width="2"/>
+<text x="190.0" y="568" font-size="21" text-anchor="middle">Old Prince Bolkónski</text>
+<text x="190.0" y="594" font-size="19" text-anchor="middle">father of Andrew and Mary</text>
+<path d="M40 615L40 830" stroke="#754000" stroke-width="2" fill="none"/>
+<path d="M40 665L80 665" stroke="#754000" stroke-width="2" fill="none"/>
+<path d="M40 830L80 830" stroke="#754000" stroke-width="2" fill="none"/>
+<rect x="80" y="640" width="280" height="50" rx="6" fill="none" stroke="#754000" stroke-width="2"/>
+<text x="220.0" y="672.0" font-size="21" text-anchor="middle">Andrew</text>
+<path d="M220 690L220 725" stroke="#754000" stroke-width="2" fill="none"/>
+<text x="236" y="715" font-size="18" text-anchor="start">married</text>
+<rect x="100" y="725" width="260" height="65" rx="6" fill="none" stroke="#754000" stroke-width="2"/>
+<text x="230.0" y="753" font-size="21" text-anchor="middle">Lise</text>
+<text x="230.0" y="779" font-size="19" text-anchor="middle">the little princess</text>
+<rect x="80" y="805" width="280" height="50" rx="6" fill="none" stroke="#754000" stroke-width="2"/>
+<text x="220.0" y="837.0" font-size="21" text-anchor="middle">Mary</text>
+<text x="20" y="920" font-size="23" text-anchor="start">Bezúkhov</text>
+<rect x="20" y="940" width="340" height="75" rx="6" fill="none" stroke="#754000" stroke-width="2"/>
+<text x="190.0" y="968" font-size="21" text-anchor="middle">Old Count Bezúkhov</text>
+<text x="190.0" y="994" font-size="19" text-anchor="middle">Pierre’s father, who has died</text>
+<path d="M190 1015L190 1050" stroke="#754000" stroke-width="2" fill="none"/>
+<text x="211" y="1040" font-size="18" text-anchor="start">son</text>
+<rect x="20" y="1050" width="340" height="75" rx="6" fill="none" stroke="#754000" stroke-width="2"/>
+<text x="190.0" y="1078" font-size="21" text-anchor="middle">Pierre</text>
+<text x="190.0" y="1104" font-size="19" text-anchor="middle">now Count Bezúkhov</text>
+<text x="20" y="1190" font-size="19" text-anchor="start">Selected relationships known at the</text>
+<text x="20" y="1218" font-size="19" text-anchor="start">close of the opening section.</text>
+</g></svg>
