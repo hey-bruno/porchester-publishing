@@ -627,14 +627,6 @@
     "pt-br": "Comece por qualquer um dos cortes. Se a Fat Free te fisgar, a Semi-Skimmed dá mais; se você se apaixonar, vá ler o original, caramba. Também dá para terminar uma edição condensada e parar por aí. Ninguém precisa pedir licença para gostar de um livro.",
     "it": "Comincia da una delle due versioni. Se Fat Free ti appassiona, Semi-Skimmed offre di più; se lo ami, leggi quel benedetto originale. Puoi anche finire un’edizione condensata e fermarti lì. Nessuno deve guadagnarsi il permesso di godersi un libro."
   },
-  "Where the cheat sheets came from": {
-    "pt-br": "De onde vieram os resumões",
-    "it": "Da dove vengono gli schemi"
-  },
-  "“When I was at school, I made cheat sheets for revision. They held very condensed information: what was happening, when it happened, dates and whatever else helped me remember it quickly. The point was to make a lot of material easier to grasp and retain. That is the thinking behind the guides in this collection.”": {
-    "pt-br": "“Na escola, eu fazia resumões para estudar para as provas. Eram informações bem condensadas: o que estava acontecendo, quando aconteceu, datas e tudo o mais que me ajudasse a lembrar rápido. A ideia era tornar uma montanha de matéria mais fácil de entender e de guardar. É esse o raciocínio por trás dos guias desta coleção.”",
-    "it": "“A scuola preparavo dei fogli di appunti per il ripasso. Contenevano informazioni molto condensate: che cosa succedeva, quando, le date e tutto ciò che mi aiutava a ricordare in fretta. Servivano a rendere una grande quantità di materiale più facile da capire e ricordare. È questa l’idea alla base delle guide della collana.”"
-  },
   "We edit for momentum. Decisions, discoveries, reversals and consequences guide the selection, together with the character changes and essential ideas that give them meaning. Description and the material between those moments receive a harder cut. The result follows the story from beginning to end, ending included.": {
     "pt-br": "Editamos pelo ritmo. Decisões, descobertas, reviravoltas e consequências guiam a seleção, junto com as mudanças dos personagens e as ideias essenciais que dão sentido a elas. As descrições e o que fica entre esses momentos levam um corte mais duro. O resultado acompanha a história do começo ao fim, final incluído.",
     "it": "Lavoriamo sul ritmo della lettura. Decisioni, scoperte, svolte e conseguenze guidano la selezione, insieme ai cambiamenti dei personaggi e alle idee essenziali che danno loro significato. Le descrizioni e il materiale fra questi momenti subiscono tagli maggiori. Il risultato segue la storia dall’inizio alla fine, conclusione compresa."
@@ -902,5 +894,165 @@
   "We try to add nothing to the narrative. You read the author’s prose in the original language or a credited classic translation. Essential additions or alterations are clearly marked. New headings, cheat sheets, diagrams, check-ins, glossary entries and guide explanations are editorial material, clearly separate from the source prose.": {
     "pt-br": "Tentamos não acrescentar nada à narrativa. Você lê a prosa do autor na língua original ou numa tradução clássica creditada. Acréscimos ou alterações indispensáveis vêm claramente marcados. Novos títulos, resumões, diagramas, check-ins, verbetes do glossário e explicações dos guias são material editorial, bem separado da prosa original.",
     "it": "Cerchiamo di non aggiungere nulla alla narrazione. Leggi la prosa dell’autore nella lingua originale o in una traduzione classica accreditata. Le aggiunte o modifiche indispensabili sono chiaramente segnalate. Nuovi titoli di sezione, schemi, diagrammi, check-in, voci del glossario e spiegazioni delle guide sono materiale editoriale, distinto dalla prosa di partenza."
+  },
+  "Questions and answers": {
+    "pt-br": "Perguntas e respostas",
+    "it": "Domande e risposte"
+  },
+  "Who asked for this?": {
+    "pt-br": "Quem pediu isso?",
+    "it": "Chi l’ha chiesto?"
+  },
+  "I did, years before I could do anything about it. At school and at university we were always handed excerpts from the classics: a chapter photocopied here, a passage from the library there. You never felt you had actually got through a book that way. The complete books were always there, free at the library, and they still are. But most people don’t read much, and most of those who do don’t read these books.": {
+    "pt-br": "Eu pedi, anos antes de poder fazer alguma coisa a respeito. Na escola e na faculdade, sempre recebíamos trechos dos clássicos: um capítulo xerocado aqui, uma passagem tirada da biblioteca ali. Desse jeito, nunca dava a sensação de ter lido um livro de verdade. Os livros completos sempre estiveram lá, de graça, na biblioteca, e continuam lá. Mas a maioria das pessoas lê pouco, e a maioria de quem lê não lê esses livros.",
+    "it": "Io, anni prima di poterci fare qualcosa. A scuola e all’università ci davano sempre brani dei classici: un capitolo fotocopiato qui, un passo preso in biblioteca là. Così non avevi mai la sensazione di aver letto davvero un libro. I libri completi erano sempre lì, gratis in biblioteca, e ci sono ancora. Ma la maggior parte delle persone legge poco, e la maggior parte di chi legge non legge questi libri."
+  },
+  "Plenty of people, me included, feel that a well-rounded person should have read certain classics. The problem is that they’re intimidating, mostly because of their length, and sometimes because of language with a reputation for being impenetrable. With so many options and so little time, the wish to read one stays dormant for years. If you catch a glimpse of the story at all, it’s usually through a film or series. That’s a fine introduction, but a condensed edition gives you the author’s own words, from beginning to middle to end.": {
+    "pt-br": "Muita gente, eu incluído, acha que uma pessoa bem formada deveria ter lido certos clássicos. O problema é que eles intimidam, principalmente pelo tamanho e, às vezes, por uma linguagem com fama de impenetrável. Com tantas opções e tão pouco tempo, a vontade de ler um deles fica adormecida por anos. Quando a gente tem algum contato com a história, em geral é por um filme ou uma série. É uma boa apresentação, mas uma edição condensada traz as palavras do próprio autor, do começo ao fim.",
+    "it": "Molte persone, me compreso, pensano che una persona completa debba aver letto certi classici. Il problema è che intimidiscono, soprattutto per la lunghezza e a volte per una lingua che ha fama di essere impenetrabile. Con così tante alternative e così poco tempo, la voglia di leggerne uno resta sopita per anni. Se la storia la intravedi, di solito è grazie a un film o a una serie. È una buona introduzione, ma un’edizione condensata ti dà le parole dell’autore, dall’inizio alla fine."
+  },
+  "These editions are built for a fragmented day. The text comes in chunks you can read in about 30 minutes, the way you’d watch an episode of a TV series, and the recaps, diagrams and cheat sheets keep you oriented between sittings. If it works, it’s a gateway drug: to the full book, or to more by the same author.": {
+    "pt-br": "Essas edições foram pensadas para um dia fragmentado. O texto vem em blocos que dá para ler em cerca de 30 minutos, como um episódio de série, e as recapitulações, os diagramas e os resumões mantêm você situado entre uma sessão e outra. Se der certo, é uma porta de entrada para o vício: no livro completo ou em outros livros do mesmo autor.",
+    "it": "Queste edizioni sono pensate per giornate frammentate. Il testo è diviso in blocchi che si leggono in circa 30 minuti, come un episodio di una serie, e i riepiloghi, i diagrammi e gli schemi ti tengono orientato tra una sessione e l’altra. Se funziona, è una droga d’ingresso: al libro completo o ad altri libri dello stesso autore."
+  },
+  "How is this different from reading a summary?": {
+    "pt-br": "Qual é a diferença entre isso e ler um resumo?",
+    "it": "Che differenza c’è con leggere un riassunto?"
+  },
+  "A summary is useful. It condenses a book into language written for the people who will read the summary. But you lose the author’s choice of words, or, in a translation, the translator’s reading of them. A summary tells you what happens; it doesn’t give you how the author told it. You might get a sense of what the language felt like, but that isn’t the same thing, and in many cases it takes away much of the enjoyment of what the author wrote.": {
+    "pt-br": "Um resumo é útil. Ele condensa um livro numa linguagem feita para quem vai ler o resumo. Mas você perde a escolha de palavras do autor ou, numa tradução, a leitura que o tradutor fez delas. O resumo conta o que acontece; não mostra como o autor contou. Você pode até ter uma ideia de como era a linguagem, mas não é a mesma coisa e, em muitos casos, isso tira boa parte do prazer do que o autor escreveu.",
+    "it": "Un riassunto è utile. Condensa un libro in una lingua pensata per chi leggerà il riassunto. Ma perdi le scelte lessicali dell’autore o, in una traduzione, l’interpretazione che il traduttore ne ha dato. Il riassunto ti dice che cosa succede; non ti dà il modo in cui l’autore l’ha raccontato. Magari intuisci com’era la lingua, ma non è la stessa cosa e, in molti casi, si perde gran parte del piacere di ciò che l’autore ha scritto."
+  },
+  "A condensed edition keeps the author’s words as untouched as possible, in the order the author put them. We don’t rearrange anything; we only cut for pace. You still get a summary, in the recap at each 30-minute marker of what that section covered. But between those markers, you’re reading the book itself.": {
+    "pt-br": "Uma edição condensada mantém as palavras do autor o mais intactas possível, na ordem em que ele as colocou. Não mudamos nada de lugar; só cortamos pelo ritmo. Você também tem um resumo, na recapitulação a cada marco de 30 minutos sobre o trecho que acabou de ler. Mas, entre um marco e outro, você está lendo o próprio livro.",
+    "it": "Un’edizione condensata lascia le parole dell’autore il più possibile intatte, nell’ordine in cui le ha messe. Non spostiamo niente; tagliamo solo per il ritmo. Un riassunto c’è comunque, nel riepilogo che a ogni tappa dei 30 minuti racconta che cosa è successo in quel tratto. Ma tra una tappa e l’altra stai leggendo il libro vero e proprio."
+  },
+  "Aren’t you just training people to have shorter attention spans?": {
+    "pt-br": "Vocês não estão só acostumando as pessoas a prestar atenção por cada vez menos tempo?",
+    "it": "Non state solo abituando le persone a una soglia di attenzione sempre più bassa?"
+  },
+  "No. Their attention spans are already short, and short-form video and social media keep shortening them. That’s simply the reality, and I’m adapting to it. We’re trying to make long, complex works of art readable for an audience that has free little hits of dopamine available all day, so it’s an uphill battle.": {
+    "pt-br": "Não. A atenção delas já é curta, e os vídeos curtos e as redes sociais continuam encurtando. Essa é a realidade, e eu estou me adaptando a ela. Estamos tentando tornar legíveis obras de arte longas e complexas para um público que tem pequenas doses de dopamina de graça o dia inteiro. É uma batalha morro acima.",
+    "it": "No. La loro attenzione è già breve, e i video brevi e i social continuano ad accorciarla. È semplicemente la realtà, e io mi ci adatto. Cerchiamo di rendere leggibili opere d’arte lunghe e complesse per un pubblico che ha piccole dosi di dopamina gratis tutto il giorno, quindi è una battaglia in salita."
+  },
+  "Our assumption is that without books like these, a great many young people would never experience these works in their authors’ own words at all. That alone is worth the effort. And for some, it’s the start of a journey: to more of these books, to longer cuts, or to the full thing.": {
+    "pt-br": "Partimos do princípio de que, sem livros como estes, muitos jovens nunca conheceriam essas obras nas palavras de seus autores. Só isso já vale o esforço. E, para alguns, é o começo de um caminho: para mais livros como estes, para cortes mais longos ou para a obra completa.",
+    "it": "Partiamo dal presupposto che, senza libri come questi, moltissimi giovani non incontrerebbero mai queste opere con le parole dei loro autori. Già questo vale la fatica. E per alcuni è l’inizio di un percorso: verso altri libri come questi, verso tagli più lunghi o verso l’opera completa."
+  },
+  "What’s the approach to deciding what stays and what goes?": {
+    "pt-br": "Como vocês decidem o que fica e o que sai?",
+    "it": "Come decidete che cosa resta e che cosa va?"
+  },
+  "We cut for pace. The model is a film editor cutting a trailer. A trailer contains only scenes from the film; there’s no frame in it that isn’t in the movie. But it isn’t a summary either. It’s a sample, cut to carry momentum and hook the viewer.": {
+    "pt-br": "Cortamos pelo ritmo. O modelo é o de um editor de cinema montando um trailer. Um trailer só tem cenas do filme; não há nele nenhum quadro que não esteja no filme. Mas ele também não é um resumo. É uma amostra, montada para ter embalo e fisgar o espectador.",
+    "it": "Tagliamo per il ritmo. Il modello è un montatore che prepara il trailer di un film. Un trailer contiene solo scene del film; non c’è un fotogramma che non sia nel film. Ma non è nemmeno un riassunto. È un assaggio, montato per avere slancio e catturare lo spettatore."
+  },
+  "We see this collection the same way: as the trailer for the full book. Every word is what the author published, or, for a translated work, the translation’s rendering of the author’s intent. A trailer is there to put people in seats for the film. These editions are there to get people reading the longer versions of these books.": {
+    "pt-br": "Vemos esta coleção do mesmo jeito: como o trailer do livro completo. Cada palavra é o que o autor publicou ou, numa obra traduzida, o modo como a tradução interpreta a intenção do autor. O trailer existe para lotar as salas de cinema. Estas edições existem para levar as pessoas a ler as versões mais longas desses livros.",
+    "it": "Vediamo questa collezione allo stesso modo: come il trailer del libro completo. Ogni parola è ciò che l’autore ha pubblicato o, per un’opera tradotta, il modo in cui la traduzione rende l’intenzione dell’autore. Un trailer serve a riempire le sale. Queste edizioni servono a far leggere le versioni più lunghe di questi libri."
+  },
+  "Do you rewrite anything, or is every word the author’s?": {
+    "pt-br": "Vocês reescrevem alguma coisa, ou todas as palavras são do autor?",
+    "it": "Riscrivete qualcosa, o ogni parola è dell’autore?"
+  },
+  "We try very hard not to. Sometimes cutting a sentence or a paragraph leaves a seam that no longer makes grammatical sense, and it needs a word or two that aren’t the author’s. When that happens, we’re completely transparent about it: those words are clearly marked, and we explain where they are so the reader knows. In the first two books in the collection, more than 99% of the words are the author’s. The recaps, cheat sheets and other supporting material are new, written for the collection, and are clearly separate from the text.": {
+    "pt-br": "Fazemos de tudo para não reescrever. Às vezes, ao cortar uma frase ou um parágrafo, fica uma emenda que deixa de fazer sentido gramatical e precisa de uma ou duas palavras que não são do autor. Quando isso acontece, somos totalmente transparentes: essas palavras vêm claramente marcadas, e explicamos onde estão para o leitor saber. Nos dois primeiros livros da coleção, mais de 99% das palavras são do autor. As recapitulações, os resumões e o restante do material de apoio são novos, escritos para a coleção, e ficam claramente separados do texto.",
+    "it": "Facciamo di tutto per non riscrivere. A volte, tagliando una frase o un paragrafo, resta una giuntura che non ha più senso grammaticale e servono una o due parole che non sono dell’autore. Quando succede, siamo del tutto trasparenti: quelle parole sono chiaramente segnalate e spieghiamo dove si trovano, così chi legge lo sa. Nei primi due libri della collezione, più del 99% delle parole è dell’autore. I riepiloghi, gli schemi e il resto del materiale di supporto sono nuovi, scritti per la collezione, e restano chiaramente separati dal testo."
+  },
+  "Do you keep the ending?": {
+    "pt-br": "Vocês mantêm o final?",
+    "it": "Il finale lo tenete?"
+  },
+  "This is where the trailer comparison ends: of course we keep it. You’ve got to have the ending. We want readers to finish feeling they’ve got the whole book: beginning, middle and end. Everything important stays in.": {
+    "pt-br": "Aqui a comparação com o trailer acaba: claro que mantemos. O final tem que estar lá. Queremos que o leitor termine com a sensação de ter lido o livro inteiro: começo, meio e fim. Tudo o que importa fica.",
+    "it": "Qui il paragone con il trailer finisce: certo che lo teniamo. Il finale ci deve essere. Vogliamo che chi legge arrivi in fondo con la sensazione di aver avuto tutto il libro: inizio, svolgimento e fine. Tutto ciò che conta resta."
+  },
+  "Why name the editions after milk?": {
+    "pt-br": "Por que dar às edições nomes de leite?",
+    "it": "Perché dare alle edizioni i nomi del latte?"
+  },
+  "Because everyone knows how milk works, even vegans. Skimmed milk is still milk; you’ve just taken the fat out. Saying the classics have fat in them is a provocation, and I know it’s sacrilege. But for the attention span of a modern reader, yes, they do.": {
+    "pt-br": "Porque todo mundo sabe como funciona o leite, até os veganos. Leite desnatado continua sendo leite; só tiraram a gordura. Dizer que os clássicos têm gordura é uma provocação, e eu sei que é sacrilégio. Mas, para a capacidade de atenção do leitor de hoje, têm sim.",
+    "it": "Perché tutti sanno come funziona il latte, perfino i vegani. Il latte scremato è sempre latte; gli hai solo tolto il grasso. Dire che i classici hanno del grasso è una provocazione, e so che è un sacrilegio. Ma per la soglia di attenzione di chi legge oggi, sì, ne hanno."
+  },
+  "How much fat is a harder question. I started by working backwards: trim very long books so people can get through them. But touching these classics at all is an exercise in heresy, and deciding exactly how much to cut was a judgment call too hard to make in the abstract. Milk grades solved that. Everyone knows what skimmed and semi-skimmed mean: no fat, a little fat. Full Fat is the original, so go and read the damn thing. I was surprised nobody had used the idea, and it amused me.": {
+    "pt-br": "Quanta gordura é uma pergunta mais difícil. Comecei trabalhando de trás para a frente: enxugar livros muito longos para que as pessoas consigam chegar ao fim. Mas mexer nesses clássicos já é um exercício de heresia, e decidir exatamente quanto cortar era uma escolha difícil demais de fazer no abstrato. As categorias do leite resolveram isso. Todo mundo sabe o que é desnatado e semidesnatado: sem gordura e com um pouco de gordura. O integral, Full Fat, é o original: vá ler essa droga. Fiquei surpreso que ninguém tivesse usado a ideia, e ela me divertiu.",
+    "it": "Quanto grasso è una domanda più difficile. Ho cominciato lavorando a ritroso: sfoltire libri lunghissimi perché le persone riescano ad arrivare in fondo. Ma toccare questi classici è già un esercizio di eresia, e decidere esattamente quanto tagliare era una scelta troppo difficile da fare in astratto. Le categorie del latte hanno risolto il problema. Tutti sanno che cosa vogliono dire scremato e parzialmente scremato: niente grasso e un po’ di grasso. Full Fat, l’intero, è l’originale: vai a leggerti quel dannato libro. Mi ha sorpreso che nessuno avesse usato l’idea, e mi divertiva."
+  },
+  "What matters most to me is telling readers how much time they’re signing up for. You can usually judge a book by its thickness, but font size and paper weight make that a poor guide. So we choose the time first and make the edition fit it, diagrams and all. For shorter classics, Fat Free takes two hours and Semi-Skimmed four; for longer ones, four and eight. The text comes in sections of about 30 minutes, so the shortest editions take four sittings.": {
+    "pt-br": "O mais importante para mim é dizer ao leitor quanto tempo ele vai investir. Normalmente dá para julgar um livro pela grossura, mas o tamanho da letra e a espessura do papel fazem disso um mau guia. Então escolhemos o tempo primeiro e fazemos a edição caber nele, com diagramas e tudo. Nos clássicos mais curtos, a Fat Free leva duas horas e a Semi-Skimmed, quatro; nos mais longos, quatro e oito. O texto vem em blocos de cerca de 30 minutos, então as edições mais curtas cabem em quatro sessões.",
+    "it": "Per me la cosa più importante è dire a chi legge quanto tempo sta per investire. Di solito un libro lo giudichi dallo spessore, ma la dimensione dei caratteri e il peso della carta lo rendono una guida poco affidabile. Così scegliamo prima il tempo e facciamo stare l’edizione in quel tempo, diagrammi compresi. Per i classici più brevi, Fat Free richiede due ore e Semi-Skimmed quattro; per quelli più lunghi, quattro e otto. Il testo è diviso in blocchi di circa 30 minuti, quindi le edizioni più brevi si leggono in quattro sessioni."
+  },
+  "How do I choose between Fat Free and Semi-Skimmed?": {
+    "pt-br": "Como escolho entre a Fat Free e a Semi-Skimmed?",
+    "it": "Come scelgo tra Fat Free e Semi-Skimmed?"
+  },
+  "You don’t have to. Every Fat Free edition comes with its Semi-Skimmed version, and in the ebook the two are linked, so you can move between them as you read. If you have the time, usually about double, and you want more of a passage, the fuller version is right there. Just pick up the Fat Free edition and decide as you go.": {
+    "pt-br": "Você não precisa escolher. Toda edição Fat Free vem com a versão Semi-Skimmed e, no ebook, as duas são ligadas, então dá para passar de uma à outra durante a leitura. Se você tiver tempo, em geral o dobro, e quiser mais de uma passagem, a versão mais completa está ali. É só começar pela Fat Free e decidir no caminho.",
+    "it": "Non devi scegliere. Ogni edizione Fat Free arriva con la sua versione Semi-Skimmed e, nell’ebook, le due sono collegate, quindi puoi passare dall’una all’altra mentre leggi. Se hai tempo, di solito il doppio, e vuoi di più da un passo, la versione più ampia è lì. Comincia da Fat Free e decidi strada facendo."
+  },
+  "What are the cheat sheets, and aren’t they cheating?": {
+    "pt-br": "O que são os resumões? Isso não é colar?",
+    "it": "Che cosa sono gli schemi? Non è barare?"
+  },
+  "Only if revising for an exam is cheating. When I was at school, I made cheat sheets before tests: who was related to whom, what was happening, what each character wanted. They were incredibly useful to me. I made them for myself; now I’m making them for anyone else who finds them useful.": {
+    "pt-br": "Só se estudar para a prova for colar. Na escola, eu fazia resumões antes das provas: quem era parente de quem, o que estava acontecendo, o que cada personagem queria. Eles me ajudavam demais. Eu fazia para mim; agora faço para qualquer pessoa que ache isso útil.",
+    "it": "Solo se ripassare per un compito in classe è barare. A scuola, prima delle verifiche, mi facevo degli schemi: chi era parente di chi, che cosa stava succedendo, che cosa voleva ogni personaggio. Mi sono stati utilissimi. Li facevo per me; ora li faccio per chiunque li trovi utili."
+  },
+  "In the books, they’re original editorial material by Porchester Publishing, placed alongside the author’s text and kept separate from it. They make the book easier to follow, remember and come back to, while you still read the author’s own language. They include:": {
+    "pt-br": "Nos livros, eles são material editorial original da Porchester Publishing, colocados ao lado do texto do autor e separados dele. Deixam o livro mais fácil de acompanhar, lembrar e retomar, enquanto você continua lendo a linguagem do próprio autor. Incluem:",
+    "it": "Nei libri sono materiale editoriale originale di Porchester Publishing, accanto al testo dell’autore e separati da esso. Rendono il libro più facile da seguire, ricordare e riprendere, mentre continui a leggere la lingua dell’autore. Comprendono:"
+  },
+  "<strong>Character guides:</strong> who people are, how they’re connected, whose side they’re on, and the different names one person goes by.": {
+    "pt-br": "<strong>Guias de personagens:</strong> quem é quem, como as pessoas se ligam, de que lado estão e os diferentes nomes de uma mesma pessoa.",
+    "it": "<strong>Guide ai personaggi:</strong> chi sono, come sono legati, da che parte stanno e i diversi nomi con cui viene chiamata una stessa persona."
+  },
+  "<strong>Maps:</strong> where things happen and where people go.": {
+    "pt-br": "<strong>Mapas:</strong> onde as coisas acontecem e para onde as pessoas vão.",
+    "it": "<strong>Mappe:</strong> dove succedono le cose e dove vanno le persone."
+  },
+  "<strong>Timelines:</strong> what happened when, including flashbacks, parallel events and stories told within the story.": {
+    "pt-br": "<strong>Linhas do tempo:</strong> o que aconteceu e quando, incluindo flashbacks, acontecimentos paralelos e histórias contadas dentro da história.",
+    "it": "<strong>Cronologie:</strong> che cosa è successo e quando, compresi flashback, eventi paralleli e storie raccontate dentro la storia."
+  },
+  "<strong>Diagrams and charts:</strong> how an argument, a conflict, a political structure or an unfamiliar idea works.": {
+    "pt-br": "<strong>Diagramas e gráficos:</strong> como funciona um argumento, um conflito, uma estrutura política ou uma ideia pouco familiar.",
+    "it": "<strong>Diagrammi e grafici:</strong> come funziona un ragionamento, un conflitto, una struttura politica o un’idea poco familiare."
+  },
+  "<strong>Short context notes:</strong> the history, culture or plot you need for a passage, including context from material that was cut.": {
+    "pt-br": "<strong>Notas curtas de contexto:</strong> a história, a cultura ou o enredo de que você precisa para entender um trecho, incluindo o contexto de material que foi cortado.",
+    "it": "<strong>Brevi note di contesto:</strong> la storia, la cultura o la trama che servono per capire un passo, compreso il contesto di parti tagliate."
+  },
+  "<strong>Check-ins (Minute 30, Minute 60 and so on):</strong> what’s happened, where things stand, who matters and what you now know, so you can pick the book up again after a break.": {
+    "pt-br": "<strong>Check-ins (Minuto 30, Minuto 60 e assim por diante):</strong> o que aconteceu, como estão as coisas, quem importa e o que você já sabe, para retomar o livro depois de uma pausa.",
+    "it": "<strong>Check-in (Minuto 30, Minuto 60 e così via):</strong> che cosa è successo, a che punto sono le cose, chi conta e che cosa sai ora, per riprendere il libro dopo una pausa."
+  },
+  "<strong>A glossary:</strong> words, names, alternative names and references, alphabetical, with short definitions and cross-references.": {
+    "pt-br": "<strong>Glossário:</strong> palavras, nomes, nomes alternativos e referências, em ordem alfabética, com definições curtas e referências cruzadas.",
+    "it": "<strong>Un glossario:</strong> parole, nomi, nomi alternativi e riferimenti, in ordine alfabetico, con definizioni brevi e rimandi."
+  },
+  "<strong>Read more:</strong> at the end, a selection of named passages that were cut or shortened, with links to the fuller edition or the original and a way back.": {
+    "pt-br": "<strong>Para ler mais:</strong> no final, uma seleção de trechos nomeados que foram cortados ou encurtados, com links para a edição mais completa ou para o original e um caminho de volta.",
+    "it": "<strong>Per leggere di più:</strong> alla fine, una selezione di passi con un titolo, tagliati o accorciati, con link all’edizione più ampia o all’originale e un percorso per tornare indietro."
+  },
+  "They appear where they’re useful and never give away what comes later, and the visual guides have text versions. They don’t replace big scenes with summaries, rewrite the author in simpler language, or tell you what to think. Their reading time is included in the estimate for each edition; the optional extra passages add time.": {
+    "pt-br": "Eles aparecem onde são úteis e nunca entregam o que vem depois, e os guias visuais têm versão em texto. Não substituem grandes cenas por resumos, não reescrevem o autor numa linguagem mais simples nem dizem o que você deve pensar. O tempo de leitura deles está incluído na estimativa de cada edição; os trechos extras opcionais somam tempo.",
+    "it": "Compaiono dove servono e non anticipano mai ciò che viene dopo, e le guide visive hanno una versione testuale. Non sostituiscono le grandi scene con riassunti, non riscrivono l’autore in una lingua più semplice e non ti dicono che cosa pensare. Il loro tempo di lettura è incluso nella stima di ogni edizione; i passi aggiuntivi facoltativi richiedono più tempo."
+  },
+  "These books are out of copyright. Why wouldn’t I just download a free copy?": {
+    "pt-br": "Esses livros estão em domínio público. Por que eu não baixaria uma cópia de graça?",
+    "it": "Questi libri sono di pubblico dominio. Perché non dovrei scaricarne una copia gratis?"
+  },
+  "By all means, download a free copy, or borrow the book from the library. What’s stopping you? If you’re happy reading the original, read the original; this isn’t for you. It’s for people who feel they should read these books but know themselves well enough to know they won’t finish. Call it a spoonful of sugar for the medicine.": {
+    "pt-br": "Fique à vontade: baixe uma cópia de graça ou pegue o livro na biblioteca. O que está impedindo você? Se você lê o original numa boa, leia o original; isto não é para você. É para quem sente que deveria ler esses livros, mas se conhece bem o bastante para saber que não vai terminar. Pense nisso como o açúcar que ajuda o remédio a descer.",
+    "it": "Fai pure: scarica una copia gratis o prendi il libro in biblioteca. Che cosa te lo impedisce? Se leggere l’originale ti va bene, leggi l’originale; questo non fa per te. È per chi sente di dover leggere questi libri, ma si conosce abbastanza da sapere che non arriverà in fondo. Chiamalo lo zucchero che aiuta la medicina a scendere."
+  },
+  "Once you’ve finished the Fat Free edition, have you read <i>War and Peace</i>?": {
+    "pt-br": "Depois de terminar a edição Fat Free, você leu <i>War and Peace</i>?",
+    "it": "Dopo aver finito l’edizione Fat Free, hai letto <i>War and Peace</i>?"
+  },
+  "Yes. Nobody who asks “have you read <i>War and Peace</i>?” means only the unabridged edition. By that logic you’d have to have read it in Russian, and very few people have. The honest answer is yes, and if they ask which version, you tell them: Fat Free. You could be quizzed on what happens and answer with confidence. You could even quote it, because the words are Tolstoy’s, in a classic translation.": {
+    "pt-br": "Sim. Ninguém que pergunta “você já leu <i>War and Peace</i>?” está pensando só na edição integral. Por essa lógica, você teria que ter lido em russo, e pouquíssima gente leu. A resposta honesta é sim e, se perguntarem qual versão, você diz: Fat Free. Você poderia ser sabatinado sobre o que acontece e responder com segurança. Poderia até citar o livro, porque as palavras são de Tolstói, numa tradução clássica para o inglês.",
+    "it": "Sì. Chi chiede “hai letto <i>War and Peace</i>?” non intende solo l’edizione integrale. Con quella logica dovresti averlo letto in russo, e pochissimi l’hanno fatto. La risposta onesta è sì e, se ti chiedono quale versione, rispondi: Fat Free. Potresti essere interrogato su che cosa succede e rispondere con sicurezza. Potresti perfino citarlo, perché le parole sono di Tolstoj, in una classica traduzione inglese."
   }
 }
