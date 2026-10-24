@@ -179,10 +179,6 @@
     "pt-br": "Conheça a série →",
     "it": "Scopri la serie →"
   },
-  "Fat Free and Semi-Skimmed also come as standalone editions. The milk names describe the cuts, not percentages of retained text.": {
-    "pt-br": "Fat Free e Semi-Skimmed também saem como edições independentes. Os nomes de leite descrevem os cortes, não a porcentagem de texto que sobrou.",
-    "it": "Fat Free e Semi-Skimmed sono disponibili anche come edizioni separate. I nomi presi dal latte descrivono i tagli, non la percentuale di testo conservata."
-  },
   "Fat Free and Semi-Skimmed editions include brand-new diagrams, graphs and illustrations.": {
     "pt-br": "As edições Fat Free e Semi-Skimmed trazem diagramas, gráficos e ilustrações inéditos.",
     "it": "Le edizioni Fat Free e Semi-Skimmed comprendono diagrammi, grafici e illustrazioni inediti."
@@ -351,10 +347,6 @@
     "pt-br": "Comece com Fat Free e veja se gosta da escrita. Se quiser mais, passe para Semi-Skimmed durante a leitura. Se adorar, vá ler a porcaria do original.",
     "it": "Comincia con Fat Free e vedi se ti piace la scrittura. Se ne vuoi di più, passa a Semi-Skimmed durante la lettura. Se ti innamori, leggiti quel benedetto originale."
   },
-  "Switch as you read": {
-    "pt-br": "Troque de corte no meio da leitura",
-    "it": "Cambia edizione mentre leggi"
-  },
   "São Paulo, 1994. Bay Area, 1999. London, 1997.": {
     "pt-br": "São Paulo, 1994. Bay Area, 1999. Londres, 1997.",
     "it": "São Paulo, 1994. Bay Area, 1999. Londra, 1997."
@@ -386,10 +378,6 @@
   "The collection": {
     "pt-br": "A coleção",
     "it": "La collezione"
-  },
-  "The combined ebook links the two cuts at corresponding passages. You can move from Fat Free to Semi-Skimmed halfway through, read a scene at greater length, or switch back when you want to pick up the pace.": {
-    "pt-br": "O ebook combinado liga os dois cortes em passagens correspondentes. Você pode passar da Fat Free para a Semi-Skimmed no meio do caminho, ler uma cena com mais calma ou voltar quando quiser acelerar.",
-    "it": "L’ebook combinato collega le due versioni nei passaggi corrispondenti. Puoi passare da Fat Free a Semi-Skimmed a lettura iniziata, leggere una scena più estesa o tornare indietro quando vuoi accelerare il ritmo."
   },
   "The entire story, without the fat. Fat Free and Semi-Skimmed classics in the author’s words, with new diagrams, graphs and illustrations.": {
     "pt-br": "A história inteira, sem gordura. Clássicos Fat Free e Semi-Skimmed nas palavras do autor, com novos diagramas, gráficos e ilustrações.",
@@ -667,17 +655,9 @@
     "pt-br": "Cada guia responde a uma pergunta que a leitura levanta, bem onde você precisa da resposta, sem entregar o que vem depois. Todos têm uma versão em texto acessível. Um diagrama dá conta de uma relação ou de uma sequência; as grandes cenas dramáticas continuam na prosa. O tempo para ler e consultar os guias está incluído nas estimativas.",
     "it": "Ogni guida risponde a una domanda sollevata dalla lettura, nel punto in cui serve la risposta, senza anticipare ciò che accade dopo. Ha un equivalente testuale accessibile. Un diagramma può comunicare un rapporto o una sequenza; le grandi scene drammatiche restano nella prosa. Il tempo di lettura e consultazione delle guide è incluso nelle stime."
   },
-  "A separate “What this cut leaves out” overview is the next extension of this approach: an optional, spoiler-labelled account of substantial omissions and what they contributed. It explains the losses rather than summarising every deletion. That overview is not yet part of the War and Peace pilot.": {
-    "pt-br": "O próximo passo dessa abordagem é um panorama à parte, “O que este corte deixa de fora”: um relato opcional, com aviso de spoiler, das omissões importantes e do que elas acrescentavam. Ele explica as perdas, em vez de resumir cada trecho cortado. Esse panorama ainda não faz parte do piloto de War and Peace.",
-    "it": "Una sezione separata, “Che cosa resta fuori da questa versione”, è la prossima estensione di questo approccio: una panoramica facoltativa, con avviso di spoiler, delle omissioni importanti e del loro contributo al libro. Spiega le perdite senza riassumere ogni taglio. Questa panoramica non fa ancora parte del progetto pilota di War and Peace."
-  },
   "The words and the evidence": {
     "pt-br": "As palavras e as provas",
     "it": "Le parole e i dati"
-  },
-  "We try to add nothing to the narrative. You read the author’s prose in the original English or a credited classic translation. Essential additions or alterations appear in brown square brackets. New headings, cheat sheets, diagrams and guide explanations are editorial material, also brown and clearly separate from the source prose.": {
-    "pt-br": "Tentamos não acrescentar nada à narrativa. Você lê a prosa do autor no inglês original ou numa tradução clássica creditada. Acréscimos ou alterações indispensáveis aparecem entre colchetes, em marrom. Novos títulos, resumões, diagramas e explicações dos guias são material editorial, também em marrom e bem separados da prosa original.",
-    "it": "Cerchiamo di non aggiungere nulla alla narrazione. Leggi la prosa dell’autore nell’inglese originale o in una traduzione classica accreditata. Le aggiunte o modifiche indispensabili compaiono fra parentesi quadre marroni. Nuovi titoli di sezione, schemi, diagrammi e spiegazioni delle guide sono materiale editoriale, anch’esso marrone e distinto dalla prosa di partenza."
   },
   "In the Fat Free War and Peace pilot, 99.85% of the narrative wording is verbatim from Louise and Aylmer Maude’s translation: 40,965 source words and 61 introduced or altered words. This measures where the words come from, not accuracy or completeness. It excludes headings, guides, front and back matter, diagram labels and the source footnote.": {
     "pt-br": "No piloto de Fat Free War and Peace, 99,85% do texto da narrativa vem palavra por palavra da tradução de Louise e Aylmer Maude: 40.965 palavras da fonte e 61 palavras introduzidas ou alteradas. O número mede de onde vêm as palavras, não a precisão nem a completude. Ficam de fora títulos, guias, textos de abertura e fechamento, legendas dos diagramas e a nota de rodapé da fonte.",
@@ -702,10 +682,6 @@
   "These figures demonstrate uneven selection. Establishing how much more description is cut than plot requires a separate classification of the source passages. That editorial priority has not yet been quantified by narrative function. The figures describe this pilot, not every title; they do not establish reading pace or fidelity.": {
     "pt-br": "Esses números mostram que a seleção é desigual. Para saber quanto mais se corta de descrição do que de enredo, seria preciso classificar à parte os trechos da fonte. Essa prioridade editorial ainda não foi medida por função narrativa. Os números descrevem este piloto, não todos os títulos, e não medem ritmo de leitura nem fidelidade.",
     "it": "Questi numeri mostrano una selezione diseguale. Stabilire quanto si tagli la descrizione rispetto alla trama richiede una classificazione separata dei passi della fonte. Questa priorità editoriale non è ancora stata quantificata per funzione narrativa. I dati riguardano questo progetto pilota, non tutti i titoli; non dimostrano il ritmo di lettura o la fedeltà."
-  },
-  "A gateway drug to the classics: real prose, selectively condensed, with new illustrated cheat sheets. Fat Free and Semi-Skimmed from Porchester Publishing.": {
-    "pt-br": "Uma porta de entrada para o vício nos clássicos: a prosa original, condensada com critério e acompanhada de resumões ilustrados. Edições Fat Free e Semi-Skimmed, da Porchester Publishing.",
-    "it": "Una droga d’ingresso ai classici: la prosa del testo, condensata con criterio, con nuovi schemi illustrati. Fat Free e Semi-Skimmed di Porchester Publishing."
   },
   "Book 1": {
     "pt-br": "Livro 1",
@@ -874,5 +850,57 @@
   "Stores": {
     "pt-br": "Lojas",
     "it": "Negozi"
+  },
+  "A gateway drug to the classics: real prose, selectively condensed, with new illustrated cheat sheets, check-ins and a glossary. Fat Free and Semi-Skimmed from Porchester Publishing, plus Portuguese editions of Os Lusíadas and Os Sertões.": {
+    "pt-br": "Uma porta de entrada para o vício nos clássicos: a prosa original, condensada com critério, com resumões ilustrados, check-ins e glossário. Edições Fat Free e Semi-Skimmed da Porchester Publishing, e edições em português de Os Lusíadas e Os Sertões.",
+    "it": "Una droga d’ingresso ai classici: la prosa del testo, condensata con criterio, con nuovi schemi illustrati, check-in e glossario. Fat Free e Semi-Skimmed di Porchester Publishing, più le edizioni in portoghese di Os Lusíadas e Os Sertões."
+  },
+  "A glossary you will actually use": {
+    "pt-br": "Glossário",
+    "it": "Un glossario che si usa davvero"
+  },
+  "Check-ins": {
+    "pt-br": "Check-ins",
+    "it": "Check-in"
+  },
+  "Check-ins only cover what you have already read, so they never give anything away. In the Portuguese editions they keep their own titles: Minuto 30, Minuto 60, and so on.": {
+    "pt-br": "Cada check-in lembra o que aconteceu, onde você está na história ou no argumento, quem importa e o que você já sabe para seguir em frente. Dá para ler de uma vez ou em várias sessões, e nenhum check-in antecipa o que vem depois.",
+    "it": "I check-in riguardano solo ciò che hai già letto, quindi non anticipano nulla. Nelle edizioni in portoghese mantengono i loro titoli: Minuto 30, Minuto 60 e così via."
+  },
+  "Fat Free and Semi-Skimmed come as standalone editions and together in a combined edition. The milk names describe the cuts, not percentages of retained text. Reading times include the main text, guides, check-ins and glossary; optional extra reading adds time.": {
+    "pt-br": "Fat Free e Semi-Skimmed saem como edições independentes e juntas numa edição combinada. Os nomes de leite descrevem os cortes, não a porcentagem de texto que sobrou. O tempo de leitura inclui o texto principal, os guias, os check-ins e o glossário; a leitura extra opcional soma tempo.",
+    "it": "Fat Free e Semi-Skimmed escono come edizioni separate e insieme in un’edizione combinata. I nomi presi dal latte descrivono i tagli, non la percentuale di testo conservata. I tempi di lettura comprendono testo principale, guide, check-in e glossario; le letture aggiuntive facoltative richiedono più tempo."
+  },
+  "In Portuguese": {
+    "pt-br": "Em português",
+    "it": "In portoghese"
+  },
+  "Minute 30. Minute 60. Minute 90. Minute 120. At each marker, a check-in picks up what has happened, where you are in the story or argument, which characters, groups or voices matter, and what you now know that helps you carry on. Read straight through or across several sittings: after a few days away from the book, you still have the thread.": {
+    "pt-br": "Minuto 30. Minuto 60. Minuto 90. Minuto 120. Em cada marco, um check-in retoma os acontecimentos, os personagens e a situação atual. Para continuar acompanhando a história, mesmo depois de alguns dias longe do livro.",
+    "it": "Minuto 30. Minuto 60. Minuto 90. Minuto 120. A ogni tappa, un check-in riprende che cosa è successo, a che punto sei della storia o del ragionamento, quali personaggi, gruppi o voci contano e che cosa sai ora per andare avanti. Puoi leggere tutto di seguito o in più sessioni: anche dopo qualche giorno lontano dal libro, il filo resta lì."
+  },
+  "Published in Portuguese": {
+    "pt-br": "Publicados em português",
+    "it": "Pubblicati in portoghese"
+  },
+  "Read more": {
+    "pt-br": "Para ler mais",
+    "it": "Per leggere di più"
+  },
+  "Two classics written in Portuguese, condensed in the original language for readers in Brazil. These two are Portuguese editions; the rest of the collection is published in English.": {
+    "pt-br": "Dois clássicos escritos em português, condensados na língua original para leitores brasileiros. Estas duas são edições em português; o restante da coleção sai em inglês.",
+    "it": "Due classici scritti in portoghese, condensati nella lingua originale per i lettori brasiliani. Queste due sono edizioni in portoghese; il resto della collezione è pubblicato in inglese."
+  },
+  "Unfamiliar words, the other names characters go by, mythological references and who does what: the glossary lets you look something up without losing the thread. Entries run in alphabetical order, one term each, with a short definition set apart from the keyword, room between entries and cross-references where they help. No wall of small print.": {
+    "pt-br": "Um glossário para consultar palavras, nomes e referências sem perder o fio da leitura. Cada termo tem sua própria entrada, com explicações breves e referências cruzadas. As entradas seguem a ordem alfabética, com a definição separada da palavra e espaço entre uma e outra: vocabulário pouco familiar, outros nomes dos personagens, referências mitológicas e o papel de quem aparece na história.",
+    "it": "Parole poco familiari, gli altri nomi con cui vengono chiamati i personaggi, riferimenti mitologici e chi fa che cosa: il glossario ti permette di controllare senza perdere il filo. Le voci sono in ordine alfabetico, una per termine, con una breve definizione separata dalla parola chiave, spazio tra una voce e l’altra e rimandi dove servono. Niente muri di caratteri minuscoli."
+  },
+  "Want to explore what was left out? At the end, Read more gathers a named selection of episodes and passages that were cut or shortened. Each is labelled as an expanded passage from Semi-Skimmed or a passage from the original, with a link to read it and a clear way back. Where the format supports it, you can carry on in the fuller edition from there. It is a selection, not a list of every cut, and Fat Free on its own is a complete read.": {
+    "pt-br": "Quer explorar o que ficou de fora? No final, “Para ler mais” reúne links para trechos ampliados da edição mais longa e passagens do original, com um caminho claro de volta. Cada trecho diz de onde vem e, quando o formato permite, dá para continuar na edição mais completa a partir dali. É uma seleção, não uma lista de todos os cortes, e a Fat Free sozinha já é uma leitura completa.",
+    "it": "Vuoi esplorare ciò che è rimasto fuori? Alla fine, “Per leggere di più” raccoglie una selezione di episodi e passi tagliati o accorciati, ciascuno con il suo titolo. Per ognuno è indicato se viene dall’edizione Semi-Skimmed, più ampia, o dall’originale, con un link per leggerlo e un percorso chiaro per tornare indietro. Dove il formato lo consente, puoi proseguire da lì nell’edizione più estesa. È una selezione, non un elenco di tutti i tagli, e Fat Free da sola è una lettura completa."
+  },
+  "We try to add nothing to the narrative. You read the author’s prose in the original language or a credited classic translation. Essential additions or alterations are clearly marked. New headings, cheat sheets, diagrams, check-ins, glossary entries and guide explanations are editorial material, clearly separate from the source prose.": {
+    "pt-br": "Tentamos não acrescentar nada à narrativa. Você lê a prosa do autor na língua original ou numa tradução clássica creditada. Acréscimos ou alterações indispensáveis vêm claramente marcados. Novos títulos, resumões, diagramas, check-ins, verbetes do glossário e explicações dos guias são material editorial, bem separado da prosa original.",
+    "it": "Cerchiamo di non aggiungere nulla alla narrazione. Leggi la prosa dell’autore nella lingua originale o in una traduzione classica accreditata. Le aggiunte o modifiche indispensabili sono chiaramente segnalate. Nuovi titoli di sezione, schemi, diagrammi, check-in, voci del glossario e spiegazioni delle guide sono materiale editoriale, distinto dalla prosa di partenza."
   }
 }
