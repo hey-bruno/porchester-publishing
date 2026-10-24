@@ -365,3 +365,6 @@ main:has(> .hero) { padding-top: clamp(1rem, 1.6vw, 1.75rem); } .hero { margin-t
 .page > .inner > header { background: #ece5d3; border-bottom: 0; }
 .hero .feature .cover { top: 0; }
 .page > .inner > footer { background: #ece5d3; border-top: 0; max-width: none !important; }
+/* Home ends on the classics band: let it meet the footer without a cream gap */
+.page > .inner > main:has(> .band:last-child) { padding-bottom: 0; margin-bottom: 0; }
+.page > .inner > main:has(> .band:last-child) + footer { margin-top: 0; }
