@@ -42,3 +42,27 @@ ul.coll .cc-lang{display:block;margin:.15rem 0 .35rem;color:var(--green)}
 .cc-qa ul{padding-left:1.2rem;margin:0 0 1rem}
 .cc-qa li{margin:.4rem 0}
 .cc-band>.cc-personal{display:none}
+
+/* Restructure (24 October 2026): jump links, How it works cards, Inside War and Peace band, question list */
+.cc-jump{display:flex;flex-wrap:wrap;gap:.5rem 1.6rem;margin:1.6rem 0 0;padding-top:1rem;border-top:1px solid var(--rule)}
+.cc-jump a{font-variant:small-caps;text-transform:lowercase;letter-spacing:.12em;font-size:.95rem;color:var(--green);text-decoration:none;border-bottom:1px solid transparent}
+.cc-jump a:hover,.cc-jump a:focus-visible{border-bottom-color:var(--green)}
+#collection,#how,#inside,#questions,.cc-qa h3{scroll-margin-top:1.5rem}
+.cc-how{margin-top:4.5rem}
+.cc-how .table-scroll{margin-top:1.5rem}
+.cc-table-note{max-width:46rem;margin:1rem 0 0;font-size:.92rem;color:var(--muted)}
+.cc-cards{display:grid;gap:1.25rem;margin:2.75rem 0 0}
+@media (min-width:44rem){.cc-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (min-width:72rem){.cc-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.cc-card{display:flex;flex-direction:column;background:#ece5d3;padding:1.4rem 1.5rem 1.2rem;border-top:2px solid var(--green)}
+.cc-card h3{font-family:var(--display);font-weight:normal;font-size:1.35rem;margin:0 0 .6rem}
+.cc-card p{margin:0 0 .8rem;font-size:.95rem}
+.cc-card .cc-more{margin:auto 0 0;font-size:.85rem}
+.cc-objection{max-width:46rem;margin:2rem 0 0;font-style:italic;color:var(--muted)}
+.cc-inside{margin-top:clamp(3.5rem,8vh,5rem)}
+.cc-inside>.cc-guide-examples{margin:0}
+.cc-inside>.cc-words{margin-top:3.5rem;padding-top:2.5rem;border-top:1px solid var(--rule)}
+.cc-qa{margin-top:4rem}
+.cc-qa-toc{margin:1.5rem 0 1rem;padding-left:1.4rem;max-width:46rem}
+.cc-qa-toc li{margin:.35rem 0}
+@media (min-width:72rem){.cc-qa{max-width:none}.cc-qa-toc{max-width:none;columns:2;column-gap:3rem}.cc-qa>h3,.cc-qa>p,.cc-qa>ul{max-width:46rem}}

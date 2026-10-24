@@ -47,10 +47,6 @@
     "pt-br": "Mapas de personagens, árvores genealógicas e diagramas de relações para acompanhar nomes, lealdades e conexões.",
     "it": "Mappe dei personaggi, alberi genealogici e schemi delle relazioni per orientarsi tra nomi, alleanze e legami."
   },
-  "Choose your edition": {
-    "pt-br": "Escolha sua edição",
-    "it": "Scegli la tua edizione"
-  },
   "Close": {
     "pt-br": "Fechar",
     "it": "Chiudi"
@@ -158,10 +154,6 @@
   "Explore the book →": {
     "pt-br": "Conheça o livro →",
     "it": "Scopri il libro →"
-  },
-  "Explore the collection ↓": {
-    "pt-br": "Conheça a coleção ↓",
-    "it": "Esplora la collana ↓"
   },
   "Explore the publisher’s catalogue": {
     "pt-br": "Conheça o catálogo da editora",
@@ -607,37 +599,9 @@
     "pt-br": "Fat Free e Semi-Skimmed entregam as palavras do autor, só que menos delas, com novos resumões ilustrados para você não se perder. Pode chamar de sacrilégio literário. Chegar ao fim do livro já é um ótimo ponto de partida.",
     "it": "Fat Free e Semi-Skimmed offrono le parole del testo, in numero ridotto, con nuovi schemi illustrati per non perdere il filo. Chiamalo pure sacrilegio letterario. Finire il libro è un buon punto di partenza."
   },
-  "Getting hooked": {
-    "pt-br": "Pegando o vício",
-    "it": "Prenderci gusto"
-  },
-  "Someone tells you about a book. You watch the adaptation, read a plot summary or end up on Wikipedia. Curiosity has already done some of the work. A condensed edition brings you into the prose itself: the dialogue, humour, ideas and turns of phrase that a synopsis cannot give you.": {
-    "pt-br": "Alguém comenta sobre um livro. Você assiste à adaptação, lê um resumo da trama ou vai parar na Wikipédia. A curiosidade já fez parte do serviço. Uma edição condensada põe você dentro da própria prosa: os diálogos, o humor, as ideias e as frases que nenhuma sinopse consegue entregar.",
-    "it": "Qualcuno ti parla di un libro. Guardi l’adattamento, leggi un riassunto della trama o finisci su Wikipedia. La curiosità ha già fatto parte del lavoro. Un’edizione condensata ti porta dentro la prosa: i dialoghi, l’umorismo, le idee e le espressioni che una sinossi non può offrirti."
-  },
-  "Start with either cut. If Fat Free gets you hooked, Semi-Skimmed gives you more; if you love it, read the freaking original. You can also finish a condensed edition and leave it there. Nobody has to earn permission to enjoy a book.": {
-    "pt-br": "Comece por qualquer um dos cortes. Se a Fat Free te fisgar, a Semi-Skimmed dá mais; se você se apaixonar, vá ler o original, caramba. Também dá para terminar uma edição condensada e parar por aí. Ninguém precisa pedir licença para gostar de um livro.",
-    "it": "Comincia da una delle due versioni. Se Fat Free ti appassiona, Semi-Skimmed offre di più; se lo ami, leggi quel benedetto originale. Puoi anche finire un’edizione condensata e fermarti lì. Nessuno deve guadagnarsi il permesso di godersi un libro."
-  },
-  "We edit for momentum. Decisions, discoveries, reversals and consequences guide the selection, together with the character changes and essential ideas that give them meaning. Description and the material between those moments receive a harder cut. The result follows the story from beginning to end, ending included.": {
-    "pt-br": "Editamos pelo ritmo. Decisões, descobertas, reviravoltas e consequências guiam a seleção, junto com as mudanças dos personagens e as ideias essenciais que dão sentido a elas. As descrições e o que fica entre esses momentos levam um corte mais duro. O resultado acompanha a história do começo ao fim, final incluído.",
-    "it": "Lavoriamo sul ritmo della lettura. Decisioni, scoperte, svolte e conseguenze guidano la selezione, insieme ai cambiamenti dei personaggi e alle idee essenziali che danno loro significato. Le descrizioni e il materiale fra questi momenti subiscono tagli maggiori. Il risultato segue la storia dall’inizio alla fine, conclusione compresa."
-  },
   "Cutting changes the experience. Atmosphere, accumulated detail and secondary lives lose space; words can carry a different weight when their surroundings disappear. Lovers of the original have reasons to object. These editions offer a pragmatic way through books that otherwise stay unread, with enough of their language to get a reader interested in more.": {
     "pt-br": "Cortar muda a experiência. A atmosfera, o detalhe acumulado e as vidas secundárias perdem espaço; uma palavra pode pesar diferente quando o que estava em volta some. Quem ama o original tem motivos para reclamar. Estas edições são um jeito pragmático de atravessar livros que, de outro modo, continuariam fechados, com o bastante da escrita original para dar vontade de ler mais.",
     "it": "I tagli cambiano l’esperienza. L’atmosfera, l’accumulo di dettagli e le vite dei personaggi secondari perdono spazio; le parole possono assumere un peso diverso quando scompare ciò che le circonda. Chi ama l’originale ha ragioni per obiettare. Queste edizioni offrono un percorso pragmatico attraverso libri che altrimenti resterebbero chiusi, con abbastanza della loro lingua da invogliare a leggere di più."
-  },
-  "Cheat sheets for the reading": {
-    "pt-br": "Resumões para acompanhar a leitura",
-    "it": "Schemi per seguire la lettura"
-  },
-  "The new guides are part of the condensation. A family tree holds relationships in view; a timeline puts dates and events in order; a map locates the action. Compact explanations and visual representations of ideas help you understand and remember important information, including essential context from passages cut for length.": {
-    "pt-br": "Os novos guias fazem parte da condensação. Uma árvore genealógica deixa as relações à vista; uma linha do tempo põe datas e acontecimentos em ordem; um mapa mostra onde a ação se passa. Explicações curtas e representações visuais das ideias ajudam a entender e a guardar o que importa, inclusive o contexto essencial de trechos cortados para encurtar o livro.",
-    "it": "Le nuove guide fanno parte della condensazione. Un albero genealogico rende visibili i rapporti; una cronologia mette in ordine date ed eventi; una mappa colloca l’azione. Spiegazioni compatte e rappresentazioni visive delle idee aiutano a capire e ricordare informazioni importanti, compreso il contesto essenziale di passi tagliati per ragioni di spazio."
-  },
-  "Each guide answers a question the reading raises, where you need the answer, without giving away what happens next. It has an accessible text equivalent. A diagram can carry a relationship or a sequence; the major dramatic scenes still belong in the prose. Guide reading and viewing time is included in the estimates.": {
-    "pt-br": "Cada guia responde a uma pergunta que a leitura levanta, bem onde você precisa da resposta, sem entregar o que vem depois. Todos têm uma versão em texto acessível. Um diagrama dá conta de uma relação ou de uma sequência; as grandes cenas dramáticas continuam na prosa. O tempo para ler e consultar os guias está incluído nas estimativas.",
-    "it": "Ogni guida risponde a una domanda sollevata dalla lettura, nel punto in cui serve la risposta, senza anticipare ciò che accade dopo. Ha un equivalente testuale accessibile. Un diagramma può comunicare un rapporto o una sequenza; le grandi scene drammatiche restano nella prosa. Il tempo di lettura e consultazione delle guide è incluso nelle stime."
   },
   "The words and the evidence": {
     "pt-br": "As palavras e as provas",
@@ -839,17 +803,9 @@
     "pt-br": "Uma porta de entrada para o vício nos clássicos: a prosa original, condensada com critério, com resumões ilustrados, check-ins e glossário. Edições Fat Free e Semi-Skimmed da Porchester Publishing, e edições em português de Os Lusíadas e Os Sertões.",
     "it": "Una droga d’ingresso ai classici: la prosa del testo, condensata con criterio, con nuovi schemi illustrati, check-in e glossario. Fat Free e Semi-Skimmed di Porchester Publishing, più le edizioni in portoghese di Os Lusíadas e Os Sertões."
   },
-  "A glossary you will actually use": {
-    "pt-br": "Glossário",
-    "it": "Un glossario che si usa davvero"
-  },
   "Check-ins": {
     "pt-br": "Check-ins",
     "it": "Check-in"
-  },
-  "Check-ins only cover what you have already read, so they never give anything away. In the Portuguese editions they keep their own titles: Minuto 30, Minuto 60, and so on.": {
-    "pt-br": "Cada check-in lembra o que aconteceu, onde você está na história ou no argumento, quem importa e o que você já sabe para seguir em frente. Dá para ler de uma vez ou em várias sessões, e nenhum check-in antecipa o que vem depois.",
-    "it": "I check-in riguardano solo ciò che hai già letto, quindi non anticipano nulla. Nelle edizioni in portoghese mantengono i loro titoli: Minuto 30, Minuto 60 e così via."
   },
   "Fat Free and Semi-Skimmed come together in one edition, linked so you can move between them. The milk names describe the cuts, not percentages of retained text. Reading times include the main text, guides, check-ins and glossary; optional extra reading adds time.": {
     "pt-br": "Fat Free e Semi-Skimmed vêm juntas numa só edição, ligadas para você passar de uma à outra. Os nomes de leite descrevem os cortes, não a porcentagem de texto que sobrou. O tempo de leitura inclui o texto principal, os guias, os check-ins e o glossário; a leitura extra opcional soma tempo.",
@@ -858,10 +814,6 @@
   "In Portuguese": {
     "pt-br": "Em português",
     "it": "In portoghese"
-  },
-  "Minute 30. Minute 60. Minute 90. Minute 120. At each marker, a check-in picks up what has happened, where you are in the story or argument, which characters, groups or voices matter, and what you now know that helps you carry on. Read straight through or across several sittings: after a few days away from the book, you still have the thread.": {
-    "pt-br": "Minuto 30. Minuto 60. Minuto 90. Minuto 120. Em cada marco, um check-in retoma os acontecimentos, os personagens e a situação atual. Para continuar acompanhando a história, mesmo depois de alguns dias longe do livro.",
-    "it": "Minuto 30. Minuto 60. Minuto 90. Minuto 120. A ogni tappa, un check-in riprende che cosa è successo, a che punto sei della storia o del ragionamento, quali personaggi, gruppi o voci contano e che cosa sai ora per andare avanti. Puoi leggere tutto di seguito o in più sessioni: anche dopo qualche giorno lontano dal libro, il filo resta lì."
   },
   "Published in Portuguese": {
     "pt-br": "Publicados em português",
@@ -874,14 +826,6 @@
   "Two classics written in Portuguese, condensed in the original language for readers in Brazil. These two are Portuguese editions; the rest of the collection is published in English.": {
     "pt-br": "Dois clássicos escritos em português, condensados na língua original para leitores brasileiros. Estas duas são edições em português; o restante da coleção sai em inglês.",
     "it": "Due classici scritti in portoghese, condensati nella lingua originale per i lettori brasiliani. Queste due sono edizioni in portoghese; il resto della collezione è pubblicato in inglese."
-  },
-  "Unfamiliar words, the other names characters go by, mythological references and who does what: the glossary lets you look something up without losing the thread. Entries run in alphabetical order, one term each, with a short definition set apart from the keyword, room between entries and cross-references where they help. No wall of small print.": {
-    "pt-br": "Um glossário para consultar palavras, nomes e referências sem perder o fio da leitura. Cada termo tem sua própria entrada, com explicações breves e referências cruzadas. As entradas seguem a ordem alfabética, com a definição separada da palavra e espaço entre uma e outra: vocabulário pouco familiar, outros nomes dos personagens, referências mitológicas e o papel de quem aparece na história.",
-    "it": "Parole poco familiari, gli altri nomi con cui vengono chiamati i personaggi, riferimenti mitologici e chi fa che cosa: il glossario ti permette di controllare senza perdere il filo. Le voci sono in ordine alfabetico, una per termine, con una breve definizione separata dalla parola chiave, spazio tra una voce e l’altra e rimandi dove servono. Niente muri di caratteri minuscoli."
-  },
-  "Want to explore what was left out? At the end, Read more gathers a named selection of episodes and passages that were cut or shortened. Each is labelled as an expanded passage from Semi-Skimmed or a passage from the original, with a link to read it and a clear way back. Where the format supports it, you can carry on in the fuller edition from there. It is a selection, not a list of every cut, and Fat Free on its own is a complete read.": {
-    "pt-br": "Quer explorar o que ficou de fora? No final, “Para ler mais” reúne links para trechos ampliados da edição mais longa e passagens do original, com um caminho claro de volta. Cada trecho diz de onde vem e, quando o formato permite, dá para continuar na edição mais completa a partir dali. É uma seleção, não uma lista de todos os cortes, e a Fat Free sozinha já é uma leitura completa.",
-    "it": "Vuoi esplorare ciò che è rimasto fuori? Alla fine, “Per leggere di più” raccoglie una selezione di episodi e passi tagliati o accorciati, ciascuno con il suo titolo. Per ognuno è indicato se viene dall’edizione Semi-Skimmed, più ampia, o dall’originale, con un link per leggerlo e un percorso chiaro per tornare indietro. Dove il formato lo consente, puoi proseguire da lì nell’edizione più estesa. È una selezione, non un elenco di tutti i tagli, e Fat Free da sola è una lettura completa."
   },
   "We try to add nothing to the narrative. You read the author’s prose in the original language or a credited classic translation. Essential additions or alterations are clearly marked. New headings, cheat sheets, diagrams, check-ins, glossary entries and guide explanations are editorial material, clearly separate from the source prose.": {
     "pt-br": "Tentamos não acrescentar nada à narrativa. Você lê a prosa do autor na língua original ou numa tradução clássica creditada. Acréscimos ou alterações indispensáveis vêm claramente marcados. Novos títulos, resumões, diagramas, check-ins, verbetes do glossário e explicações dos guias são material editorial, bem separado da prosa original.",
@@ -1046,5 +990,45 @@
   "Yes. Nobody who asks “have you read <i>War and Peace</i>?” means only the unabridged edition. By that logic you’d have to have read it in Russian, and very few people have. The honest answer is yes, and if they ask which version, you tell them: Fat Free. You could be quizzed on what happens and answer with confidence. You could even quote it, because the words are Tolstoy’s, in a classic translation.": {
     "pt-br": "Sim. Ninguém que pergunta “você já leu <i>War and Peace</i>?” está pensando só na edição integral. Por essa lógica, você teria que ter lido em russo, e pouquíssima gente leu. A resposta honesta é sim e, se perguntarem qual versão, você diz: Fat Free. Você poderia ser sabatinado sobre o que acontece e responder com segurança. Poderia até citar o livro, porque as palavras são de Tolstói, numa tradução clássica para o inglês.",
     "it": "Sì. Chi chiede “hai letto <i>War and Peace</i>?” non intende solo l’edizione integrale. Con quella logica dovresti averlo letto in russo, e pochissimi l’hanno fatto. La risposta onesta è sì e, se ti chiedono quale versione, rispondi: Fat Free. Potresti essere interrogato su che cosa succede e rispondere con sicurezza. Potresti perfino citarlo, perché le parole sono di Tolstoj, in una classica traduzione inglese."
+  },
+  "On this page": {
+    "pt-br": "Nesta página",
+    "it": "In questa pagina"
+  },
+  "How it works": {
+    "pt-br": "Como funciona",
+    "it": "Come funziona"
+  },
+  "More in Questions and answers →": {
+    "pt-br": "Mais em Perguntas e respostas →",
+    "it": "Approfondisci in Domande e risposte →"
+  },
+  "We edit for momentum. Decisions, discoveries, reversals and consequences guide the selection; description and the material in between take the harder cut. The story runs from beginning to end, ending included.": {
+    "pt-br": "Editamos pelo ritmo. Decisões, descobertas, reviravoltas e consequências guiam a seleção; as descrições e o que fica entre esses momentos levam o corte mais duro. A história vai do começo ao fim, com o final incluído.",
+    "it": "Montiamo per il ritmo. Decisioni, scoperte, colpi di scena e conseguenze guidano la selezione; le descrizioni e ciò che sta tra quei momenti subiscono il taglio più netto. La storia va dall’inizio alla fine, finale compreso."
+  },
+  "Cheat sheets": {
+    "pt-br": "Resumões",
+    "it": "Schemi"
+  },
+  "Family trees, timelines, maps and diagrams of ideas sit where the reading raises a question, without giving away what happens next. They carry essential context from passages cut for length, and each has a text version.": {
+    "pt-br": "Árvores genealógicas, linhas do tempo, mapas e diagramas de ideias aparecem onde a leitura levanta uma pergunta, sem entregar o que vem depois. Trazem o contexto essencial de trechos cortados, e cada um tem uma versão em texto.",
+    "it": "Alberi genealogici, cronologie, mappe e diagrammi delle idee compaiono dove la lettura solleva una domanda, senza anticipare ciò che succede dopo. Portano il contesto essenziale dei passi tagliati e ognuno ha una versione testuale."
+  },
+  "Minute 30. Minute 60. Minute 90. Minute 120. At each marker, a check-in recalls what has happened, where you are and who matters, so you can come back after a few days away without losing the thread. The Portuguese editions call them Minuto 30, Minuto 60 and so on.": {
+    "pt-br": "Minuto 30. Minuto 60. Minuto 90. Minuto 120. Em cada marco, um check-in retoma os acontecimentos, os personagens e a situação atual. Para continuar acompanhando a história, mesmo depois de alguns dias longe do livro.",
+    "it": "Minuto 30. Minuto 60. Minuto 90. Minuto 120. A ogni tappa, un check-in riprende che cosa è successo, a che punto sei e chi conta, così puoi tornare al libro dopo qualche giorno senza perdere il filo."
+  },
+  "Glossary": {
+    "pt-br": "Glossário",
+    "it": "Glossario"
+  },
+  "Unfamiliar words, the other names characters go by and mythological references, in alphabetical order: one term per entry, a short definition and cross-references. No wall of small print.": {
+    "pt-br": "Um glossário para consultar palavras, nomes e referências sem perder o fio da leitura. Cada termo tem sua própria entrada, com explicações breves e referências cruzadas.",
+    "it": "Parole poco familiari, gli altri nomi dei personaggi e i riferimenti mitologici, in ordine alfabetico: una voce per termine, una breve definizione e rimandi. Niente muri di caratteri minuscoli."
+  },
+  "At the end, a named selection of passages that were cut or shortened, each labelled as fuller Semi-Skimmed text or the original, with a link in and a clear way back. It’s optional: Fat Free on its own is a complete read.": {
+    "pt-br": "Quer explorar o que ficou de fora? No final, “Para ler mais” reúne links para trechos ampliados da edição mais longa e passagens do original, com um caminho claro de volta. É opcional: a Fat Free sozinha já é uma leitura completa.",
+    "it": "Alla fine, una selezione di passi tagliati o accorciati, ciascuno con il suo titolo e indicato come testo più ampio della Semi-Skimmed o come originale, con un link per leggerlo e un percorso chiaro per tornare. È facoltativa: Fat Free da sola è una lettura completa."
   }
 }
