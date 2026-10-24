@@ -330,3 +330,13 @@ ul.coll .reading-times p { margin: .1rem 0; }
 .hero h1#lead { text-align: left; }
 .page > .inner > footer { margin-top: 4rem; }
 .cc-band + .cc-words { margin-top: 3.5rem; }
+
+/* ==== Fluid width (October 2026): header, footer and bands run edge to edge; content widens with the screen ==== */
+:root { --gutter: clamp(16px, 4vw, 4.5rem); }
+.page > .inner > header, .page > .inner > footer { max-width: none !important; padding-left: var(--gutter) !important; padding-right: var(--gutter) !important; }
+.page > .inner > main { max-width: 100rem; padding-left: var(--gutter); padding-right: var(--gutter); }
+@media (min-width: 44rem) { .hero .feature { grid-template-columns: clamp(19rem, 24vw, 27rem) minmax(0, 1fr); gap: clamp(3rem, 5vw, 6rem); } }
+.hero .feature .title { font-size: clamp(1.9rem, 2.6vw, 3rem); }
+@media (min-width: 100rem) { .home-shelf .shelf { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2rem 3rem; } }
+@media (min-width: 150rem) { ul.coll { grid-template-columns: repeat(10, minmax(0, 1fr)); gap: 2rem 1.2rem; } .minishelf { gap: 1.2rem; } }
+@media (min-width: 100rem) { .wp { grid-template-columns: 18rem minmax(0, 1fr); } }
