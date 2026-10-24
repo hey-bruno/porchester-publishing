@@ -935,13 +935,13 @@
     "pt-br": "Como vocês decidem o que fica e o que sai?",
     "it": "Come decidete che cosa resta e che cosa va?"
   },
-  "We cut for pace. The model is a film editor cutting a trailer. A trailer contains only scenes from the film; there’s no frame in it that isn’t in the movie. But it isn’t a summary either. It’s a sample, cut to carry momentum and hook the viewer.": {
-    "pt-br": "Cortamos pelo ritmo. O modelo é o de um editor de cinema montando um trailer. Um trailer só tem cenas do filme; não há nele nenhum quadro que não esteja no filme. Mas ele também não é um resumo. É uma amostra, montada para ter embalo e fisgar o espectador.",
-    "it": "Tagliamo per il ritmo. Il modello è un montatore che prepara il trailer di un film. Un trailer contiene solo scene del film; non c’è un fotogramma che non sia nel film. Ma non è nemmeno un riassunto. È un assaggio, montato per avere slancio e catturare lo spettatore."
+  "We cut for pace. The model is a film editor cutting a trailer. A trailer contains only scenes from the film; there’s no frame in it that isn’t in the movie. But it isn’t a summary either. It’s cut to carry momentum and hook the viewer.": {
+    "pt-br": "Cortamos pelo ritmo. O modelo é o de um editor de cinema montando um trailer. Um trailer só tem cenas do filme; não há nele nenhum quadro que não esteja no filme. Mas ele também não é um resumo. É montado para ter embalo e fisgar o espectador.",
+    "it": "Tagliamo per il ritmo. Il modello è un montatore che prepara il trailer di un film. Un trailer contiene solo scene del film; non c’è un fotogramma che non sia nel film. Ma non è nemmeno un riassunto. È montato per avere slancio e catturare lo spettatore."
   },
-  "We see this collection the same way: as the trailer for the full book. Every word is what the author published, or, for a translated work, the translation’s rendering of the author’s intent. A trailer is there to put people in seats for the film. These editions are there to get people reading the longer versions of these books.": {
-    "pt-br": "Vemos esta coleção do mesmo jeito: como o trailer do livro completo. Cada palavra é o que o autor publicou ou, numa obra traduzida, o modo como a tradução interpreta a intenção do autor. O trailer existe para lotar as salas de cinema. Estas edições existem para levar as pessoas a ler as versões mais longas desses livros.",
-    "it": "Vediamo questa collezione allo stesso modo: come il trailer del libro completo. Ogni parola è ciò che l’autore ha pubblicato o, per un’opera tradotta, il modo in cui la traduzione rende l’intenzione dell’autore. Un trailer serve a riempire le sale. Queste edizioni servono a far leggere le versioni più lunghe di questi libri."
+  "We see this collection the same way: as the trailer for the full book. The words are what the author published, or, for a translated work, the translation’s rendering of the author’s intent. A trailer is there to put people in seats for the film. These editions are there to get people reading the longer versions of these books.": {
+    "pt-br": "Vemos esta coleção do mesmo jeito: como o trailer do livro completo. As palavras são as que o autor publicou ou, numa obra traduzida, o modo como a tradução interpreta a intenção do autor. O trailer existe para lotar as salas de cinema. Estas edições existem para levar as pessoas a ler as versões mais longas desses livros.",
+    "it": "Vediamo questa collezione allo stesso modo: come il trailer del libro completo. Le parole sono quelle che l’autore ha pubblicato o, per un’opera tradotta, il modo in cui la traduzione rende l’intenzione dell’autore. Un trailer serve a riempire le sale. Queste edizioni servono a far leggere le versioni più lunghe di questi libri."
   },
   "Do you rewrite anything, or is every word the author’s?": {
     "pt-br": "Vocês reescrevem alguma coisa, ou todas as palavras são do autor?",
