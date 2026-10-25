@@ -119,3 +119,11 @@ Source for porchesterpublishing.com, the site of Porchester Publishing, the Lond
 - Reading-time estimates include main text, guides, check-ins and glossary; optional Read more passages add time. Title-specific estimates elsewhere are unchanged.
 - Additions to the narrative are “clearly marked” (formats differ: some editions use brackets, Os Lusíadas uses colour only), and newly written support material is separate from source text. No absolute zero-additions claim.
 - Source material: `~/Documents/ChatGPT/The Milk Project/books/os-lusiadas/` and `books/os-sertoes/` (BRIEF.md, data/reader-support.json). Reference only; never publish manuscripts, EPUBs or review packages.
+
+## Collections by language (25 October 2026, supersedes the shared-catalogue setup above)
+
+- Each language has its own collection. English page and English homepage band: only the English collection (War and Peace featured, plus the ten other English titles), no Portuguese group. Portuguese page and PT homepage band: only Portuguese-language books. Do not show the English list or War and Peace material on PT pages, or Portuguese books on EN pages.
+- Portuguese list (Bruno, 25 October 2026): Os Lusíadas (Luís de Camões, featured, Desnatado ≈ 2 h, Semi-Desnatado ≈ 4 h), Os Sertões (Euclides da Cunha, Desnatado ≈ 4 h, Semi-Desnatado time unconfirmed), O Guarani (José de Alencar), Macunaíma (Mário de Andrade), Caramuru (Santa Rita Durão). No reading times for the last three until Bruno sets them. No original links or reduction figures on PT entries yet.
+- Portuguese edition names: Desnatado, Semi-Desnatado, Integral (the unabridged original), masculine in running text (“o Desnatado”). The PT Q&A answer 11 asks about Os Lusíadas; answer 5 cites Os Lusíadas as the first book.
+- Italian: Bruno has an Italian list but hasn't supplied it yet. Until then the Italian classics page is unchanged (it still mirrors the earlier shared version); don't rebuild it without the list.
+- research/localization-copy.json now records EN↔IT pairs for the classics page; the PT classics page is its own content, not a translation of the English one.
