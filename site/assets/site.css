@@ -46,7 +46,7 @@
   h2::before, h2::after { content: ""; flex: 1; border-top: 1px solid var(--rule); }
 
   .list { list-style: none; margin: 0; padding: 0; }
-  .series { display: block; color: var(--green); font-size: .75rem; margin-bottom: .45rem; }
+  .series { display: block; color: var(--green); font-size: .75rem; margin-bottom: .45rem; text-wrap: balance; }
   .title { display: block; text-decoration: none; font-style: italic; font-size: 1.25rem; line-height: 1.25; }
   .subtitle { display: block; margin-top: .3rem; font-size: 1rem; }
   .genre { display: block; margin-top: .55rem; color: var(--muted); font-size: .72rem; }
@@ -368,3 +368,7 @@ main:has(> .hero) { padding-top: clamp(1rem, 1.6vw, 1.75rem); } .hero { margin-t
 /* Home ends on the classics band: let it meet the footer without a cream gap */
 .page > .inner > main:has(> .band:last-child) { padding-bottom: 0; margin-bottom: 0; }
 .page > .inner > main:has(> .band:last-child) + footer { margin-top: 0; }
+
+/* Trilogy intro: one place and year per line on phones, never a lone year on its own line */
+.places span { white-space: nowrap; }
+@media (max-width: 30rem) { .places span { display: block; } }
